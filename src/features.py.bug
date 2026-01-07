@@ -1,0 +1,381 @@
+"""
+Feature engineering module for player valuation project.
+Phase 4: Comprehensive feature engineering
+Samuel Vermeulen - Capstone Project 2025
+"""
+
+import pandas as pd
+import numpy as np
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.impute import SimpleImputer
+import logging
+from typing import Tuple, Dict, Optional
+
+logger = logging.getLogger(__name__)
+
+class FeatureEngineer:
+    """
+    Feature engineering pipeline for player valuation.
+    """
+    
+    def __init__(self, random_state=42):
+        """
+        Initialize feature engineer.
+        
+        Parameters:
+        -----------
+        random_state : int
+            Random seed for reproducibility
+        """
+        self.random_state = random_state
+        self.numerical_imputer = None
+        self.categorical_imputer = None
+        self.position_encoder = None
+        self.club_encoder = None
+        self.top_clubs = None
+        self.feature_names = None
+        
+        logger.info("Initialized FeatureEngineer")
+    
+    def create_features(self, df: pd.DataFrame, is_training: bool = True) -> Tuple[pd.DataFrame, pd.Series]:
+        """
+        Create comprehensive features according to roadmap.
+        
+        Parameters:
+        -----------
+        df : pandas.DataFrame
+            Input dataframe
+        is_training : bool
+            Whether this is training data (for fitting transformers)
+            
+        Returns:
+        --------
+        X : pandas.DataFrame
+            Engineered features
+        y : pandas.Series
+            Log-transformed target variable (log(Value))
+        """
+        logger.info(f"Creating comprehensive features (is_training={is_training})...")
+        
+        # Create a copy to avoid modifying original
+        df_processed = df.copy()
+        
+        # 1. Handle missing values in key columns
+        df_processed = self._handle_missing_values(df_processed, is_training)
+        
+        # 2. Create derived features
+        df_processed = self._create_derived_features(df_processed)
+        
+        # 3. Encode categorical variables
+        X = self._encode_categorical_features(df_processed, is_training)
+        
+        # 4. Select and order numerical features
+        X = self._select_numerical_features(df_processed, X)
+        
+        # 5. Prepare target variable with log transformation
+        y = self._prepare_target(df_processed)
+        
+        # Store feature names for reference
+        if is_training:
+            self.feature_names = list(X.columns)
+            logger.info(f"Feature engineering complete. {len(self.feature_names)} features created")
+        
+        return X, y
+    
+    def _handle_missing_values(self, df: pd.DataFrame, is_training: bool) -> pd.DataFrame:
+        """Handle missing values in the dataset."""
+        
+        # Identify numerical and categorical columns
+        numerical_cols = ['Age', 'Minutes_played', 'Goals', 'Assists', 'Height', 'Weight', 
+                         'Matchs_played', 'Goals_per_minute', 'Assists_per_minute']
+        
+        categorical_cols = ['Position', 'Club', 'Nation']
+        
+        # Handle numerical missing values
+        if is_training:
+            self.numerical_imputer = SimpleImputer(strategy='median')
+            df[numerical_cols] = self.numerical_imputer.fit_transform(df[numerical_cols])
+            logger.info(f"Fitted numerical imputer with median strategy")
+        else:
+            if self.numerical_imputer is not None:
+                df[numerical_cols] = self.numerical_imputer.transform(df[numerical_cols])
+            else:
+                raise ValueError("Numerical imputer not fitted. Call with is_training=True first.")
+        
+        # Handle categorical missing values
+        if is_training:
+            self.categorical_imputer = SimpleImputer(strategy='most_frequent')
+            df[categorical_cols] = self.categorical_imputer.fit_transform(df[categorical_cols])
+            logger.info(f"Fitted categorical imputer with most_frequent strategy")
+        else:
+            if self.categorical_imputer is not None:
+                df[categorical_cols] = self.categorical_imputer.transform(df[categorical_cols])
+            else:
+                raise ValueError("Categorical imputer not fitted. Call with is_training=True first.")
+        
+        return df
+    
+    def _create_derived_features(self, df: pd.DataFrame) -> pd.DataFrame:
+        """Create derived features from existing columns."""
+        
+        # Avoid division by zero
+        minutes_played_safe = df['Minutes_played'].replace(0, 1)
+        
+        # Create derived ratios
+        df['Goals_per_minute'] = df['Goals'] / minutes_played_safe
+        df['Assists_per_minute'] = df['Assists'] / minutes_played_safe
+        
+        # Log transform for highly skewed derived features
+        df['Goals_per_minute_log'] = np.log1p(df['Goals_per_minute'])
+        df['Assists_per_minute_log'] = np.log1p(df['Assists_per_minute'])
+        
+        logger.info("Created derived features: Goals_per_minute, Assists_per_minute")
+        
+        return df
+    
+    def _encode_categorical_features(self, df: pd.DataFrame, is_training: bool) -> pd.DataFrame:
+        """Encode categorical features (Position, Club, Nation)."""
+        
+        # 1. Position: One-hot encoding (GK, DF, MF, FW)
+        if is_training:
+            # One-hot encode position
+            position_dummies = pd.get_dummies(df['Position'], prefix='is')
+            # Ensure consistent naming
+            position_dummies = position_dummies.rename(columns={
+                'is_DF': 'is_Defender',
+                'is_MF': 'is_Midfielder', 
+                'is_FW': 'is_Forward',
+                'is_GK': 'is_Goalkeeper'
+            })
+            self.position_encoder = position_dummies.columns.tolist()
+        else:
+            # Create dummies with same columns as training
+            position_dummies = pd.get_dummies(df['Position'], prefix='is')
+            # Ensure all expected columns exist
+            for expected_col in ['is_Defender', 'is_Midfielder', 'is_Forward', 'is_Goalkeeper']:
+                if expected_col not in position_dummies.columns:
+                    position_dummies[expected_col] = 0
+        
+        # 2. Club: Top 10 clubs as dummies, rest as "Other"
+        if is_training:
+            # Identify top 10 clubs by frequency
+            club_counts = df['Club'].value_counts()
+            self.top_clubs = club_counts.head(10).index.tolist()
+            logger.info(f"Top 10 clubs identified: {self.top_clubs}")
+        
+        # Create club encoding
+        df['Club_encoded'] = df['Club'].apply(
+            lambda x: x if x in self.top_clubs else 'Other'
+        )
+        
+        # One-hot encode clubs
+        club_dummies = pd.get_dummies(df['Club_encoded'], prefix='club')
+        
+        # 3. Nation: Keep as categorical for now (will be label encoded by models if needed)
+        # For tree-based models, we can use label encoding
+        df['Nation_encoded'] = pd.Categorical(df['Nation']).codes
+        
+        # Combine all encoded features
+        X_encoded = pd.concat([
+            position_dummies.reset_index(drop=True),
+            club_dummies.reset_index(drop=True),
+            df[['Nation_encoded']].reset_index(drop=True)
+        ], axis=1)
+        
+        return X_encoded
+    
+    def _select_numerical_features(self, df: pd.DataFrame, X_encoded: pd.DataFrame) -> pd.DataFrame:
+        """Select and combine numerical features with encoded features."""
+        
+        # Core numerical features from roadmap
+        core_numerical = ['Age', 'Minutes_played', 'Goals', 'Assists', 
+                         'Height', 'Weight', 'Matchs_played']
+        
+        # Derived numerical features
+        derived_numerical = ['Goals_per_minute_log', 'Assists_per_minute_log']
+        
+        # Combine all numerical features
+        numerical_features = core_numerical + derived_numerical
+        
+        # Create numerical dataframe
+        X_numerical = df[numerical_features].reset_index(drop=True)
+        
+        # Combine with encoded features
+        X_combined = pd.concat([X_numerical, X_encoded], axis=1)
+        
+        return X_combined
+    
+    def _prepare_target(self, df: pd.DataFrame) -> pd.Series:
+        """Prepare target variable with log transformation."""
+        
+        if 'Value' not in df.columns:
+            raise ValueError("'Value' column not found in dataframe")
+        
+        # Apply log transformation to handle skewness
+        y_log = np.log1p(df['Value'])
+        
+        # Log statistics
+        logger.info(f"Target transformation applied: log(1 + Value)")
+        logger.info(f"Original Value range: €{df['Value'].min():,.0f} - €{df['Value'].max():,.0f}")
+        logger.info(f"Transformed range: {y_log.min():.2f} - {y_log.max():.2f}")
+        
+        return y_log
+    
+    def inverse_transform_target(self, y_pred_log: np.ndarray) -> np.ndarray:
+        """Convert predictions from log scale back to euros."""
+        return np.expm1(y_pred_log)
+
+def prepare_full_data(train_df: pd.DataFrame, test_df: pd.DataFrame) -> Tuple:
+    """
+    Prepare full dataset with comprehensive features.
+    
+    Parameters:
+    -----------
+    train_df : pandas.DataFrame
+        Training dataframe
+    test_df : pandas.DataFrame
+        Test dataframe
+        
+    Returns:
+    --------
+    X_train, y_train, X_test, y_test, feature_engineer : tuple
+        Prepared data and feature engineer instance
+    """
+    logger.info("Preparing full dataset with comprehensive features...")
+    
+    # Initialize feature engineer
+    feature_engineer = FeatureEngineer(random_state=42)
+    
+    # Process training data
+    X_train, y_train = feature_engineer.create_features(train_df, is_training=True)
+    
+    # Process test data
+    X_test, y_test = feature_engineer.create_features(test_df, is_training=False)
+    
+    # Ensure consistent columns between train and test
+    train_cols = set(X_train.columns)
+    test_cols = set(X_test.columns)
+    
+    # Add missing columns to test set
+    missing_in_test = train_cols - test_cols
+    if missing_in_test:
+        logger.warning(f"Test set missing columns: {missing_in_test}")
+        for col in missing_in_test:
+            X_test[col] = 0
+    
+    # Reorder test columns to match train
+    X_test = X_test[X_train.columns]
+    
+    logger.info(f"Training set: {X_train.shape[0]} samples, {X_train.shape[1]} features")
+    logger.info(f"Test set: {X_test.shape[0]} samples, {X_test.shape[1]} features")
+    
+    return X_train, y_train, X_test, y_test, feature_engineer
+
+# Keep baseline functions for backward compatibility
+def create_baseline_features(df):
+    """
+    Baseline features (Age + Position only) for Phase 3.
+    """
+    logger.info("Creating baseline features (Age + Position only)...")
+    
+    # Check required columns
+    required_cols = ['Age', 'Position', 'Value']
+    missing_cols = [col for col in required_cols if col not in df.columns]
+    if missing_cols:
+        raise ValueError(f"Missing required columns: {missing_cols}")
+    
+    df_processed = df.copy()
+    
+    # Handle missing Age
+    if df_processed['Age'].isnull().any():
+        median_age = df_processed['Age'].median()
+        df_processed['Age'] = df_processed['Age'].fillna(median_age)
+    
+    # One-hot encode Position
+    position_dummies = pd.get_dummies(df_processed['Position'], prefix='is')
+    position_dummies = position_dummies.rename(columns={
+        'is_DF': 'is_Defender',
+        'is_MF': 'is_Midfielder', 
+        'is_FW': 'is_Forward',
+        'is_GK': 'is_Goalkeeper'
+    })
+    
+    # Ensure all position columns exist
+    expected_positions = ['is_Defender', 'is_Midfielder', 'is_Forward', 'is_Goalkeeper']
+    for pos in expected_positions:
+        if pos not in position_dummies.columns:
+            position_dummies[pos] = 0
+    
+    # Combine features
+    X_baseline = pd.concat([
+        df_processed[['Age']].reset_index(drop=True),
+        position_dummies.reset_index(drop=True)
+    ], axis=1)
+    
+    # Extract target
+    y = df_processed['Value'].copy()
+    
+    return X_baseline, y
+
+def prepare_baseline_data(train_df, test_df):
+    """
+    Prepare baseline data for train and test sets.
+    """
+    logger.info("Preparing baseline data...")
+    
+    X_train, y_train = create_baseline_features(train_df)
+    X_test, y_test = create_baseline_features(test_df)
+    
+    # Ensure consistent columns
+    train_cols = set(X_train.columns)
+    test_cols = set(X_test.columns)
+    
+    missing_in_test = train_cols - test_cols
+    if missing_in_test:
+        for col in missing_in_test:
+            X_test[col] = 0
+    
+    X_test = X_test[X_train.columns]
+    
+    return X_train, y_train, X_test, y_test
+
+if __name__ == "__main__":
+    # Test the comprehensive feature engineering
+    import sys
+    import os
+    sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+    
+    from data_loader import load_raw_data, clean_data
+    
+    print("Testing comprehensive feature engineering...")
+    
+    # Load and clean data
+    df = load_raw_data()
+    df = clean_data(df)
+    
+    # Split into train/test
+    train_df = df[df['Season'].isin(['2018-2019', '2019-2020', '2020-2021', '2021-2022'])]
+    test_df = df[df['Season'] == '2022-2023']
+    
+    # Create comprehensive features
+    X_train, y_train, X_test, y_test, fe = prepare_full_data(train_df, test_df)
+    
+    print(f"\n✅ Feature engineering test completed!")
+    print(f"X_train shape: {X_train.shape}")
+    print(f"X_test shape: {X_test.shape}")
+    print(f"\nTotal features created: {len(X_train.columns)}")
+    
+    # Show feature categories
+    print(f"\nFeature categories:")
+    feature_categories = {
+        'Numerical': [col for col in X_train.columns if col not in ['is_', 'club_', 'Nation_encoded'] and not col.startswith('is_') and not col.startswith('club_')],
+        'Position': [col for col in X_train.columns if col.startswith('is_')],
+        'Club': [col for col in X_train.columns if col.startswith('club_')],
+        'Nation': ['Nation_encoded']
+    }
+    
+    for category, features in feature_categories.items():
+        print(f"  {category}: {len(features)} features")
+        if len(features) <= 5:  # Show all if few features
+            for feat in features:
+                print(f"    - {feat}")
