@@ -1,0 +1,21 @@
+FEATURE IMPORTANCE ANALYSIS SUMMARY
+==================================================
+
+Analysis date: 20260107_124600
+Model trained: 20260107_122037
+
+TOP 5 FEATURES:
+  1. club_Other: 23.1%
+  2. Matchs_played: 8.2%
+  3. is_Goalkeeper: 6.0%
+  4. club_Newcastle Utd: 5.9%
+  5. club_Manchester City: 4.4%
+
+HYPOTHESIS 1 RESULTS (Top Clubs):
+  • Club features importance: 22.0%
+  • Top clubs in top 10: 4
+
+HYPOTHESIS 2 RESULTS (Goals for Strikers):
+  • Goals importance: 6.2%
+  • Striker position importance: 3.0%
+  • Goals in top 10: 1

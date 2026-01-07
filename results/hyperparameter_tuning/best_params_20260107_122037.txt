@@ -1,0 +1,18 @@
+BEST XGBOOST HYPERPARAMETERS
+==================================================
+
+Date: 20260107_122037
+Search time: 3.2 seconds
+Number of iterations: 20
+Best MSE: 0.622668
+Best RMSE: 0.789093
+
+Parameters:
+  subsample: 0.6
+  reg_lambda: 1
+  reg_alpha: 0.1
+  n_estimators: 150
+  max_depth: 7
+  learning_rate: 0.05
+  gamma: 0
+  colsample_bytree: 0.8
