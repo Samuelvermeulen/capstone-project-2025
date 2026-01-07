@@ -1,0 +1,43 @@
+======================================================================
+BASELINE MODELS COMPARISON REPORT - PHASE 6.4
+======================================================================
+
+Report generated: 2026-01-07 14:34:20
+Number of models compared: 5
+Test set size: Based on Phase 5 (382 players from 2022-2023 season)
+
+1. EXECUTIVE SUMMARY
+----------------------------------------
+• Best model: XGBoost_Optimized (RMSE: €17,571,231)
+• Worst model: Naïve_Mean (RMSE: €27,718,798)
+• XGBoost improvement over best baseline: 6.3%
+• Value of complexity: Significant
+
+2. DETAILED MODEL PERFORMANCE
+----------------------------------------
+Model                            RMSE (€)         MAE (€)       R²    % Error
+--------------------------------------------------------------------------------
+XGBoost_Optimized              17,571,231      10,740,330    0.448       55.4
+Linear_Regression              18,746,357      12,130,990    0.371      107.2
+Random_Forest                  19,276,821      11,693,859    0.335       62.1
+Naïve_Median                   27,276,878      16,492,461   -0.331      175.9
+Naïve_Mean                     27,718,798      16,818,734   -0.375      161.8
+
+3. KEY INSIGHTS
+----------------------------------------
+• Improvement of complex models over naïve baseline: 35.6%
+• XGBoost improvement over Linear Regression: 6.3%
+
+4. RECOMMENDATIONS
+----------------------------------------
+• RECOMMEND using XGBoost: Meaningful improvement (5-10%) over baselines
+• For production: Consider trade-off between model complexity and maintainability
+• For exploration: Simpler models can provide better interpretability
+
+5. FILES GENERATED
+----------------------------------------
+• results/baseline_comparison/baseline_comparison_YYYYMMDD_HHMMSS.csv
+• results/baseline_comparison/rmse_comparison_YYYYMMDD_HHMMSS.png
+• results/baseline_comparison/r2_comparison_YYYYMMDD_HHMMSS.png
+• results/baseline_comparison/radar_chart_comparison_YYYYMMDD_HHMMSS.png
+• reports/baseline_comparison/baseline_comparison_report_20260107_143420.txt

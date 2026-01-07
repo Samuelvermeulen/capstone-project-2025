@@ -1,32 +1,30 @@
-# DONNÉES (ne pas versionner)
-*.csv
-*.joblib
-*.pkl
-*.json
-*.png
-*.jpg
-
-# DOSSIERS DE DONNÉES
-data/processed/
-data/raw/
-models/optimized/
-reports/
+# Données et modèles (à ajuster si tu veux les versionner)
+data/
+models/
 results/
-backup_baseline/results_baseline/
 
-# SYSTÈME
-.DS_Store
+# Environnements
+.env
+.venv
+env/
+venv/
+
+# Conda
 __pycache__/
 *.pyc
-Miniconda3-latest-MacOSX-arm64.sh
+*.pyo
+*.pyd
+.Python
 
-# EXCEPTIONS : garder les dossiers vides
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!models/.gitkeep
-!results/.gitkeep
-!reports/.gitkeep
-!docs/.gitkeep
-!notebooks/.gitkeep
-!tests/.gitkeep
-!backup_baseline/results_baseline/.gitkeep
+# Notebooks
+*.ipynb_checkpoints/
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Backup
+backup_baseline/
+
+# Installation Miniconda
+Miniconda3-latest-MacOSX-arm64.sh
