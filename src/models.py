@@ -68,8 +68,14 @@ class ModelPipeline:
             max_depth=5,
             random_state=self.random_state,
             n_jobs=-1
+            # Implicit parameters (XGBoost >=1.7 defaults):
+    # - objective='reg:squarederror'
+    # - eval_metric='rmse'
+    
         )
         
+  
+
         logger.info("Models initialized: Linear Regression, Ridge, Random Forest, XGBoost")
     
     def prepare_features(self, X: pd.DataFrame, is_training: bool = True) -> np.ndarray:
