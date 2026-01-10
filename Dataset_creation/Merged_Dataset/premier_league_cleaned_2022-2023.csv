@@ -1,0 +1,715 @@
+Name,Age,Nationality,Club,Value,Preferred Foot,Height,Weight
+Bruno Fernandes,27,Portugal,Manchester United,€78.5M,Right,179cm,69kg
+K. De Bruyne,31,Belgium,Manchester City,€107.5M,Right,181cm,70kg
+João Cancelo,28,Portugal,Manchester City,€82.5M,Right,182cm,74kg
+I. Perišić,33,Croatia,Tottenham Hotspur,€26.5M,Right,186cm,80kg
+T. Alexander-Arnold,23,England,Liverpool,€100.5M,Right,180cm,69kg
+M. Salah,30,Egypt,Liverpool,€115.5M,Left,175cm,71kg
+Thiago,31,Spain,Liverpool,€55.5M,Right,174cm,70kg
+R. James,22,England,Chelsea,€57M,Right,178cm,87kg
+L. Digne,28,France,Aston Villa,€27.5M,Left,178cm,74kg
+K. Walker,32,England,Manchester City,€37.5M,Right,183cm,83kg
+İ. Gündoğan,31,Germany,Manchester City,€44M,Right,180cm,80kg
+H. Kane,28,England,Tottenham Hotspur,€105.5M,Right,188cm,89kg
+J. Henderson,32,England,Liverpool,€28.5M,Right,182cm,80kg
+Fred,29,Brazil,Manchester United,€20.5M,Left,169cm,62kg
+Bernardo Silva,27,Portugal,Manchester City,€97.5M,Left,173cm,64kg
+Diogo Jota,25,Portugal,Liverpool,€76M,Right,178cm,73kg
+K. Trippier,31,England,Newcastle United,€30.5M,Right,173cm,71kg
+Rúben Neves,25,Portugal,Wolverhampton Wanderers,€47.5M,Right,180cm,80kg
+Fabinho,28,Brazil,Liverpool,€77M,Right,188cm,78kg
+G. Lo Celso,26,Argentina,Tottenham Hotspur,€31.5M,Left,177cm,68kg
+Roberto Firmino,30,Brazil,Liverpool,€35.5M,Right,181cm,76kg
+Cristiano Ronaldo,37,Portugal,Manchester United,€41M,Right,187cm,83kg
+N. Kanté,31,France,Chelsea,€72M,Right,168cm,70kg
+A. Robertson,28,Scotland,Liverpool,€72M,Left,178cm,64kg
+T. Partey,29,Ghana,Arsenal,€36M,Right,185cm,77kg
+M. Kovačić,28,Croatia,Chelsea,€42M,Right,176cm,80kg
+H. Son,29,Korea Republic,Tottenham Hotspur,€101M,Right,183cm,78kg
+Marcos Alonso,31,Spain,Chelsea,€12.5M,Left,188cm,85kg
+E. Buendía,25,Argentina,Aston Villa,€26.5M,Right,172cm,65kg
+Y. Bissouma,25,Mali,Tottenham Hotspur,€34.5M,Right,182cm,80kg
+Rodri,26,Spain,Manchester City,€88.5M,Right,191cm,82kg
+O. Zinchenko,25,Ukraine,Arsenal,€21.5M,Left,175cm,64kg
+Cucurella,23,Spain,Chelsea,€34.5M,Left,172cm,66kg
+M. Cornet,25,Côte d'Ivoire,West Ham United,€18.5M,Left,179cm,69kg
+Jorginho,30,Italy,Chelsea,€51.5M,Right,180cm,68kg
+J. McGinn,27,Scotland,Aston Villa,€20M,Left,178cm,68kg
+J. Milner,36,England,Liverpool,€4.4M,Right,175cm,70kg
+J. Álvarez,22,Argentina,Manchester City,€32M,Right,173cm,71kg
+E. Haaland,21,Norway,Manchester City,€148M,Left,195cm,94kg
+L. Martínez,24,Argentina,Manchester United,€35M,Left,178cm,77kg
+M. Mount,23,England,Chelsea,€57.5M,Right,180cm,74kg
+D. van de Beek,25,Netherlands,Manchester United,€25.5M,Right,184cm,74kg
+V. van Dijk,30,Netherlands,Liverpool,€98M,Right,193cm,92kg
+João Moutinho,35,Portugal,Wolverhampton Wanderers,€10.5M,Right,170cm,61kg
+Bruno Guimarães,24,Brazil,Newcastle United,€38.5M,Right,182cm,74kg
+Richarlison,25,Brazil,Tottenham Hotspur,€34.5M,Right,181cm,71kg
+M. Ødegaard,23,Norway,Arsenal,€63.5M,Left,178cm,68kg
+A. Doucouré,29,Mali,Everton,€17M,Right,184cm,76kg
+P. Højbjerg,26,Denmark,Tottenham Hotspur,€40.5M,Right,187cm,84kg
+22 Fernandinho,36,Brazil,Manchester City,€5M,Right,179cm,67kg
+R. Bentancur,25,Uruguay,Tottenham Hotspur,€24.5M,Right,187cm,73kg
+B. Chilwell,25,England,Chelsea,€37M,Left,180cm,77kg
+A. Oxlade-Chamberlain,28,England,Liverpool,€10.5M,Right,175cm,70kg
+M. Antonio,32,Jamaica,West Ham United,€14M,Right,178cm,82kg
+R. Sterling,27,England,Chelsea,€72.5M,Right,170cm,69kg
+B. Saka,20,England,Arsenal,€60.5M,Left,178cm,65kg
+K. Phillips,26,England,Manchester City,€32M,Right,178cm,72kg
+E. Mwepu,24,Zambia,Brighton & Hove Albion,€12M,Right,184cm,76kg
+Andreas Pereira,26,Brazil,Fulham,€10M,Right,177cm,70kg
+K. Tierney,25,Scotland,Arsenal,€33M,Left,178cm,70kg
+S. McTominay,25,Scotland,Manchester United,€25M,Right,193cm,88kg
+M. Sanson,27,France,Aston Villa,€8.5M,Right,180cm,73kg
+D. Kulusevski,22,Sweden,Tottenham Hotspur,€41.5M,Left,186cm,75kg
+Lucas Moura,29,Brazil,Tottenham Hotspur,€20.5M,Right,174cm,70kg
+N. Keïta,27,Guinea,Liverpool,€29.5M,Right,172cm,64kg
+P. Foden,22,England,Manchester City,€109.5M,Left,171cm,69kg
+L. Shaw,26,England,Manchester United,€22.5M,Left,181cm,75kg
+Allan,31,Brazil,Everton,€15M,Right,175cm,74kg
+H. Ziyech,29,Morocco,Chelsea,€35.5M,Left,181cm,65kg
+Gabriel Jesus,25,Brazil,Arsenal,€48.5M,Right,175cm,73kg
+T. Souček,27,Czech Republic,West Ham United,€28M,Right,192cm,86kg
+Coutinho,30,Brazil,Aston Villa,€29.5M,Right,172cm,68kg
+D. Rice,23,England,West Ham United,€52M,Right,185cm,80kg
+R. Jiménez,31,Mexico,Wolverhampton Wanderers,€25.5M,Right,188cm,81kg
+V. Coufal,29,Czech Republic,West Ham United,€18.5M,Right,175cm,76kg
+M. Rashford,24,England,Manchester United,€37M,Right,186cm,70kg
+A. Young,36,England,Aston Villa,€1.4M,Right,175cm,65kg
+Pablo Fornals,26,Spain,West Ham United,€21.5M,Right,178cm,67kg
+L. Dendoncker,27,Belgium,Wolverhampton Wanderers,€8.5M,Right,189cm,88kg
+D. Núñez,23,Uruguay,Liverpool,€61.5M,Right,186cm,80kg
+R. Mahrez,31,Algeria,Manchester City,€56.5M,Left,179cm,67kg
+Azpilicueta,32,Spain,Chelsea,€20M,Right,178cm,77kg
+22 G. Sigurðsson,31,Iceland,Everton,€14.5M,Right,186cm,77kg
+J. Schlupp,29,Ghana,Crystal Palace,€7.5M,Left,178cm,72kg
+D. Alli,26,England,Everton,€14M,Right,188cm,80kg
+C. Gallagher,22,England,Chelsea,€35.5M,Right,182cm,77kg
+T. Ndombele,25,France,Tottenham Hotspur,€23M,Right,179cm,76kg
+L. Díaz,25,Colombia,Liverpool,€56M,Right,180cm,73kg
+M. Cash,24,Poland,Aston Villa,€24.5M,Right,179cm,74kg
+J. Lingard,29,England,Nottingham Forest,€14M,Right,175cm,60kg
+17 J. Barton,33,England,Burnley,€2.5M,Right,180cm,70kg
+21 David Luiz,33,Brazil,Arsenal,€8.5M,Right,189cm,86kg
+J. Ramsey,21,England,Aston Villa,€12.5M,Right,180cm,72kg
+Emerson,27,Italy,Chelsea,€10M,Left,176cm,79kg
+A. Cresswell,32,England,West Ham United,€9.5M,Left,175cm,66kg
+22 E. Cavani,34,Uruguay,Manchester United,€15M,Right,185cm,77kg
+A. Westwood,32,England,Burnley,€5M,Right,175cm,73kg
+Diogo Dalot,23,Portugal,Manchester United,€21M,Right,184cm,76kg
+Douglas Luiz,24,Brazil,Aston Villa,€19.5M,Right,175cm,66kg
+Gonçalo Guedes,25,Portugal,Wolverhampton Wanderers,€41M,Right,179cm,68kg
+P. Groß,31,Germany,Brighton & Hove Albion,€8.5M,Right,181cm,78kg
+J. Brownhill,26,England,Burnley,€7.5M,Right,180cm,69kg
+L. Augustinsson,28,Sweden,Aston Villa,€9.5M,Left,181cm,72kg
+Palhinha,26,Portugal,Fulham,€28.5M,Right,190cm,85kg
+22 F. Delph,31,England,Everton,€3.9M,Left,174cm,78kg
+J. Bryan,28,England,Fulham,€2.8M,Left,173cm,75kg
+M. Ritchie,32,Scotland,Newcastle United,€2.4M,Left,172cm,76kg
+J. Moder,23,Poland,Brighton & Hove Albion,€9M,Right,188cm,78kg
+D. Ings,29,England,Aston Villa,€17.5M,Right,178cm,73kg
+K. Tsimikas,26,Greece,Liverpool,€12.5M,Left,179cm,68kg
+A. Mac Allister,23,Argentina,Brighton & Hove Albion,€12M,Right,176cm,72kg
+Reguilón,25,Spain,Tottenham Hotspur,€25.5M,Left,178cm,68kg
+J. Grealish,26,England,Manchester City,€49.5M,Right,180cm,81kg
+Emerson Royal,23,Brazil,Tottenham Hotspur,€18.5M,Right,181cm,79kg
+Thiago Silva,37,Brazil,Chelsea,€12M,Right,183cm,79kg
+S. Coleman,33,Republic of Ireland,Everton,€3.9M,Right,177cm,77kg
+M. Doherty,30,Republic of Ireland,Tottenham Hotspur,€9M,Right,182cm,87kg
+W. Zaha,29,Côte d'Ivoire,Crystal Palace,€30M,Right,180cm,66kg
+N. Vlašić,24,Croatia,West Ham United,€21M,Right,178cm,79kg
+T. Malacia,22,Netherlands,Manchester United,€26.5M,Left,169cm,67kg
+22 B. Mendy,26,France,Manchester City,€19M,Left,185cm,85kg
+Kenedy,26,Brazil,Chelsea,€9M,Left,182cm,77kg
+J. Willock,22,England,Newcastle United,€12.5M,Right,179cm,71kg
+Joelinton,25,Brazil,Newcastle United,€7.5M,Right,186cm,81kg
+C. Eriksen,30,Denmark,Manchester United,€29M,Right,181cm,76kg
+A. Lallana,34,England,Brighton & Hove Albion,€2.6M,Right,178cm,73kg
+I. Toney,26,England,Brentford,€13M,Right,187cm,76kg
+Cédric,30,Portugal,Arsenal,€4.8M,Right,172cm,67kg
+J. Bowen,25,England,West Ham United,€28M,Left,175cm,70kg
+B. Davies,29,Wales,Tottenham Hotspur,€14.5M,Left,181cm,76kg
+J. Ayew,30,Ghana,Crystal Palace,€5.5M,Right,182cm,81kg
+E. Dier,28,England,Tottenham Hotspur,€20M,Right,190cm,90kg
+O. Watkins,26,England,Aston Villa,€18.5M,Right,180cm,78kg
+J. Guðmundsson,31,Iceland,Burnley,€1.9M,Left,179cm,77kg
+R. Loftus-Cheek,26,England,Chelsea,€9.5M,Right,191cm,88kg
+F. Schär,30,Switzerland,Newcastle United,€8.5M,Right,188cm,84kg
+J. Shelvey,30,England,Newcastle United,€10M,Right,184cm,80kg
+Jonny,28,Spain,Wolverhampton Wanderers,€16M,Right,170cm,70kg
+B. Decordova-Reid,29,Jamaica,Fulham,€4.1M,Right,170cm,68kg
+N. Aké,27,Netherlands,Manchester City,€15M,Left,180cm,75kg
+André Gomes,28,Portugal,Everton,€5.5M,Right,188cm,84kg
+J. Sancho,22,England,Manchester United,€61.5M,Right,180cm,76kg
+M. Almirón,28,Paraguay,Newcastle United,€14M,Left,174cm,70kg
+M. Lanzini,29,Argentina,West Ham United,€17M,Right,167cm,59kg
+B. Mbeumo,22,Cameroon,Brentford,€9M,Left,171cm,75kg
+B. Kamara,22,France,Aston Villa,€31M,Right,184cm,68kg
+N. Pépé,27,Côte d'Ivoire,Arsenal,€18.5M,Left,183cm,73kg
+S. Bastien,25,Congo DR,Burnley,€2.1M,Right,175cm,75kg
+A. Martial,26,France,Manchester United,€28M,Right,184cm,76kg
+A. Sambi Lokonga,22,Belgium,Arsenal,€12.5M,Right,183cm,73kg
+22 M. Greenwood,19,England,Manchester United,€38M,Left,181cm,70kg
+A. Maitland-Niles,24,England,Arsenal,€6.5M,Right,177cm,71kg
+18 M. Carrick,35,England,Manchester United,€3M,Right,188cm,74kg
+R. Barkley,28,England,Chelsea,€7.5M,Right,186cm,76kg
+R. Fraser,28,Scotland,Newcastle United,€7.5M,Right,163cm,70kg
+V. Janelt,24,Germany,Brentford,€6.5M,Left,184cm,79kg
+H. Wilson,25,Wales,Fulham,€10M,Left,173cm,70kg
+S. March,27,England,Brighton & Hove Albion,€5.5M,Left,180cm,77kg
+O. Norwood,31,Northern Ireland,Sheffield United,€2.1M,Right,175cm,69kg
+22 Willian,31,Brazil,Arsenal,€11.5M,Right,175cm,77kg
+J. Dasilva,23,England,Brentford,€4.6M,Left,184cm,75kg
+J. Stones,28,England,Manchester City,€34.5M,Right,188cm,76kg
+J. Gbamin,26,Côte d'Ivoire,Everton,€5.5M,Right,186cm,83kg
+O. Edouard,24,France,Crystal Palace,€12M,Right,187cm,83kg
+A. Laporte,28,Spain,Manchester City,€64.5M,Left,191cm,85kg
+C. Nørgaard,28,Denmark,Brentford,€6.5M,Right,187cm,77kg
+C. Jones,21,England,Liverpool,€17M,Right,185cm,75kg
+R. Sessegnon,22,England,Tottenham Hotspur,€12M,Left,178cm,70kg
+C. Doucouré,22,Mali,Crystal Palace,€10M,Right,180cm,73kg
+J. Cullen,26,Republic of Ireland,Burnley,€6.5M,Right,175cm,70kg
+A. Campbell,23,Scotland,Luton Town,€2.5M,Right,175cm,74kg
+H. Winks,26,England,Tottenham Hotspur,€9M,Right,176cm,65kg
+L. Trossard,27,Belgium,Brighton & Hove Albion,€18.5M,Right,171cm,67kg
+G. Xhaka,29,Switzerland,Arsenal,€15M,Left,185cm,82kg
+M. Gibbs-White,22,England,Wolverhampton Wanderers,€12.5M,Right,178cm,70kg
+T. Cairney,31,Scotland,Fulham,€4.6M,Left,186cm,84kg
+J. McArthur,34,Scotland,Crystal Palace,€1.9M,Right,178cm,66kg
+C. Pulisic,23,United States,Chelsea,€48M,Right,177cm,69kg
+D. McNeil,22,England,Everton,€11.5M,Left,183cm,70kg
+S. Berge,24,Norway,Sheffield United,€8M,Right,195cm,96kg
+B. Traoré,26,Burkina Faso,Aston Villa,€9M,Left,181cm,73kg
+H. Reed,27,England,Fulham,€6M,Right,175cm,72kg
+Héctor Bellerín,27,Spain,Arsenal,€18.5M,Right,178cm,74kg
+K. Mbabu,27,Switzerland,Fulham,€10M,Right,184cm,83kg
+22 C. Kouyaté,31,Senegal,Crystal Palace,€7.5M,Right,189cm,83kg
+C. Wilson,30,England,Newcastle United,€17M,Right,180cm,66kg
+V. Lindelöf,27,Sweden,Manchester United,€21M,Right,187cm,80kg
+T. Davies,24,England,Everton,€7.5M,Right,180cm,70kg
+P. Mpanzu,28,Congo DR,Luton Town,€1.6M,Right,175cm,74kg
+18 P. Evra,36,France,West Ham United,€775K,Left,174cm,75kg
+A. Townsend,30,England,Everton,€7M,Left,175cm,73kg
+A. Wan-Bissaka,24,England,Manchester United,€26.5M,Right,183cm,72kg
+F. Guilbert,27,France,Aston Villa,€15M,Right,178cm,78kg
+14 R. Giggs,39,Wales,Manchester United,€1K,Left,179cm,71kg
+M. Elneny,29,Egypt,Arsenal,€6.5M,Right,179cm,72kg
+E. Eze,24,England,Crystal Palace,€11.5M,Right,178cm,67kg
+D. Calvert-Lewin,25,England,Everton,€29.5M,Right,187cm,71kg
+F. Onyeka,24,Nigeria,Brentford,€4.2M,Right,183cm,70kg
+O. Mangala,24,Belgium,Nottingham Forest,€8.5M,Right,178cm,80kg
+M. Olise,20,France,Crystal Palace,€16.5M,Left,178cm,68kg
+J. Murphy,27,England,Newcastle United,€3.2M,Right,179cm,74kg
+N. Clyne,31,England,Crystal Palace,€3.1M,Right,175cm,67kg
+Adama Traoré,26,Spain,Wolverhampton Wanderers,€20.5M,Right,178cm,86kg
+N. Maupay,25,France,Brighton & Hove Albion,€9.5M,Right,173cm,69kg
+C. Hudson-Odoi,21,England,Chelsea,€21.5M,Right,177cm,79kg
+Cafú,29,Portugal,Nottingham Forest,€1.2M,Right,185cm,82kg
+D. Undav,25,Germany,Brighton & Hove Albion,€14M,Right,178cm,86kg
+H. Maguire,29,England,Manchester United,€24M,Right,194cm,100kg
+L. O'Brien,23,England,Nottingham Forest,€6M,Left,173cm,63kg
+C. Coady,29,England,Everton,€14.5M,Right,186cm,80kg
+Sergi Canós,25,Spain,Brentford,€2.9M,Right,175cm,66kg
+Diego Carlos,29,Brazil,Aston Villa,€30.5M,Right,185cm,86kg
+W. Hughes,27,England,Crystal Palace,€6.5M,Left,185cm,74kg
+K. Mitoma,25,Japan,Brighton & Hove Albion,€5.5M,Right,178cm,71kg
+A. Saint-Maximin,25,France,Newcastle United,€32.5M,Right,173cm,67kg
+Gabriel Martinelli,21,Brazil,Arsenal,€31.5M,Right,178cm,75kg
+S. Longstaff,24,England,Newcastle United,€6.5M,Right,180cm,65kg
+M. Caicedo,20,Ecuador,Brighton & Hove Albion,€3.8M,Right,178cm,71kg
+J. Garner,21,England,Manchester United,€5M,Right,182cm,80kg
+S. Benrahma,26,Algeria,West Ham United,€15.5M,Right,172cm,67kg
+Rúben Vinagre,23,Portugal,Everton,€6.5M,Left,174cm,71kg
+R. Varane,29,France,Manchester United,€39M,Right,191cm,81kg
+M. Targett,26,England,Newcastle United,€12M,Left,183cm,70kg
+J. Cork,33,England,Burnley,€2.1M,Right,184cm,75kg
+C. Chambers,27,England,Aston Villa,€5.5M,Right,182cm,77kg
+J. Riedewald,25,Netherlands,Crystal Palace,€4.5M,Left,182cm,79kg
+G. Scamacca,23,Italy,West Ham United,€33.5M,Right,195cm,85kg
+J. Matip,30,Cameroon,Liverpool,€34.5M,Right,194cm,90kg
+A. Onana,20,Belgium,Everton,€8.5M,Right,195cm,76kg
+N. Aguerd,26,Morocco,West Ham United,€24.5M,Left,188cm,76kg
+Hwang Hee Chan,26,Korea Republic,Wolverhampton Wanderers,€12.5M,Right,177cm,77kg
+22 P. Zinckernagel,26,Denmark,Nottingham Forest,€4.6M,Right,175cm,70kg
+Rúben Dias,25,Portugal,Manchester City,€107.5M,Right,187cm,82kg
+B. Williams,21,England,Manchester United,€4.4M,Right,182cm,63kg
+K. Zouma,27,France,West Ham United,€22.5M,Right,190cm,95kg
+J. Rodriguez,32,England,Burnley,€3.4M,Right,185cm,84kg
+S. Twine,22,England,Burnley,€3.8M,Right,174cm,69kg
+R. Aït Nouri,21,France,Wolverhampton Wanderers,€16M,Left,180cm,70kg
+M. Sarr,23,France,Chelsea,€7M,Left,182cm,75kg
+H. Lansbury,31,England,Luton Town,€825K,Right,183cm,85kg
+C. Wood,30,New Zealand,Newcastle United,€7.5M,Right,191cm,92kg
+C. Roberts,26,Wales,Burnley,€7M,Right,175cm,76kg
+C. Romero,24,Argentina,Tottenham Hotspur,€49.5M,Right,185cm,79kg
+A. El Ghazi,27,Netherlands,Aston Villa,€6M,Right,188cm,90kg
+A. Hickey,20,Scotland,Brentford,€12M,Right,175cm,72kg
+D. Welbeck,31,England,Brighton & Hove Albion,€4.8M,Right,185cm,73kg
+A. Palaversa,22,Croatia,Manchester City,€3.6M,Right,187cm,77kg
+N. Chalobah,27,England,Fulham,€3.3M,Right,187cm,80kg
+21 Bernard,27,Brazil,Everton,€8M,Right,164cm,60kg
+J. Bogle,21,England,Sheffield United,€6.5M,Right,178cm,69kg
+N. Kebano,30,Congo DR,Fulham,€2.9M,Right,170cm,65kg
+A. Robinson,24,United States,Fulham,€5.5M,Left,183cm,70kg
+J. Veltman,30,Netherlands,Brighton & Hove Albion,€11.5M,Right,184cm,75kg
+S. Baptiste,24,Grenada,Brentford,€2.2M,Right,175cm,67kg
+P. Sarr,19,Senegal,Tottenham Hotspur,€4M,Right,184cm,70kg
+A. Knockaert,30,France,Fulham,€1.3M,Left,172cm,69kg
+M. Solomon,22,Israel,Fulham,€17M,Right,170cm,67kg
+K. Tete,26,Netherlands,Fulham,€4.8M,Right,180cm,71kg
+L. Freeman,30,England,Luton Town,€1.3M,Left,172cm,73kg
+M. Batshuayi,28,Belgium,Chelsea,€11M,Right,185cm,78kg
+Ivan Cavaleiro,28,Portugal,Fulham,€2.4M,Right,175cm,73kg
+M. Niakhaté,26,France,Nottingham Forest,€15.5M,Left,190cm,85kg
+R. Henry,24,England,Brentford,€7M,Left,170cm,66kg
+S. Alzate,23,Colombia,Brighton & Hove Albion,€3.7M,Right,180cm,75kg
+M. Holgate,25,England,Everton,€6.5M,Right,184cm,75kg
+11 R. Pires,36,France,Aston Villa,€0,Right,187cm,80kg
+S. Ghoddos,28,Iran,Brentford,€1.2M,Right,177cm,79kg
+Fábio Vieira,22,Portugal,Arsenal,€23.5M,Left,176cm,61kg
+Daniel Podence,26,Portugal,Wolverhampton Wanderers,€16.5M,Right,165cm,58kg
+M. Longstaff,22,England,Newcastle United,€2.3M,Right,171cm,65kg
+22 A. Lennon,34,England,Burnley,€2M,Right,165cm,63kg
+C. Lenglet,27,France,Tottenham Hotspur,€16M,Left,186cm,81kg
+J. Andersen,26,Denmark,Crystal Palace,€12M,Right,192cm,90kg
+J. Onomah,25,England,Fulham,€1.9M,Right,185cm,70kg
+F. Andone,29,Romania,Brighton & Hove Albion,€1.6M,Right,180cm,78kg
+H. Toffolo,26,England,Nottingham Forest,€2.8M,Left,183cm,71kg
+M. Nakamba,28,Zimbabwe,Aston Villa,€5.5M,Left,178cm,71kg
+B. Rahman,27,Ghana,Chelsea,€1.5M,Left,180cm,72kg
+B. Gilmour,21,Scotland,Chelsea,€5M,Right,170cm,66kg
+O. Skipp,21,England,Tottenham Hotspur,€20M,Right,175cm,70kg
+R. Yates,24,England,Nottingham Forest,€4.4M,Right,190cm,77kg
+T. Mings,29,England,Aston Villa,€12M,Left,196cm,77kg
+E. Konsa,24,England,Aston Villa,€32.5M,Right,183cm,77kg
+Y. Wissa,25,Congo DR,Brentford,€6.5M,Right,176cm,74kg
+H. White,20,England,Tottenham Hotspur,€1.5M,Left,178cm,70kg
+D. Gray,26,England,Everton,€12.5M,Right,183cm,75kg
+I. Maatsen,20,Netherlands,Burnley,€3.7M,Left,168cm,57kg
+Pedro Neto,22,Portugal,Wolverhampton Wanderers,€28.5M,Left,172cm,62kg
+J. Tarkowski,29,England,Everton,€14.5M,Right,188cm,81kg
+T. Tomiyasu,23,Japan,Arsenal,€26M,Right,188cm,84kg
+B. Godfrey,24,England,Everton,€22M,Right,183cm,79kg
+Manquillo,28,Spain,Newcastle United,€3.8M,Right,178cm,76kg
+22 Juan Mata,33,Spain,Manchester United,€4.7M,Left,170cm,63kg
+W. Saliba,21,France,Arsenal,€40M,Right,192cm,85kg
+T. Awoniyi,24,Nigeria,Nottingham Forest,€14.5M,Right,183cm,85kg
+J. Lewis,24,Northern Ireland,Newcastle United,€3.3M,Left,178cm,70kg
+J. Lolley,29,England,Nottingham Forest,€1.2M,Left,178cm,72kg
+E. Smith Rowe,21,England,Arsenal,€43M,Right,182cm,72kg
+B. Johnson,21,Wales,Nottingham Forest,€12.5M,Right,181cm,71kg
+T. Lamptey,21,England,Brighton & Hove Albion,€12M,Right,163cm,62kg
+A. Elanga,20,Sweden,Manchester United,€9.5M,Right,178cm,75kg
+A. Gordon,21,England,Everton,€12.5M,Right,183cm,74kg
+K. Ajer,24,Norway,Brentford,€11.5M,Right,196cm,94kg
+K. Kozłowski,18,Poland,Brighton & Hove Albion,€3.1M,Right,178cm,68kg
+E. Laird,20,England,Manchester United,€3.7M,Right,177cm,66kg
+F. Downes,23,England,West Ham United,€2.3M,Right,173cm,70kg
+T. Doyle,20,England,Sheffield United,€2.1M,Right,179cm,72kg
+A. Mitrović,27,Serbia,Fulham,€16.5M,Right,189cm,90kg
+J. Tanganga,23,England,Tottenham Hotspur,€9M,Right,180cm,73kg
+H. Arter,32,Republic of Ireland,Nottingham Forest,€475K,Left,176cm,70kg
+J. Clark,28,England,Luton Town,€1.4M,Right,176cm,73kg
+M. Lowe,25,England,Sheffield United,€3.2M,Left,175cm,74kg
+G. Baldock,29,Greece,Sheffield United,€1.6M,Right,175cm,67kg
+C. Ronan,24,Republic of Ireland,Wolverhampton Wanderers,€2M,Right,170cm,70kg
+E. Anderson,19,Scotland,Newcastle United,€2.6M,Right,179cm,63kg
+E. Ampadu,21,Wales,Chelsea,€6M,Right,183cm,78kg
+J. Gomez,25,England,Liverpool,€34M,Right,188cm,77kg
+K. Lewis-Potter,21,England,Brentford,€4.2M,Right,170cm,67kg
+J. Ward,32,England,Crystal Palace,€2.9M,Right,188cm,83kg
+T. Mitchell,22,England,Crystal Palace,€14.5M,Left,180cm,70kg
+A. Iwobi,26,Nigeria,Everton,€6.5M,Right,185cm,75kg
+A. Tuanzebe,24,England,Manchester United,€5.5M,Right,185cm,75kg
+M. Keane,29,England,Everton,€16M,Right,191cm,82kg
+P. Dummett,30,Wales,Newcastle United,€2.6M,Left,183cm,82kg
+21 K. LuaLua,29,Congo DR,Luton Town,€1.4M,Right,180cm,77kg
+C. Coventry,22,Republic of Ireland,West Ham United,€1.9M,Right,177cm,65kg
+K. Koulibaly,31,Senegal,Chelsea,€54.5M,Right,187cm,89kg
+J. Colback,32,England,Nottingham Forest,€925K,Left,177cm,77kg
+G. Biancone,22,France,Nottingham Forest,€3.3M,Right,187cm,79kg
+Fábio Carvalho,19,Portugal,Liverpool,€7M,Right,175cm,66kg
+E. Stevens,31,Republic of Ireland,Sheffield United,€1.4M,Left,183cm,78kg
+T. Chalobah,22,England,Chelsea,€11M,Right,191cm,84kg
+D. Sánchez,26,Colombia,Tottenham Hotspur,€18M,Right,187cm,81kg
+T. Chong,22,Netherlands,Manchester United,€3.6M,Left,185cm,75kg
+R. Nelson,22,England,Arsenal,€6M,Right,175cm,71kg
+S. Rondón,32,Venezuela,Everton,€3.4M,Right,186cm,86kg
+O. Richards,24,England,Nottingham Forest,€4.3M,Left,174cm,70kg
+B. Mee,32,England,Brentford,€9M,Left,180cm,82kg
+E. Bailly,28,Côte d'Ivoire,Manchester United,€7M,Right,186cm,77kg
+T. Ream,34,United States,Fulham,€525K,Left,186cm,80kg
+B. Johnson,22,England,West Ham United,€9M,Right,180cm,69kg
+11 G. Neville,35,England,Manchester United,€0,Right,179cm,79kg
+J. Bree,24,England,Luton Town,€2.5M,Right,178cm,74kg
+E. Adebayo,24,England,Luton Town,€3.4M,Right,193cm,89kg
+J. Mateta,25,France,Crystal Palace,€10M,Right,192cm,88kg
+V. Mykolenko,23,Ukraine,Everton,€14.5M,Left,180cm,71kg
+H. Dervişoğlu,22,Turkey,Brentford,€3.8M,Right,183cm,76kg
+B. White,24,England,Arsenal,€32.5M,Right,185cm,77kg
+N. Williams,21,Wales,Nottingham Forest,€4M,Right,183cm,72kg
+M. Guéhi,21,England,Crystal Palace,€29.5M,Right,182cm,82kg
+M. Kilman,25,England,Wolverhampton Wanderers,€14.5M,Left,194cm,89kg
+K. Davis,24,England,Aston Villa,€3.6M,Left,191cm,88kg
+Toti Gomes,23,Portugal,Wolverhampton Wanderers,€2.6M,Left,187cm,83kg
+F. Pellistri,20,Uruguay,Manchester United,€3.8M,Right,175cm,65kg
+Léo Bonatini,28,Brazil,Wolverhampton Wanderers,€1M,Right,185cm,82kg
+Vitinho,22,Brazil,Burnley,€2.6M,Right,175cm,73kg
+Bryan Gil,21,Spain,Tottenham Hotspur,€23.5M,Left,175cm,65kg
+22 R. Vilca,22,Peru,Newcastle United,€1.3M,Right,175cm,68kg
+I. Konaté,23,France,Liverpool,€48M,Right,194cm,95kg
+S. Botman,22,Netherlands,Newcastle United,€31M,Left,193cm,81kg
+Rodrigo Muniz,21,Brazil,Fulham,€3.6M,Right,185cm,79kg
+22 K. Mainoo,16,England,Manchester United,€1.2M,Right,175cm,80kg
+A. Broja,20,Albania,Chelsea,€12.5M,Right,191cm,75kg
+C. Woodrow,27,England,Luton Town,€1.6M,Right,184cm,74kg
+J. Egan,29,Republic of Ireland,Sheffield United,€3.5M,Right,185cm,75kg
+K. Hause,26,England,Aston Villa,€6M,Left,191cm,77kg
+Gabriel,24,Brazil,Arsenal,€37M,Left,190cm,87kg
+C. Palmer,20,England,Manchester City,€2.7M,Left,189cm,74kg
+I. Kaboré,21,Burkina Faso,Manchester City,€4M,Right,180cm,70kg
+M. Roerslev,23,Denmark,Brentford,€2.1M,Right,184cm,67kg
+C. Jerome,35,England,Luton Town,€375K,Right,185cm,85kg
+H. Elliott,19,England,Liverpool,€7M,Left,170cm,67kg
+T. Kongolo,28,Netherlands,Fulham,€1.3M,Left,188cm,70kg
+D. Spence,21,England,Tottenham Hotspur,€12M,Right,184cm,71kg
+22 L. Grabban,33,England,Nottingham Forest,€1M,Right,183cm,78kg
+Marquinhos,19,Brazil,Arsenal,€7M,Left,183cm,77kg
+E. Nketiah,23,England,Arsenal,€6M,Right,180cm,73kg
+A. Ahmedhodžić,23,Bosnia and Herzegovina,Sheffield United,€4.9M,Right,195cm,84kg
+R. Norrington-Davies,23,Wales,Sheffield United,€2.6M,Left,181cm,70kg
+J. van Hecke,22,Netherlands,Brighton & Hove Albion,€3.9M,Right,185cm,78kg
+21 G. Murray,36,England,Nottingham Forest,€650K,Right,183cm,80kg
+20 C. McCann,17,Republic of Ireland,Manchester United,€240K,Right,175cm,65kg
+N. Patterson,20,Scotland,Everton,€2M,Right,183cm,66kg
+Chiquinho,22,Portugal,Wolverhampton Wanderers,€3.4M,Right,179cm,72kg
+M. Fossey,23,United States,Fulham,€1.6M,Right,179cm,77kg
+P. Cutrone,24,Italy,Wolverhampton Wanderers,€3.6M,Right,183cm,79kg
+L. Taylor,32,Montserrat,Nottingham Forest,€1.1M,Right,188cm,79kg
+R. Holding,26,England,Arsenal,€11.5M,Right,189cm,75kg
+S. Surridge,23,England,Nottingham Forest,€3M,Right,191cm,77kg
+H. Mejbri,19,Tunisia,Manchester United,€1.6M,Right,182cm,70kg
+J. Cain,20,England,Liverpool,€875K,Right,176cm,62kg
+A. Ogbonna,34,Italy,West Ham United,€5.5M,Left,191cm,86kg
+Y. Mina,27,Colombia,Everton,€11M,Right,195cm,94kg
+22 J. Oksanen,20,Finland,Brentford,€1M,Left,184cm,72kg
+L. Colwill,19,England,Brighton & Hove Albion,€3.5M,Left,191cm,83kg
+22 L. Hall,16,England,Chelsea,€700K,Left,180cm,72kg
+C. Chukwuemeka,18,England,Chelsea,€1.9M,Right,185cm,70kg
+H. Cornick,27,England,Luton Town,€1.9M,Right,180cm,84kg
+D. Sarmiento,19,Argentina,Manchester City,€2.4M,Left,170cm,60kg
+D. Sterling,22,England,Chelsea,€2.6M,Right,180cm,72kg
+K. Kesler Hayden,19,England,Aston Villa,€2.3M,Right,175cm,62kg
+N. Nkounkou,21,France,Everton,€2M,Left,180cm,78kg
+M. Azeez,19,England,Arsenal,€1.2M,Right,180cm,65kg
+19 M. Richards,30,England,Aston Villa,€675K,Right,180cm,83kg
+A. Webster,27,England,Brighton & Hove Albion,€8.5M,Right,191cm,75kg
+T. Akinola,21,England,Arsenal,€925K,Right,177cm,73kg
+C. Archer,20,England,Aston Villa,€3.5M,Right,179cm,74kg
+A. Diallo,19,Côte d'Ivoire,Manchester United,€3.6M,Left,173cm,72kg
+B. Norton-Cuffy,18,England,Arsenal,€1.6M,Right,181cm,70kg
+S. van den Berg,20,Netherlands,Liverpool,€3.8M,Right,194cm,78kg
+R. Brewster,22,England,Sheffield United,€3.2M,Right,180cm,75kg
+P. Jones,30,England,Manchester United,€2.5M,Right,185cm,71kg
+I. Diop,25,France,West Ham United,€14M,Right,194cm,92kg
+J. Olayinka,21,England,Arsenal,€600K,Right,175cm,68kg
+22 M. Hector,28,Jamaica,Fulham,€1.8M,Right,193cm,82kg
+T. Lockyer,27,Wales,Luton Town,€1.7M,Right,185cm,72kg
+T. Iroegbunam,19,England,Aston Villa,€1.1M,Right,183cm,70kg
+D. Burn,30,England,Newcastle United,€8.5M,Left,198cm,87kg
+M. Rogers,19,England,Manchester City,€2.2M,Right,187cm,80kg
+C. Morris,26,England,Luton Town,€1.6M,Right,185cm,85kg
+D. Potts,28,England,Luton Town,€925K,Left,178cm,70kg
+I. Ndiaye,22,Senegal,Sheffield United,€3.1M,Right,180cm,70kg
+S. Jasper,21,Bulgaria,Fulham,€1.6M,Right,172cm,71kg
+J. O'Connell,28,England,Sheffield United,€2.4M,Left,191cm,85kg
+C. Richards,22,United States,Crystal Palace,€9M,Right,188cm,87kg
+P. Jansson,31,Sweden,Brentford,€3.8M,Right,194cm,86kg
+22 T. O'Reilly,17,Republic of Ireland,Aston Villa,€375K,Left,170cm,63kg
+T. Harwood-Bellis,20,England,Burnley,€3.2M,Right,188cm,73kg
+Bruno Jordão,23,Portugal,Wolverhampton Wanderers,€875K,Right,180cm,73kg
+F. Stevanović,19,Serbia,Manchester City,€1.2M,Right,178cm,72kg
+M. Clarke,25,England,Brighton & Hove Albion,€2.9M,Left,185cm,83kg
+D. Bernard,21,England,Manchester United,€2.9M,Right,189cm,81kg
+22 H. Vale,17,England,Chelsea,€1.3M,Left,180cm,68kg
+22 Marc Jurado,17,Spain,Manchester United,€775K,Right,178cm,65kg
+L. Cundle,20,England,Wolverhampton Wanderers,€650K,Right,170cm,62kg
+T. Francois,21,Australia,Fulham,€725K,Left,173cm,65kg
+D. Jebbison,18,England,Sheffield United,€1.7M,Right,190cm,78kg
+S. Shoretire,18,England,Manchester United,€1.5M,Right,175cm,70kg
+T. Mengi,20,England,Manchester United,€2.3M,Right,183cm,78kg
+22 Z. Iqbal,18,Iraq,Manchester United,€825K,Right,181cm,65kg
+K. John,21,England,Everton,€1.1M,Right,176cm,68kg
+22 E. Dixon-Bonner,20,England,Liverpool,€475K,Right,180cm,75kg
+M. Peart-Harris,19,England,Brentford,€950K,Right,187cm,70kg
+T. Adarabioyo,24,England,Fulham,€11.5M,Right,196cm,80kg
+22 C. Cîrjan,18,Romania,Arsenal,€1M,Right,174cm,60kg
+22 C. Wellens,18,England,Manchester United,€600K,Right,175cm,61kg
+M. Moreno,25,Colombia,Manchester City,€1.6M,Right,171cm,66kg
+22 I. Hansen-Aarøen,16,Norway,Manchester United,€775K,Right,173cm,65kg
+22 J. Turner-Cooke,17,England,Newcastle United,€500K,Left,179cm,63kg
+19 P. Crouch,37,England,Burnley,€900K,Right,201cm,75kg
+A. Devine,17,England,Tottenham Hotspur,€775K,Right,180cm,70kg
+N. Collins,21,Republic of Ireland,Wolverhampton Wanderers,€10.5M,Right,193cm,81kg
+N. Ferguson,21,England,Crystal Palace,€2.3M,Right,178cm,70kg
+C. Campbell,19,Wales,Wolverhampton Wanderers,€625K,Right,180cm,72kg
+22 C. Musonda,24,Belgium,Chelsea,€3M,Right,173cm,66kg
+22 S. Oulad M'Hand,17,Netherlands,Arsenal,€825K,Right,177cm,69kg
+22 O. Hutchinson,17,England,Arsenal,€1.5M,Left,174cm,65kg
+S. Muñoz,19,Mexico,Newcastle United,€2M,Right,179cm,67kg
+M. Ebiowei,18,England,Crystal Palace,€1.7M,Left,185cm,80kg
+J. Sarmiento,20,Ecuador,Brighton & Hove Albion,€2.1M,Right,183cm,73kg
+J. White,19,England,Newcastle United,€525K,Left,186cm,70kg
+F. Stevens,19,Wales,Brentford,€900K,Right,173cm,73kg
+22 H. Lindley,18,England,Aston Villa,€350K,Right,182cm,70kg
+L. Plange,19,England,Crystal Palace,€2M,Right,183cm,76kg
+Hugo Bueno,19,Spain,Wolverhampton Wanderers,€600K,Left,180cm,73kg
+S. Duffy,30,Republic of Ireland,Fulham,€3.5M,Right,193cm,76kg
+K. Phillips,20,Republic of Ireland,Crystal Palace,€500K,Right,190cm,85kg
+21 B. Carroll,18,England,Everton,€325K,Right,176cm,62kg
+22 C. Savage,18,Wales,Manchester United,€600K,Left,182cm,63kg
+A. Robertson,19,England,Manchester City,€575K,Right,180cm,66kg
+J. McAtee,19,England,Sheffield United,€1M,Left,180cm,72kg
+J. Wells-Morrison,18,England,Crystal Palace,€450K,Left,180cm,73kg
+22 Alejandro Garnacho,17,Argentina,Manchester United,€1.5M,Right,180cm,70kg
+22 B. Hardley,18,Netherlands,Manchester United,€1M,Left,189cm,74kg
+Ederson,28,Brazil,Manchester City,€88M,Left,188cm,86kg
+22 G. McEachran,20,England,Chelsea,€600K,Left,172cm,65kg
+22 O. Hesketh,18,Wales,Wolverhampton Wanderers,€275K,Right,180cm,67kg
+22 Joel López,19,Spain,Arsenal,€825K,Left,179cm,70kg
+H. Ashby,20,Scotland,West Ham United,€925K,Right,180cm,75kg
+K. Appiah-Forson,20,England,West Ham United,€350K,Right,170cm,64kg
+22 L. de Bolle,18,Scotland,Newcastle United,€575K,Right,179cm,66kg
+B. Young,19,England,Aston Villa,€950K,Right,185cm,73kg
+Pablo Marí,28,Spain,Arsenal,€5.5M,Left,193cm,87kg
+22 S. McAllister,18,Northern Ireland,Everton,€575K,Right,180cm,75kg
+L. Delap,19,England,Manchester City,€2.2M,Right,186cm,80kg
+G. Osho,23,England,Luton Town,€1.9M,Right,185cm,70kg
+R. Burke,25,England,Luton Town,€1.6M,Right,189cm,81kg
+E. Longelo,21,England,West Ham United,€525K,Left,181cm,70kg
+22 L. Bogarde,17,Netherlands,Aston Villa,€525K,Right,183cm,70kg
+O. Dodgson,19,England,Burnley,€500K,Left,178cm,70kg
+22 T. Adaramola,17,Republic of Ireland,Crystal Palace,€475K,Left,177cm,69kg
+22 M. Paskotši,18,Estonia,Tottenham Hotspur,€600K,Right,182cm,76kg
+Kayky,19,Brazil,Manchester City,€2.4M,Left,175cm,67kg
+22 D. Gore,16,England,Manchester United,€500K,Right,173cm,65kg
+22 J. Hodge,18,Republic of Ireland,Wolverhampton Wanderers,€325K,Right,172cm,65kg
+J. Enciso,18,Paraguay,Brighton & Hove Albion,€1.3M,Right,168cm,64kg
+L. Watson,20,Republic of Ireland,Luton Town,€875K,Right,176cm,60kg
+22 C. Webster,17,England,Chelsea,€450K,Right,178cm,73kg
+L. Matheson,19,England,Wolverhampton Wanderers,€600K,Right,168cm,62kg
+F. Fernández,33,Argentina,Newcastle United,€2M,Right,190cm,83kg
+22 L. Pye,17,England,Manchester United,€550K,Left,178cm,72kg
+22 J. Giddings,19,England,Crystal Palace,€500K,Right,177cm,75kg
+S. McKenna,25,Scotland,Nottingham Forest,€4M,Left,189cm,80kg
+M. Sørensen,23,Denmark,Brentford,€2.9M,Left,193cm,92kg
+22 J. Bennett,19,England,Tottenham Hotspur,€1.5M,Right,180cm,75kg
+22 R. Thomson,17,Scotland,Newcastle United,€350K,Left,173cm,66kg
+22 C. McNeill,17,England,Manchester United,€1.3M,Right,182cm,74kg
+J. Stansfield,19,England,Fulham,€1.3M,Right,182cm,68kg
+22 D. Hoogewerf,18,Netherlands,Manchester United,€625K,Right,165cm,60kg
+22 N. Emeran,18,France,Manchester United,€575K,Left,179cm,67kg
+22 D. Williams,17,England,Chelsea,€725K,Left,170cm,64kg
+22 T. Collyer,17,England,Manchester United,€575K,Right,180cm,75kg
+22 B. Cottrell,19,England,Arsenal,€525K,Left,166cm,59kg
+18 P. Mertesacker,32,Germany,Arsenal,€8.5M,Right,198cm,90kg
+J. Lascelles,28,England,Newcastle United,€5.5M,Right,188cm,83kg
+22 A. Moran,17,Republic of Ireland,Brighton & Hove Albion,€500K,Right,177cm,73kg
+D. Costelloe,19,Republic of Ireland,Burnley,€1M,Right,181cm,74kg
+22 A. Mawson,27,England,Fulham,€1.7M,Right,189cm,90kg
+A. Mighten,20,England,Nottingham Forest,€2.5M,Right,172cm,70kg
+B. Chrisene,18,England,Aston Villa,€625K,Left,183cm,80kg
+22 Z. Brunt,19,England,Sheffield United,€475K,Right,175cm,70kg
+M. Helm,20,England,Burnley,€450K,Right,178cm,70kg
+N. Phillips,25,England,Liverpool,€3.6M,Right,190cm,84kg
+J. Rak-Sakyi,19,England,Crystal Palace,€1M,Left,178cm,73kg
+21 W. Rickard,18,Wales,Burnley,€300K,Right,177cm,77kg
+22 J. Fevrier,18,England,West Ham United,€300K,Left,175cm,71kg
+22 A. Tanimowo,19,England,Brighton & Hove Albion,€375K,Right,176cm,73kg
+22 F. Maguire,17,England,Sheffield United,€400K,Right,175cm,72kg
+P. Glatzel,21,Germany,Liverpool,€375K,Left,174cm,67kg
+A. Konaté,21,France,Nottingham Forest,€800K,Right,179cm,66kg
+22 J. Ideho,17,Netherlands,Arsenal,€1M,Right,175cm,70kg
+22 I. Jagne,17,Sweden,Everton,€325K,Right,180cm,75kg
+C. Goode,26,England,Brentford,€1.1M,Right,196cm,75kg
+J. Worrall,25,England,Nottingham Forest,€6M,Right,190cm,90kg
+O. Hammond,19,England,Nottingham Forest,€275K,Right,179cm,64kg
+22 S. Mather,16,England,Manchester United,€700K,Right,180cm,65kg
+21 I. Diallo,20,England,Burnley,€275K,Right,177cm,77kg
+A. Okoflex,20,Republic of Ireland,West Ham United,€650K,Right,186cm,72kg
+09 O. Dacourt,33,France,Fulham,€0,Right,178cm,73kg
+P. Ekwah Elimby,20,France,West Ham United,€500K,Left,187cm,76kg
+J. Pickford,28,England,Everton,€26M,Left,185cm,77kg
+H. Birtwistle,18,Singapore,Wolverhampton Wanderers,€300K,Right,180cm,77kg
+22 T. Nevers,19,England,West Ham United,€575K,Right,179cm,66kg
+L. McNally,22,Republic of Ireland,Burnley,€2.1M,Right,193cm,86kg
+C. Egan-Riley,19,England,Burnley,€1.1M,Right,183cm,75kg
+22 G. Lewis,21,Norway,Arsenal,€550K,Right,170cm,63kg
+F. Potts,18,England,West Ham United,€300K,Right,180cm,70kg
+22 S. Edozie,18,England,Manchester City,€1.1M,Right,167cm,71kg
+22 D. Stephenson,18,England,Newcastle United,€575K,Right,183cm,73kg
+22 L. Mbete,17,England,Manchester City,€1M,Left,185cm,78kg
+T. Ablade,20,Finland,Fulham,€550K,Right,181cm,75kg
+22 C. Stanley,19,England,Manchester United,€450K,Right,175cm,66kg
+22 J. Wilson-Esbrand,18,England,Manchester City,€550K,Left,176cm,65kg
+22 E. Ennis,16,England,Manchester United,€550K,Right,178cm,76kg
+S. Bradley,30,England,Luton Town,€1.3M,Left,196cm,90kg
+A. Odubeko,19,Republic of Ireland,West Ham United,€850K,Right,182cm,72kg
+J. Norris,19,England,Liverpool,€600K,Left,178cm,73kg
+22 J. Hodnett,18,England,Wolverhampton Wanderers,€110K,Right,168cm,62kg
+L. Richardson,19,England,Burnley,€775K,Right,179cm,70kg
+D. Lembikisa,18,Jamaica,Wolverhampton Wanderers,€300K,Left,177cm,68kg
+22 J. Hugill,17,England,Manchester United,€1M,Right,188cm,70kg
+22 V. Adedokun,18,Republic of Ireland,Brentford,€240K,Left,180cm,69kg
+22 W. Kambwala,16,France,Manchester United,€575K,Right,192cm,77kg
+K. Gordon,17,England,Liverpool,€1.2M,Left,173cm,65kg
+A. Gilbert,20,Republic of Ireland,Brentford,€500K,Right,183cm,64kg
+20 A. El Mhassani,18,Netherlands,West Ham United,€250K,Left,173cm,70kg
+22 M. Bondswell,19,England,Newcastle United,€475K,Left,183cm,77kg
+Christian Marques,19,Portugal,Wolverhampton Wanderers,€550K,Right,187cm,75kg
+22 J. Scott,18,England,Newcastle United,€400K,Left,180cm,67kg
+22 A. Diallo,18,England,West Ham United,€325K,Right,173cm,63kg
+E. Ferguson,17,Republic of Ireland,Brighton & Hove Albion,€700K,Right,177cm,74kg
+A. Pressley,20,Scotland,Brentford,€800K,Right,189cm,75kg
+E. Martínez,29,Argentina,Aston Villa,€29M,Right,195cm,88kg
+R. Street,20,England,Crystal Palace,€550K,Right,188cm,70kg
+22 N. Brookwell,19,England,Newcastle United,€275K,Right,188cm,74kg
+L. Mbe Soh,21,France,Nottingham Forest,€1.8M,Right,187cm,86kg
+R. Savage,20,England,Newcastle United,€450K,Left,185cm,83kg
+O. Offiah,19,England,Brighton & Hove Albion,€550K,Right,181cm,81kg
+22 M. Haygarth,19,England,Brentford,€400K,Left,176cm,64kg
+20 L. Longstaff,18,England,Liverpool,€190K,Left,179cm,63kg
+22 O. Forson,16,England,Manchester United,€550K,Left,179cm,68kg
+22 L. Harkin,18,Northern Ireland,Wolverhampton Wanderers,€220K,Right,165cm,55kg
+22 T. Roberts,17,England,Wolverhampton Wanderers,€300K,Right,177cm,70kg
+22 A. Keto-Diyawa,17,England,Wolverhampton Wanderers,€220K,Left,172cm,67kg
+22 J. Barnes,20,England,Nottingham Forest,€220K,Left,182cm,75kg
+22 D. Chesters,19,England,West Ham United,€400K,Right,173cm,68kg
+Alisson,29,Brazil,Liverpool,€79M,Right,191cm,91kg
+20 J. Walls,17,England,Liverpool,€160K,Right,174cm,60kg
+B. Thomas,21,England,Burnley,€1.1M,Right,191cm,77kg
+21 C. Barrett,18,England,Burnley,€275K,Right,175cm,70kg
+22 J. Russell,19,England,Brentford,€450K,Right,178cm,64kg
+V. Akinwale,17,England,Crystal Palace,€400K,Right,181cm,60kg
+22 M. Ifill,17,England,Brighton & Hove Albion,€275K,Right,176cm,66kg
+22 W. Greenidge,19,England,West Ham United,€240K,Right,182cm,70kg
+22 C. Wiggett,18,England,Newcastle United,€475K,Right,188cm,82kg
+22 R. Bennett,17,England,Manchester United,€525K,Right,187cm,74kg
+De Gea,31,Spain,Manchester United,€42M,Right,192cm,76kg
+R. Trevitt,19,England,Brentford,€400K,Right,170cm,65kg
+22 J. Oliver,18,England,Newcastle United,€350K,Right,178cm,67kg
+I. Price,18,Northern Ireland,Everton,€150K,Right,178cm,74kg
+22 T. Addy,19,England,Luton Town,€375K,Left,182cm,68kg
+P. Gazzaniga,30,Argentina,Fulham,€2.8M,Right,196cm,90kg
+22 E. McJannet,17,Republic of Ireland,Luton Town,€300K,Right,177cm,69kg
+22 E. Turns,18,England,Brighton & Hove Albion,€475K,Left,185cm,76kg
+22 C. Ferguson,18,England,Newcastle United,€425K,Left,185cm,79kg
+D. Taylor,18,Northern Ireland,Nottingham Forest,€375K,Right,180cm,74kg
+Y. Mosquera,21,Colombia,Wolverhampton Wanderers,€1.4M,Right,187cm,76kg
+S. Ortega,29,Germany,Manchester City,€14.5M,Right,185cm,88kg
+H. Lloris,35,France,Tottenham Hotspur,€9M,Left,188cm,82kg
+22 Z. Monlouis,17,England,Arsenal,€525K,Right,185cm,75kg
+A. Ramsdale,24,England,Arsenal,€34.5M,Right,191cm,77kg
+22 W. Fish,18,England,Manchester United,€550K,Right,185cm,73kg
+22 R. Hannam,20,England,Crystal Palace,€300K,Left,178cm,67kg
+M. Woltman,18,England,Liverpool,€375K,Right,178cm,67kg
+Z. Larkeche,19,France,Fulham,€400K,Left,180cm,67kg
+22 L. Dendoncker,20,Belgium,Brighton & Hove Albion,€325K,Right,188cm,78kg
+22 D. Revan,20,England,Aston Villa,€675K,Right,192cm,81kg
+22 B. Cross,20,South Africa,Newcastle United,€375K,Left,183cm,77kg
+22 Mateo Mejía,18,Spain,Manchester United,€525K,Right,188cm,72kg
+Guaita,35,Spain,Crystal Palace,€1.9M,Right,190cm,80kg
+22 C. Carty,19,Republic of Ireland,Wolverhampton Wanderers,€200K,Right,184cm,73kg
+22 J. Hubner,17,Netherlands,Wolverhampton Wanderers,€250K,Right,185cm,75kg
+22 J. Brooking,18,England,Chelsea,€650K,Right,185cm,77kg
+22 J. Larsson,20,Sweden,Nottingham Forest,€350K,Right,178cm,72kg
+Gonçalo Cardoso,21,Portugal,West Ham United,€1.2M,Left,189cm,83kg
+22 N. Carlyon,18,England,Newcastle United,€230K,Right,180cm,69kg
+A. Areola,29,France,West Ham United,€20M,Right,195cm,94kg
+J. Baptiste,18,England,West Ham United,€500K,Right,183cm,75kg
+O. Tipton,18,England,Wolverhampton Wanderers,€170K,Right,185cm,74kg
+A. Hackford,18,England,Sheffield United,€575K,Right,177cm,68kg
+22 A. Kirk,18,England,Arsenal,€450K,Right,187cm,78kg
+22 A. Tsoungui,18,Belgium,Brighton & Hove Albion,€600K,Right,185cm,87kg
+W. Osula,18,Denmark,Sheffield United,€325K,Left,180cm,75kg
+David Raya,26,Spain,Brentford,€7M,Right,183cm,75kg
+22 S. Beckwith,19,England,Luton Town,€110K,Left,183cm,68kg
+20 H. Ogunby,18,England,Burnley,€160K,Right,175cm,71kg
+22 Z. Emmerson,16,England,Brighton & Hove Albion,€350K,Right,180cm,70kg
+J. O'Brien,21,Republic of Ireland,Crystal Palace,€475K,Right,197cm,84kg
+22 Z. Awe,17,England,Arsenal,€375K,Right,186cm,75kg
+B. Lyons-Foster,21,England,Tottenham Hotspur,€475K,Right,185cm,74kg
+B. Leno,30,Germany,Fulham,€14M,Right,190cm,83kg
+22 T. Crama,19,France,Brentford,€375K,Right,192cm,78kg
+José Sá,29,Portugal,Wolverhampton Wanderers,€20M,Right,192cm,84kg
+22 M. Muir,18,England,Tottenham Hotspur,€325K,Right,180cm,70kg
+20 J. Joseph,17,England,Wolverhampton Wanderers,€110K,Right,195cm,78kg
+J. Butland,29,England,Crystal Palace,€2.1M,Right,196cm,95kg
+22 D. Esapa Osong,16,England,Nottingham Forest,€325K,Right,183cm,73kg
+22 A. Donnelly,18,Northern Ireland,Nottingham Forest,€190K,Left,178cm,72kg
+Kepa,27,Spain,Chelsea,€20.5M,Right,186cm,88kg
+22 S. Swinkels,17,Netherlands,Aston Villa,€325K,Right,190cm,78kg
+22 L. Badley-Morgan,17,England,Chelsea,€275K,Left,186cm,79kg
+22 K. Lopata,19,Poland,Sheffield United,€375K,Right,192cm,82kg
+D. Henderson,25,England,Nottingham Forest,€18M,Right,188cm,85kg
+N. Pope,30,England,Newcastle United,€17M,Right,199cm,76kg
+B. Peacock-Farrell,25,Northern Ireland,Burnley,€1.3M,Left,192cm,74kg
+J. Feeney,17,England,Aston Villa,€375K,Right,194cm,82kg
+22 J. McGlynn,18,Scotland,Burnley,€120K,Right,180cm,70kg
+22 K. Kandola,17,England,Wolverhampton Wanderers,€110K,Right,177cm,67kg
+09 Fábio Paim,20,Portugal,Chelsea,€0,Right,176cm,66kg
+K. Darlow,31,England,Newcastle United,€3M,Right,190cm,88kg
+22 H. Hagan,18,England,Everton,€220K,Right,185cm,75kg
+T. Heaton,36,England,Manchester United,€350K,Right,188cm,85kg
+Robert Sánchez,24,Spain,Brighton & Hove Albion,€13.5M,Right,197cm,85kg
+20 A. Koutismouka,17,France,Brentford,€130K,Left,191cm,70kg
+22 A. Jones,19,England,Luton Town,€130K,Right,184cm,76kg
+S. Johnstone,29,England,Crystal Palace,€4.7M,Right,193cm,85kg
+Adrián,35,Spain,Liverpool,€250K,Right,190cm,80kg
+É. Mendy,30,Senegal,Chelsea,€51M,Right,197cm,86kg
+F. Forster,34,England,Tottenham Hotspur,€1.3M,Right,201cm,93kg
+22 L. Karius,28,Germany,Liverpool,€1.7M,Right,189cm,87kg
+22 R. Rama,20,Albania,Nottingham Forest,€210K,Right,182cm,71kg
+R. Olsen,32,Sweden,Aston Villa,€2.8M,Right,196cm,86kg
+T. Strakosha,27,Albania,Brentford,€14M,Right,193cm,78kg
+22 M. Thomas-Sadler,18,Wales,Nottingham Forest,€170K,Right,188cm,75kg
+M. Rodák,25,Slovakia,Fulham,€6.5M,Right,194cm,81kg
+D. Randolph,35,Republic of Ireland,West Ham United,€350K,Right,188cm,78kg
+M. Turner,28,United States,Arsenal,€9.5M,Right,191cm,79kg
+20 B. Tricker,18,England,Fulham,€100K,Right,193cm,80kg
+R. Rúnarsson,27,Iceland,Arsenal,€1.5M,Right,186cm,76kg
+A. Murić,23,Kosovo,Burnley,€4.5M,Right,197cm,81kg
+W. Hennessey,35,Wales,Nottingham Forest,€475K,Right,198cm,90kg
+19 P. Čech,36,Czech Republic,Arsenal,€2.4M,Left,196cm,90kg
+C. Kelleher,23,Republic of Ireland,Liverpool,€5M,Right,188cm,74kg
+J. Steele,31,England,Brighton & Hove Albion,€375K,Right,188cm,79kg
+22 D. Martin,35,England,West Ham United,€60K,Right,188cm,86kg
+R. Welch,18,England,Everton,€275K,Right,196cm,94kg
+18 C. Ikeme,31,Nigeria,Wolverhampton Wanderers,€1.1M,Right,191cm,100kg
+M. Gillespie,30,England,Newcastle United,€775K,Right,192cm,83kg
+M. Bettinelli,30,England,Chelsea,€1.2M,Right,194cm,82kg
+S. Carson,36,England,Manchester City,€80K,Right,190cm,86kg
+M. Macey,27,England,Luton Town,€925K,Right,201cm,81kg
+W. Norris,28,England,Burnley,€575K,Left,195cm,81kg
+21 D. Iliev,25,North Macedonia,Arsenal,€350K,Right,196cm,80kg
+22 W. Brown,19,England,Newcastle United,€300K,Right,184cm,74kg
+N. Trott,23,England,West Ham United,€1.4M,Left,188cm,75kg
+09 I. Roper,31,England,Luton Town,€0,Right,191cm,89kg
+K. Scherpen,22,Netherlands,Brighton & Hove Albion,€2M,Right,202cm,85kg
+M. Šarkić,24,Montenegro,Wolverhampton Wanderers,€1.5M,Right,195cm,76kg
+22 P. Banda,17,Poland,Newcastle United,€230K,Right,191cm,72kg
+22 B. Winterbottom,19,England,Brentford,€220K,Right,188cm,66kg
+G. Shelvey,21,England,Nottingham Forest,€250K,Right,188cm,77kg
+22 R. Rees,19,England,Brentford,€210K,Right,189cm,66kg
+B. Austin,23,England,Tottenham Hotspur,€1.1M,Right,188cm,75kg
+M. Cox,19,England,Brentford,€525K,Right,182cm,74kg
+22 Marcelo Pitaluga,18,Brazil,Liverpool,€400K,Right,191cm,86kg
+22 O. Mastný,19,Czech Republic,Manchester United,€300K,Right,187cm,76kg
+22 D. Mee,18,Northern Ireland,Manchester United,€210K,Right,183cm,70kg
+22 T. Wooster,16,England,Manchester United,€230K,Right,195cm,85kg
+22 T. Sharman-Lowe,18,England,Chelsea,€210K,Right,189cm,80kg
+J. Amissah,20,Germany,Sheffield United,€170K,Right,198cm,97kg
+20 J. Young,16,England,Wolverhampton Wanderers,€70K,Right,179cm,75kg
+S. Waller,18,England,Burnley,€80K,Right,186cm,81kg
+22 P. Arinbjörnsson,17,Iceland,Wolverhampton Wanderers,€90K,Right,191cm,75kg
+22 Á. Onódi,19,Hungary,Aston Villa,€110K,Right,195cm,84kg

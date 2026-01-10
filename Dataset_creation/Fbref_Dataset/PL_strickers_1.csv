@@ -1,0 +1,202 @@
+,,,,,,,,Playing Time,Playing Time,Playing Time,Playing Time,Playing Time,Playing Time,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Standard,Standard,Standard,Standard,Standard,Standard,Standard,,-additional
+Rk,Player,Sh,Season,Age,Nation,Team,Comp,MP,Min,90s,Starts,Subs,unSub,Gls,Ast,G+A,G-PK,PK,PKatt,PKm,Sh,G/Sh,G/SoT,SoT,SoT%,Dist,FK,Pos,-9999
+1,Mohamed Salah,134,2018-2019,26,eg EGY,Liverpool,eng Premier League,38,3250,36.1,37,1,0,22,8,30,19,3,3,0,134,0.14,0.32,60,44.8,16.9,3,FW,e342ad68
+2,Harry Kane,133,2020-2021,27,eng ENG,Tottenham,eng Premier League,35,3082,34.2,35,0,0,23,14,37,19,4,4,0,133,0.14,0.40,47,35.3,18.3,14,FW,21a66f6a
+3,Mohamed Salah,133,2021-2022,29,eg EGY,Liverpool,eng Premier League,35,2762,30.7,30,5,0,23,13,36,18,5,6,1,133,0.14,0.37,49,36.8,15.8,1,FW,e342ad68
+4,Aleksandar Mitrović,130,2018-2019,23,rs SRB,Fulham,eng Premier League,37,3280,36.4,37,0,0,11,3,14,10,1,1,0,130,0.08,0.22,46,35.4,15.4,2,FW,3925dbd6
+5,Harry Kane,129,2021-2022,28,eng ENG,Tottenham,eng Premier League,37,3232,35.9,36,1,0,17,9,26,13,4,4,0,129,0.10,0.27,49,38.0,17.3,8,FW,21a66f6a
+6,Mohamed Salah,129,2019-2020,27,eg EGY,Liverpool,eng Premier League,34,2876,32.0,33,1,3,19,10,29,16,3,3,0,129,0.12,0.29,56,43.4,15.0,4,FW,e342ad68
+7,Harry Kane,124,2022-2023,29,eng ENG,Tottenham,eng Premier League,38,3405,37.8,38,0,0,30,3,33,25,5,6,1,124,0.20,0.46,54,43.5,16.0,4,FW,21a66f6a
+8,Mohamed Salah,121,2022-2023,30,eg EGY,Liverpool,eng Premier League,38,3290,36.6,37,1,0,19,12,31,17,2,4,2,121,0.14,0.38,45,37.2,15.1,2,FW,e342ad68
+9,Mohamed Salah,120,2020-2021,28,eg EGY,Liverpool,eng Premier League,37,3078,34.2,34,3,0,22,5,27,16,6,6,0,120,0.13,0.35,46,38.3,16.4,1,FW,e342ad68
+10,Erling Haaland,116,2022-2023,22,no NOR,Manchester City,eng Premier League,35,2769,30.8,33,2,1,36,8,44,29,7,7,0,116,0.25,0.55,53,45.7,12.6,0,FW,1f44ac21
+11,Sergio Agüero,116,2018-2019,30,ar ARG,Manchester City,eng Premier League,33,2459,27.3,31,2,1,21,8,29,19,2,2,0,116,0.16,0.46,41,35.3,15.0,3,FW,4d034881
+12,Raúl Jiménez,114,2019-2020,28,mx MEX,Wolves,eng Premier League,38,3236,36.0,37,1,0,17,6,23,13,4,4,0,114,0.11,0.33,39,34.2,15.4,0,FW,b561db50
+13,Erling Haaland,113,2023-2024,23,no NOR,Manchester City,eng Premier League,31,2552,28.4,29,2,1,27,5,32,20,7,8,1,113,0.18,0.40,50,44.2,11.9,1,FW,1f44ac21
+14,Raúl Jiménez,109,2018-2019,27,mx MEX,Wolves,eng Premier League,38,3111,34.6,36,2,0,13,7,20,11,2,2,0,109,0.10,0.35,31,28.4,14.6,0,FW,b561db50
+15,Marcus Rashford,108,2022-2023,24,eng ENG,Manchester Utd,eng Premier League,35,2879,32.0,32,3,0,17,5,22,17,0,0,0,108,0.16,0.35,49,45.4,16.4,7,FW,a1d5bd30
+16,Darwin Núñez,107,2023-2024,24,uy URU,Liverpool,eng Premier League,36,2047,22.7,22,14,1,11,8,19,11,0,1,1,107,0.10,0.24,46,43.0,15.0,0,FW,4d77b365
+17,Ollie Watkins,107,2023-2024,27,eng ENG,Aston Villa,eng Premier League,37,3217,35.7,37,0,0,19,13,32,19,0,0,0,107,0.18,0.40,47,43.9,12.8,0,FW,aed3a70f
+18,Cristiano Ronaldo,107,2021-2022,36,pt POR,Manchester Utd,eng Premier League,30,2456,27.3,27,3,0,18,3,21,15,3,3,0,107,0.14,0.38,39,36.4,15.5,8,FW,dea698d9
+19,Mohamed Salah,107,2023-2024,31,eg EGY,Liverpool,eng Premier League,32,2534,28.2,28,4,0,18,10,28,13,5,7,2,107,0.12,0.28,47,43.9,15.5,1,FW,e342ad68
+20,Dominic Solanke,106,2023-2024,25,eng ENG,Bournemouth,eng Premier League,38,3325,36.9,37,1,0,19,3,22,17,2,3,1,106,0.16,0.49,35,33.0,12.2,0,FW,e77dc3b2
+21,Patrick Bamford,105,2020-2021,26,eng ENG,Leeds United,eng Premier League,38,3050,33.9,37,1,0,17,7,24,15,2,2,0,105,0.14,0.33,46,43.8,13.2,0,FW,93feac6e
+22,Phil Foden,105,2023-2024,23,eng ENG,Manchester City,eng Premier League,35,2857,31.7,33,2,2,19,8,27,19,0,0,0,105,0.18,0.40,48,45.7,18.5,4,FWMF,ed1e53f3
+23,Bukayo Saka,102,2023-2024,21,eng ENG,Arsenal,eng Premier League,35,2919,32.4,35,0,0,16,9,25,10,6,6,0,102,0.10,0.32,31,30.4,16.3,0,FW,bc7dc64d
+24,Alejandro Garnacho,100,2023-2024,19,ar ARG,Manchester Utd,eng Premier League,36,2565,28.5,30,6,2,7,4,11,7,0,0,0,100,0.07,0.26,27,27.0,15.8,0,FW,7aa8adfe
+25,Gabriel Jesus,100,2019-2020,22,br BRA,Manchester City,eng Premier League,34,2030,22.6,21,13,1,14,7,21,14,0,1,1,100,0.14,0.31,45,45.0,11.6,0,FW,b66315ae
+26,Cole Palmer,100,2023-2024,21,eng ENG,Chelsea,eng Premier League,33,2607,29.0,29,4,0,22,11,33,13,9,9,0,100,0.13,0.35,37,37.0,22.1,11,FWMF,dc7f8a28
+27,Roberto Firmino,99,2019-2020,27,br BRA,Liverpool,eng Premier League,38,2988,33.2,34,4,0,9,8,17,9,0,0,0,99,0.09,0.24,38,38.4,13.7,0,FW,4c370d81
+28,Harry Kane,98,2018-2019,25,eng ENG,Tottenham,eng Premier League,28,2424,26.9,27,1,0,17,4,21,13,4,4,0,98,0.13,0.31,42,42.9,17.0,5,FW,21a66f6a
+29,Sadio Mané,98,2021-2022,29,sn SEN,Liverpool,eng Premier League,34,2819,31.3,32,2,0,16,2,18,16,0,0,0,98,0.16,0.43,37,37.8,14.2,0,FW,c691bfe2
+30,Raheem Sterling,97,2019-2020,24,eng ENG,Manchester City,eng Premier League,33,2651,29.5,30,3,3,20,1,21,20,0,2,2,97,0.21,0.56,36,37.1,14.0,1,FW,b400bde0
+31,Julián Álvarez,96,2023-2024,23,ar ARG,Manchester City,eng Premier League,36,2647,29.4,31,5,2,11,8,19,9,2,2,0,96,0.09,0.24,37,38.5,17.8,13,MFFW,15ab5a2b
+32,Ollie Watkins,95,2020-2021,24,eng ENG,Aston Villa,eng Premier League,37,3328,37.0,37,0,0,14,5,19,13,1,2,1,95,0.14,0.30,43,45.3,13.7,0,FW,aed3a70f
+33,Bukayo Saka,95,2021-2022,19,eng ENG,Arsenal,eng Premier League,38,2978,33.1,36,2,0,11,7,18,9,2,2,0,95,0.09,0.31,29,30.5,17.1,0,FWMF,bc7dc64d
+34,Luis Díaz,94,2023-2024,26,co COL,Liverpool,eng Premier League,37,2629,29.2,32,5,0,8,5,13,8,0,0,0,94,0.09,0.25,32,34.0,15.0,0,FW,4a1a9578
+35,Neal Maupay,94,2019-2020,22,fr FRA,Brighton,eng Premier League,37,2766,30.7,30,7,1,10,3,13,9,1,2,1,94,0.10,0.25,36,38.3,15.5,0,FW,4bcf39f6
+36,Sadio Mané,94,2020-2021,28,sn SEN,Liverpool,eng Premier League,35,2810,31.2,31,4,0,11,7,18,11,0,0,0,94,0.12,0.32,34,36.2,13.7,0,FW,c691bfe2
+37,Danny Ings,91,2019-2020,27,eng ENG,Southampton,eng Premier League,38,2804,31.2,32,6,0,22,2,24,21,1,2,1,91,0.23,0.60,35,38.5,13.9,0,FW,07802f7f
+38,Pierre-Emerick Aubameyang,91,2019-2020,30,ga GAB,Arsenal,eng Premier League,36,3136,34.8,35,1,0,22,3,25,20,2,2,0,91,0.22,0.50,40,44.0,15.5,2,FW,d5dd5f1f
+39,Diogo Jota,90,2021-2022,24,pt POR,Liverpool,eng Premier League,35,2364,26.3,27,8,1,15,4,19,15,0,0,0,90,0.17,0.47,32,35.6,12.3,0,FW,178ae8f8
+40,Bruno Fernandes,90,2022-2023,27,pt POR,Manchester Utd,eng Premier League,37,3316,36.8,37,0,0,8,8,16,6,2,2,0,90,0.07,0.19,32,35.6,20.8,6,MFFW,507c7bdf
+41,Bruno Fernandes,90,2023-2024,28,pt POR,Manchester Utd,eng Premier League,35,3118,34.6,35,0,0,10,8,18,6,4,5,1,90,0.07,0.17,35,38.9,22.8,11,MFFW,507c7bdf
+42,Richarlison,90,2019-2020,22,br BRA,Everton,eng Premier League,36,3070,34.1,36,0,0,13,3,16,13,0,0,0,90,0.14,0.41,32,35.6,14.8,0,FWMF,fa031b34
+43,Eden Hazard,89,2018-2019,27,be BEL,Chelsea,eng Premier League,37,2923,32.5,32,5,0,16,15,31,12,4,4,0,89,0.13,0.31,39,43.8,18.0,2,FW,a39bb753
+44,Salomón Rondón,89,2018-2019,28,ve VEN,Newcastle Utd,eng Premier League,32,2603,28.9,30,2,3,11,7,18,11,0,0,0,89,0.12,0.41,27,30.3,15.8,9,FW,b318a643
+45,Pierre-Emerick Aubameyang,89,2018-2019,29,ga GAB,Arsenal,eng Premier League,36,2726,30.3,30,6,0,22,5,27,18,4,5,1,89,0.20,0.53,34,38.2,14.2,0,FW,d5dd5f1f
+46,Tammy Abraham,88,2019-2020,21,eng ENG,Chelsea,eng Premier League,34,2215,24.6,25,9,0,15,3,18,15,0,0,0,88,0.17,0.43,35,39.8,11.6,0,FW,f586779e
+47,Marcus Rashford,87,2019-2020,21,eng ENG,Manchester Utd,eng Premier League,31,2643,29.4,31,0,0,17,7,24,11,6,8,2,87,0.13,0.30,37,42.5,19.7,16,FW,a1d5bd30
+48,Sadio Mané,87,2018-2019,26,sn SEN,Liverpool,eng Premier League,36,3077,34.2,35,1,0,22,1,23,22,0,0,0,87,0.25,0.52,42,48.3,13.0,0,FW,c691bfe2
+49,Ivan Toney,87,2022-2023,26,eng ENG,Brentford,eng Premier League,33,2951,32.8,33,0,0,20,4,24,14,6,7,1,87,0.16,0.42,33,37.9,16.5,9,FW,e09f279b
+50,Son Heung-min,86,2021-2022,29,kr KOR,Tottenham,eng Premier League,35,3006,33.4,35,0,0,23,7,30,23,0,0,0,86,0.27,0.48,48,55.8,15.7,2,MFFW,92e7e919
+51,Bukayo Saka,86,2022-2023,20,eng ENG,Arsenal,eng Premier League,38,3181,35.3,37,1,0,14,11,25,12,2,3,1,86,0.14,0.41,29,33.7,16.3,1,FW,bc7dc64d
+52,Aleksandar Mitrović,85,2022-2023,27,rs SRB,Fulham,eng Premier League,24,2008,22.3,23,1,0,14,1,15,10,4,8,4,85,0.12,0.37,27,31.8,15.1,0,FW,3925dbd6
+53,Dominic Calvert-Lewin,85,2019-2020,22,eng ENG,Everton,eng Premier League,36,2626,29.2,30,6,2,13,1,14,13,0,0,0,85,0.15,0.34,38,44.7,12.9,0,FW,59e6e5bf
+54,Raphinha,84,2021-2022,24,br BRA,Leeds United,eng Premier League,35,2915,32.4,34,1,0,11,3,14,7,4,4,0,84,0.08,0.33,21,25.0,21.4,10,FWMF,3423f250
+55,Jamie Vardy,84,2019-2020,32,eng ENG,Leicester City,eng Premier League,35,3033,33.7,34,1,0,23,5,28,19,4,5,1,84,0.23,0.51,37,44.0,13.1,0,FW,45963054
+56,Darwin Núñez,84,2022-2023,23,uy URU,Liverpool,eng Premier League,29,1695,18.8,19,10,0,9,3,12,9,0,0,0,84,0.11,0.26,35,41.7,15.1,0,FW,4d77b365
+57,Jarrod Bowen,84,2023-2024,26,eng ENG,West Ham,eng Premier League,34,3019,33.5,34,0,0,16,6,22,16,0,0,0,84,0.19,0.43,37,44.0,14.2,0,FW,79c84d1c
+58,Marcus Rashford,84,2018-2019,20,eng ENG,Manchester Utd,eng Premier League,33,2334,25.9,26,7,2,10,6,16,10,0,0,0,84,0.12,0.26,39,46.4,19.2,12,FW,a1d5bd30
+59,Ollie Watkins,84,2022-2023,26,eng ENG,Aston Villa,eng Premier League,37,3127,34.7,36,1,0,15,6,21,14,1,2,1,84,0.17,0.31,45,53.6,12.6,0,FW,aed3a70f
+60,Roberto Firmino,83,2020-2021,28,br BRA,Liverpool,eng Premier League,36,2838,31.5,33,3,0,9,7,16,9,0,0,0,83,0.11,0.28,32,38.6,14.3,0,FW,4c370d81
+61,Dominic Calvert-Lewin,83,2020-2021,23,eng ENG,Everton,eng Premier League,33,2871,31.9,32,1,0,16,0,16,16,0,0,0,83,0.19,0.35,46,55.4,12.2,0,FW,59e6e5bf
+62,Son Heung-min,83,2023-2024,31,kr KOR,Tottenham,eng Premier League,35,2934,32.6,34,1,0,17,10,27,15,2,2,0,83,0.18,0.39,38,45.8,15.5,0,FW,92e7e919
+63,Ivan Toney,83,2021-2022,25,eng ENG,Brentford,eng Premier League,33,2909,32.3,32,1,0,12,5,17,7,5,5,0,83,0.08,0.29,24,28.9,15.8,0,FW,e09f279b
+64,James Maddison,83,2022-2023,25,eng ENG,Leicester City,eng Premier League,30,2480,27.6,28,2,0,10,9,19,9,1,2,1,83,0.11,0.33,27,32.5,21.1,13,MFFW,ee38d9c5
+65,Richarlison,83,2018-2019,21,br BRA,Everton,eng Premier League,35,2665,29.6,32,3,0,13,1,14,13,0,0,0,83,0.16,0.46,28,33.7,14.6,1,FWMF,fa031b34
+66,Michail Antonio,82,2021-2022,31,jm JAM,West Ham,eng Premier League,36,2971,33.0,34,2,1,10,8,18,10,0,1,1,82,0.12,0.37,27,32.9,14.9,0,FW,ac05f970
+67,Eberechi Eze,82,2023-2024,25,eng ENG,Crystal Palace,eng Premier League,27,2055,22.8,24,3,0,11,4,15,10,1,1,0,82,0.12,0.30,33,40.2,20.7,12,MFFW,ae4fc6a4
+68,Son Heung-min,81,2022-2023,30,kr KOR,Tottenham,eng Premier League,36,2888,32.1,33,3,0,10,6,16,10,0,0,0,81,0.12,0.26,38,46.9,18.3,5,MFFW,92e7e919
+69,Alexandre Lacazette,81,2018-2019,27,fr FRA,Arsenal,eng Premier League,35,2502,27.8,27,8,2,13,8,21,13,0,0,0,81,0.16,0.46,28,34.6,14.4,1,FW,9dbb75ca
+70,James Maddison,81,2018-2019,21,eng ENG,Leicester City,eng Premier League,36,2831,31.5,35,1,1,7,7,14,6,1,2,1,81,0.07,0.23,26,32.1,22.4,15,MFFW,ee38d9c5
+71,Anthony Gordon,80,2023-2024,22,eng ENG,Newcastle Utd,eng Premier League,35,2890,32.1,34,1,0,11,10,21,10,1,1,0,80,0.13,0.34,29,36.3,17.3,1,FW,2bd83368
+72,Son Heung-min,80,2019-2020,27,kr KOR,Tottenham,eng Premier League,30,2476,27.5,28,2,0,11,10,21,11,0,1,1,80,0.14,0.30,37,46.3,17.2,1,FW,92e7e919
+73,Nicolas Jackson,80,2023-2024,22,sn SEN,Chelsea,eng Premier League,35,2799,31.1,31,4,0,14,5,19,14,0,0,0,80,0.18,0.37,38,47.5,12.6,0,FW,9c36ed83
+74,Richarlison,80,2020-2021,23,br BRA,Everton,eng Premier League,34,2861,31.8,33,1,0,7,3,10,6,1,1,0,80,0.08,0.19,31,38.8,15.1,1,FW,fa031b34
+75,Harry Kane,79,2019-2020,26,eng ENG,Tottenham,eng Premier League,29,2587,28.7,29,0,0,18,2,20,16,2,2,0,79,0.20,0.46,35,44.3,19.2,7,FW,21a66f6a
+76,Gabriel Martinelli,79,2022-2023,21,br BRA,Arsenal,eng Premier League,36,2789,31.0,34,2,0,15,5,20,15,0,0,0,79,0.19,0.50,30,38.0,15.4,2,FW,48a5a5d6
+77,Timo Werner,79,2020-2021,24,de GER,Chelsea,eng Premier League,35,2602,28.9,29,6,3,6,8,14,6,0,0,0,79,0.08,0.19,31,39.2,13.8,0,FWMF,49fe9070
+78,Jarrod Bowen,79,2021-2022,24,eng ENG,West Ham,eng Premier League,36,2983,33.1,34,2,0,12,10,22,12,0,0,0,79,0.15,0.35,34,43.0,15.7,0,FW,79c84d1c
+79,Anthony Martial,79,2019-2020,23,fr FRA,Manchester Utd,eng Premier League,32,2624,29.2,31,1,0,17,6,23,17,0,1,1,79,0.22,0.45,38,48.1,16.5,0,FW,8b788c01
+80,Marcus Rashford,79,2020-2021,22,eng ENG,Manchester Utd,eng Premier League,37,2920,32.4,33,4,1,11,9,20,11,0,0,0,79,0.14,0.31,36,45.6,18.9,5,FW,a1d5bd30
+81,Teemu Pukki,78,2019-2020,29,fi FIN,Norwich City,eng Premier League,36,2886,32.1,33,3,1,11,3,14,9,2,2,0,78,0.12,0.27,33,42.3,15.5,0,FW,0745b37d
+82,Mason Mount,78,2019-2020,20,eng ENG,Chelsea,eng Premier League,37,2867,31.9,32,5,1,7,5,12,7,0,0,0,78,0.09,0.24,29,37.2,20.6,12,MFFW,9674002f
+83,Raheem Sterling,77,2018-2019,23,eng ENG,Manchester City,eng Premier League,34,2771,30.8,31,3,4,17,9,26,17,0,0,0,77,0.22,0.45,38,49.4,13.9,1,FW,b400bde0
+84,Sadio Mané,77,2019-2020,27,sn SEN,Liverpool,eng Premier League,35,2747,30.5,31,4,1,18,7,25,18,0,0,0,77,0.23,0.50,36,46.8,13.5,0,FW,c691bfe2
+85,Bryan Mbeumo,76,2021-2022,21,cm CMR,Brentford,eng Premier League,35,2905,32.3,34,1,1,4,7,11,3,1,1,0,76,0.04,0.16,19,25.0,16.3,4,FW,6afaebf2
+86,Ollie Watkins,76,2021-2022,25,eng ENG,Aston Villa,eng Premier League,35,2952,32.8,33,2,0,11,2,13,10,1,1,0,76,0.13,0.32,31,40.8,13.6,0,FW,aed3a70f
+87,Gabriel Jesus,76,2022-2023,25,br BRA,Arsenal,eng Premier League,26,2064,22.9,24,2,0,11,6,17,10,1,1,0,76,0.13,0.32,31,40.8,10.6,0,FW,b66315ae
+88,Dominic Solanke,76,2022-2023,24,eng ENG,Bournemouth,eng Premier League,33,2860,31.8,32,1,0,6,7,13,6,0,0,0,76,0.08,0.21,28,36.8,12.8,0,FWMF,e77dc3b2
+89,Jamie Vardy,74,2018-2019,31,eng ENG,Leicester City,eng Premier League,34,2726,30.3,30,4,0,18,4,22,14,4,5,1,74,0.19,0.42,33,44.6,13.3,0,FW,45963054
+90,Roberto Firmino,74,2018-2019,26,br BRA,Liverpool,eng Premier League,34,2607,29.0,31,3,0,12,6,18,11,1,1,0,74,0.15,0.34,32,43.2,15.3,0,FWMF,4c370d81
+91,Son Heung-min,74,2018-2019,26,kr KOR,Tottenham,eng Premier League,31,2039,22.7,23,8,2,12,6,18,12,0,0,0,74,0.16,0.41,29,39.2,19.3,1,FWMF,92e7e919
+92,Nathan Redmond,74,2018-2019,24,eng ENG,Southampton,eng Premier League,38,3270,36.3,36,2,0,6,4,10,6,0,0,0,74,0.08,0.27,22,29.7,19.9,3,MFFW,ab651565
+93,Solly March,74,2022-2023,28,eng ENG,Brighton,eng Premier League,33,2715,30.2,31,2,0,7,7,14,7,0,0,0,74,0.09,0.23,31,41.9,16.2,1,FWDF,bb5fbd2b
+94,Leandro Trossard,73,2021-2022,26,be BEL,Brighton,eng Premier League,34,2805,31.2,32,2,1,8,3,11,7,1,1,0,73,0.10,0.27,26,35.6,18.7,5,FWMF,38ceb24a
+95,Jamie Vardy,73,2020-2021,33,eng ENG,Leicester City,eng Premier League,34,2840,31.6,31,3,0,15,9,24,7,8,9,1,73,0.10,0.25,28,38.4,14.4,0,FW,45963054
+96,Sergio Agüero,73,2019-2020,31,ar ARG,Manchester City,eng Premier League,24,1452,16.1,18,6,2,16,3,19,14,2,3,1,73,0.19,0.58,24,32.9,13.7,0,FW,4d034881
+97,Jarrod Bowen,73,2022-2023,25,eng ENG,West Ham,eng Premier League,38,3233,35.9,36,2,0,6,5,11,5,1,2,1,73,0.07,0.24,21,28.8,16.2,1,FWMF,79c84d1c
+98,Riyad Mahrez,73,2019-2020,28,dz ALG,Manchester City,eng Premier League,33,1944,21.6,21,12,5,11,9,20,10,1,1,0,73,0.14,0.33,30,41.1,17.0,6,FWMF,892d5bb1
+99,Rodrigo Muniz,73,2023-2024,22,br BRA,Fulham,eng Premier League,26,1593,17.7,18,8,7,9,1,10,9,0,0,0,73,0.12,0.35,26,35.6,11.8,0,FW,a755db8c
+100,Wilfried Zaha,73,2018-2019,25,ci CIV,Crystal Palace,eng Premier League,34,3036,33.7,34,0,0,10,5,15,10,0,0,0,73,0.14,0.37,27,37.0,16.7,0,FW,b2bc3b1f
+101,Harvey Barnes,72,2022-2023,24,eng ENG,Leicester City,eng Premier League,34,2711,30.1,32,2,0,13,1,14,13,0,0,0,72,0.18,0.38,34,47.2,15.9,0,FWMF,3ea50f67
+102,Alexander Isak,72,2023-2024,23,se SWE,Newcastle Utd,eng Premier League,30,2255,25.1,27,3,1,21,2,23,16,5,6,1,72,0.22,0.44,36,50.0,14.5,1,FW,8e92be30
+103,Antony,72,2022-2023,22,br BRA,Manchester Utd,eng Premier League,25,1802,20.0,23,2,0,4,2,6,4,0,0,0,72,0.06,0.17,24,33.3,19.6,0,FW,99127249
+104,Jack Grealish,72,2019-2020,23,eng ENG,Aston Villa,eng Premier League,36,3233,35.9,36,0,0,8,6,14,8,0,1,1,72,0.11,0.35,23,31.9,18.5,1,FWMF,b0b4fd3e
+105,Matheus Cunha,72,2023-2024,24,br BRA,Wolves,eng Premier League,32,2440,27.1,29,3,0,12,7,19,11,1,1,0,72,0.15,0.31,36,50.0,18.0,0,FWMF,dc62b55d
+106,James Maddison,72,2021-2022,24,eng ENG,Leicester City,eng Premier League,35,2459,27.3,28,7,0,12,8,20,12,0,0,0,72,0.17,0.36,33,45.8,20.7,13,MFFW,ee38d9c5
+107,Dominic Calvert-Lewin,71,2023-2024,26,eng ENG,Everton,eng Premier League,32,2171,24.1,26,6,0,7,2,9,5,2,2,0,71,0.07,0.18,28,39.4,13.9,1,FW,59e6e5bf
+108,Christian Benteke,71,2020-2021,29,be BEL,Crystal Palace,eng Premier League,30,1816,20.2,21,9,4,10,1,11,10,0,0,0,71,0.14,0.30,33,46.5,12.5,0,FW,ab070c55
+109,David McGoldrick,71,2020-2021,32,ie IRL,Sheffield Utd,eng Premier League,35,2397,26.6,28,7,2,8,1,9,8,0,0,0,71,0.11,0.35,23,32.4,18.2,1,FWMF,dbe56a33
+110,Morgan Gibbs-White,70,2023-2024,23,eng ENG,Nott'ham Forest,eng Premier League,37,3156,35.1,35,2,0,5,10,15,4,1,1,0,70,0.06,0.31,13,18.6,19.8,4,MFFW,32f60ed8
+111,Bryan Mbeumo,70,2022-2023,22,cm CMR,Brentford,eng Premier League,38,2906,32.3,36,2,0,9,8,17,8,1,1,0,70,0.11,0.25,32,45.7,16.3,1,FW,6afaebf2
+112,Eberechi Eze,70,2022-2023,24,eng ENG,Crystal Palace,eng Premier League,38,2636,29.3,30,8,0,10,4,14,9,1,1,0,70,0.13,0.36,25,35.7,21.9,14,MFFW,ae4fc6a4
+113,Callum Wilson,70,2022-2023,30,eng ENG,Newcastle Utd,eng Premier League,31,1877,20.9,21,10,1,18,5,23,15,3,3,0,70,0.21,0.48,31,44.3,12.4,0,FW,c596fcb0
+114,João Pedro,70,2023-2024,21,br BRA,Brighton,eng Premier League,31,2045,22.7,19,12,0,9,3,12,5,4,5,1,70,0.07,0.25,20,28.6,14.4,0,FWMF,e8832875
+115,Antoine Semenyo,70,2023-2024,23,gh GHA,Bournemouth,eng Premier League,33,2105,23.4,25,8,3,8,2,10,8,0,0,0,70,0.11,0.27,30,42.9,17.8,0,FW,efd2ec23
+116,Kai Havertz,70,2022-2023,23,de GER,Chelsea,eng Premier League,35,2569,28.5,30,5,1,7,1,8,6,1,1,0,70,0.09,0.19,31,44.3,12.7,1,FWMF,fed7cb61
+117,Diogo Jota,69,2019-2020,22,pt POR,Wolves,eng Premier League,34,2284,25.4,27,7,0,7,1,8,7,0,0,0,69,0.10,0.27,26,37.7,14.2,0,FW,178ae8f8
+118,Saïd Benrahma,69,2022-2023,26,dz ALG,West Ham,eng Premier League,35,2069,23.0,22,13,3,6,3,9,2,4,4,0,69,0.03,0.09,23,33.3,21.9,5,FWMF,5a04fd92
+119,Miguel Almirón,69,2022-2023,28,py PAR,Newcastle Utd,eng Premier League,34,2491,27.7,29,5,0,11,2,13,11,0,0,0,69,0.16,0.55,20,29.0,16.4,0,FW,862a1c15
+120,Raheem Sterling,69,2020-2021,25,eng ENG,Manchester City,eng Premier League,31,2536,28.2,28,3,5,10,7,17,10,0,1,1,69,0.14,0.36,28,40.6,14.5,3,FW,b400bde0
+121,Richarlison,69,2021-2022,24,br BRA,Everton,eng Premier League,30,2523,28.0,28,2,0,10,5,15,7,3,3,0,69,0.10,0.35,20,29.0,16.4,2,FW,fa031b34
+122,Teemu Pukki,68,2021-2022,31,fi FIN,Norwich City,eng Premier League,37,3253,36.1,37,0,0,11,3,14,8,3,3,0,68,0.12,0.33,24,35.3,15.2,0,FW,0745b37d
+123,Chris Wood,68,2020-2021,28,nz NZL,Burnley,eng Premier League,33,2741,30.5,32,1,0,12,3,15,10,2,2,0,68,0.15,0.27,37,54.4,14.1,0,FW,4e9a0555
+124,Ademola Lookman,68,2020-2021,22,ng NGA,Fulham,eng Premier League,34,2747,30.5,31,3,0,4,4,8,4,0,1,1,68,0.06,0.18,22,32.4,17.8,4,FWMF,7c104bb7
+125,Kai Havertz,68,2023-2024,24,de GER,Arsenal,eng Premier League,37,2634,29.3,30,7,0,13,7,20,12,1,1,0,68,0.18,0.44,27,39.7,12.4,0,MFFW,fed7cb61
+126,Yoane Wissa,67,2023-2024,26,cd COD,Brentford,eng Premier League,34,2493,27.7,29,5,0,12,3,15,12,0,0,0,67,0.18,0.50,24,35.8,12.9,0,FW,2500cef9
+127,Raphinha,67,2020-2021,23,br BRA,Leeds United,eng Premier League,30,2360,26.2,26,4,0,6,9,15,6,0,0,0,67,0.09,0.25,24,35.8,17.2,4,MFFW,3423f250
+128,Neal Maupay,67,2020-2021,23,fr FRA,Brighton,eng Premier League,33,2512,27.9,29,4,1,8,2,10,5,3,4,1,67,0.07,0.23,22,32.8,14.8,0,FWMF,4bcf39f6
+129,Mason Greenwood,67,2020-2021,18,eng ENG,Manchester Utd,eng Premier League,31,1822,20.2,21,10,4,7,2,9,7,0,0,0,67,0.10,0.30,23,34.3,16.8,0,FW,58eee997
+130,Willian,67,2019-2020,30,br BRA,Chelsea,eng Premier League,36,2600,28.9,29,7,0,9,7,16,5,4,4,0,67,0.07,0.20,25,37.3,20.0,9,FWMF,8b9ebd03
+131,Son Heung-min,67,2020-2021,28,kr KOR,Tottenham,eng Premier League,37,3114,34.6,36,1,0,17,10,27,16,1,1,0,67,0.24,0.46,35,52.2,17.5,1,FW,92e7e919
+132,Michail Antonio,67,2019-2020,29,jm JAM,West Ham,eng Premier League,24,1768,19.6,19,5,0,10,3,13,9,1,1,0,67,0.13,0.30,30,44.8,13.7,0,FW,ac05f970
+133,Mohammed Kudus,67,2023-2024,22,gh GHA,West Ham,eng Premier League,33,2484,27.6,27,6,0,8,6,14,8,0,0,0,67,0.12,0.47,17,25.4,18.6,0,FWMF,b62878a5
+134,Cody Gakpo,66,2023-2024,24,nl NED,Liverpool,eng Premier League,35,1649,18.3,17,18,0,8,5,13,8,0,0,0,66,0.12,0.33,24,36.4,15.4,0,FWMF,1971591f
+135,Rodrigo,66,2022-2023,31,es ESP,Leeds United,eng Premier League,31,1935,21.5,23,8,0,13,1,14,12,1,1,0,66,0.18,0.48,25,37.9,15.8,2,FWMF,1fb1c435
+136,Carlton Morris,66,2023-2024,27,eng ENG,Luton Town,eng Premier League,38,2862,31.8,32,6,0,11,4,15,6,5,5,0,66,0.09,0.23,26,39.4,13.5,0,FWMF,2da834f1
+137,Harvey Barnes,66,2021-2022,23,eng ENG,Leicester City,eng Premier League,32,2101,23.3,24,8,3,6,10,16,6,0,0,0,66,0.09,0.25,24,36.4,16.1,0,FWMF,3ea50f67
+138,Joshua King,66,2018-2019,26,no NOR,Bournemouth,eng Premier League,35,2961,32.9,34,1,0,12,3,15,7,5,6,1,66,0.11,0.39,18,27.3,16.3,0,FWMF,43458538
+139,Jay Rodriguez,66,2019-2020,30,eng ENG,Burnley,eng Premier League,36,2016,22.4,20,16,0,8,1,9,7,1,1,0,66,0.11,0.27,26,39.4,17.6,0,FW,4ab53cdb
+140,Demarai Gray,65,2021-2022,25,jm JAM,Everton,eng Premier League,34,2338,26.0,28,6,0,5,4,9,5,0,0,0,65,0.08,0.29,17,26.2,20.5,4,MFFW,4468ec10
+141,Michail Antonio,65,2018-2019,28,jm JAM,West Ham,eng Premier League,33,2103,23.4,22,11,2,6,4,10,6,0,0,0,65,0.09,0.24,25,38.5,16.2,0,MFFW,ac05f970
+142,Allan Saint-Maximin,64,2021-2022,24,fr FRA,Newcastle Utd,eng Premier League,35,2804,31.2,31,4,0,5,5,10,5,0,0,0,64,0.08,0.19,26,40.6,19.7,0,FWMF,2b16cb1a
+143,Chris Wood,64,2019-2020,27,nz NZL,Burnley,eng Premier League,32,2437,27.1,29,3,0,14,1,15,13,1,1,0,64,0.20,0.46,28,43.8,10.7,0,FW,4e9a0555
+144,Wilfried Zaha,64,2022-2023,29,ci CIV,Crystal Palace,eng Premier League,27,2288,25.4,27,0,0,7,2,9,7,0,2,2,64,0.11,0.33,21,32.8,16.8,0,FWMF,b2bc3b1f
+145,Bertrand Traoré,64,2020-2021,24,bf BFA,Aston Villa,eng Premier League,36,2317,25.7,29,7,0,7,6,13,7,0,0,0,64,0.11,0.30,23,35.9,16.7,2,FW,c47541e0
+146,Christian Pulisic,63,2019-2020,20,us USA,Chelsea,eng Premier League,25,1722,19.1,19,6,4,9,4,13,9,0,0,0,63,0.14,0.36,25,39.7,13.4,0,FW,1bf33a9a
+147,Ashley Barnes,63,2018-2019,28,eng ENG,Burnley,eng Premier League,37,2388,26.5,26,11,1,12,2,14,10,2,2,0,63,0.16,0.36,28,44.4,14.7,0,FW,2691c772
+148,Gerard Deulofeu,63,2019-2020,25,es ESP,Watford,eng Premier League,28,2098,23.3,25,3,0,4,5,9,3,1,1,0,63,0.05,0.15,20,31.7,18.8,8,FW,39583cfd
+149,Saïd Benrahma,63,2021-2022,25,dz ALG,West Ham,eng Premier League,32,2168,24.1,26,6,1,8,6,14,8,0,0,0,63,0.13,0.40,20,31.7,19.6,3,FWMF,5a04fd92
+150,Troy Deeney,63,2018-2019,30,eng ENG,Watford,eng Premier League,32,2545,28.3,28,4,0,9,5,14,8,1,1,0,63,0.13,0.28,29,46.0,14.8,0,FW,82e34b69
+151,Michail Antonio,63,2020-2021,30,jm JAM,West Ham,eng Premier League,26,1974,21.9,24,2,0,10,5,15,10,0,0,0,63,0.16,0.45,22,34.9,13.4,0,FW,ac05f970
+152,Andros Townsend,63,2018-2019,27,eng ENG,Crystal Palace,eng Premier League,38,3009,33.4,34,4,0,6,4,10,6,0,0,0,63,0.10,0.32,19,30.2,22.1,0,FWMF,b28bbd58
+153,Gabriel Jesus,63,2021-2022,24,br BRA,Manchester City,eng Premier League,28,1877,20.9,21,7,6,8,8,16,7,1,1,0,63,0.11,0.35,20,31.7,13.8,0,FW,b66315ae
+154,Callum Wilson,63,2018-2019,26,eng ENG,Bournemouth,eng Premier League,30,2528,28.1,29,1,0,14,9,23,13,1,2,1,63,0.21,0.48,27,42.9,11.8,0,FW,c596fcb0
+155,Bernardo Silva,62,2018-2019,23,pt POR,Manchester City,eng Premier League,36,2854,31.7,31,5,1,7,7,14,7,0,0,0,62,0.11,0.32,22,35.5,15.7,0,MFFW,3eb22ec9
+156,Willian,62,2018-2019,29,br BRA,Chelsea,eng Premier League,32,2097,23.3,26,6,5,3,6,9,3,0,0,0,62,0.05,0.14,22,35.5,19.9,8,FW,8b9ebd03
+157,Wilfried Zaha,62,2021-2022,28,ci CIV,Crystal Palace,eng Premier League,33,2760,30.7,31,2,0,14,1,15,9,5,7,2,62,0.15,0.35,26,41.9,18.8,0,FW,b2bc3b1f
+158,Danny Welbeck,62,2022-2023,31,eng ENG,Brighton,eng Premier League,31,1854,20.6,21,10,1,6,3,9,6,0,0,0,62,0.10,0.27,22,35.5,14.1,1,FW,ce5143da
+159,Richarlison,62,2023-2024,26,br BRA,Tottenham,eng Premier League,28,1491,16.6,18,10,1,11,4,15,11,0,0,0,62,0.18,0.44,25,40.3,12.9,0,FW,fa031b34
+160,Marko Arnautović,61,2018-2019,29,at AUT,West Ham,eng Premier League,28,1990,22.1,24,4,0,10,4,14,9,1,1,0,61,0.15,0.29,31,50.8,17.5,3,FW,00459419
+161,Steve Mounié,61,2018-2019,23,bj BEN,Huddersfield,eng Premier League,31,1778,19.8,19,12,2,2,3,5,2,0,0,0,61,0.03,0.09,23,37.7,14.8,0,FW,19ba6c6d
+162,Harvey Barnes,61,2019-2020,21,eng ENG,Leicester City,eng Premier League,36,2083,23.1,24,12,2,6,8,14,6,0,0,0,61,0.10,0.21,28,45.9,16.7,0,MFFW,3ea50f67
+163,Pedro Neto,61,2020-2021,20,pt POR,Wolves,eng Premier League,31,2550,28.3,30,1,0,5,6,11,5,0,0,0,61,0.08,0.24,21,34.4,19.6,3,FWMF,7ba2eaa9
+164,Matheus Pereira,61,2020-2021,24,br BRA,West Brom,eng Premier League,33,2577,28.6,30,3,0,11,6,17,7,4,4,0,61,0.11,0.30,23,37.7,23.1,10,MFFW,b04ee927
+165,Wilfried Zaha,61,2019-2020,26,ci CIV,Crystal Palace,eng Premier League,38,3280,36.4,37,1,0,4,3,7,4,0,0,0,61,0.07,0.24,17,27.9,16.2,0,FWMF,b2bc3b1f
+166,Bukayo Saka,61,2020-2021,18,eng ENG,Arsenal,eng Premier League,32,2553,28.4,30,2,4,5,3,8,5,0,0,0,61,0.08,0.25,20,32.8,16.1,1,FWMF,bc7dc64d
+167,Emmanuel Dennis,60,2021-2022,23,ng NGA,Watford,eng Premier League,33,2581,28.7,30,3,0,10,6,16,10,0,0,0,60,0.17,0.38,26,43.3,15.5,7,FWMF,2c44a35d
+168,Morgan Gibbs-White,60,2022-2023,22,eng ENG,2 Teams,eng Premier League,37,3151,35.0,36,1,0,5,8,13,3,2,2,0,60,0.05,0.15,20,33.3,19.6,3,FWMF,32f60ed8
+169,Leandro Trossard,60,2023-2024,28,be BEL,Arsenal,eng Premier League,34,1649,18.3,18,16,3,12,1,13,12,0,0,0,60,0.20,0.55,22,36.7,16.1,0,FWMF,38ceb24a
+170,Gerard Deulofeu,60,2018-2019,24,es ESP,Watford,eng Premier League,30,2066,23.0,26,4,0,10,5,15,10,0,0,0,60,0.17,0.45,22,36.7,16.9,6,FWMF,39583cfd
+171,Marcus Rashford,60,2023-2024,25,eng ENG,Manchester Utd,eng Premier League,33,2271,25.2,26,7,0,7,2,9,5,2,2,0,60,0.08,0.26,19,31.7,16.8,1,FW,a1d5bd30
+172,Anwar El Ghazi,60,2020-2021,25,nl NED,Aston Villa,eng Premier League,28,1613,17.9,17,11,6,10,0,10,6,4,4,0,60,0.10,0.23,26,43.3,21.7,6,FW,ffa90327
+173,Neal Maupay,59,2021-2022,24,fr FRA,Brighton,eng Premier League,32,2276,25.3,25,7,5,8,2,10,7,1,2,1,59,0.12,0.50,14,23.7,16.8,0,FW,4bcf39f6
+174,Chris Wood,59,2018-2019,26,nz NZL,Burnley,eng Premier League,38,2588,28.8,29,9,0,10,2,12,10,0,0,0,59,0.17,0.43,23,39.0,12.4,0,FW,4e9a0555
+175,Nathan Redmond,59,2019-2020,25,eng ENG,Southampton,eng Premier League,32,2762,30.7,32,0,0,4,4,8,4,0,0,0,59,0.07,0.19,21,35.6,18.9,2,MFFW,ab651565
+176,Diogo Jota,58,2018-2019,21,pt POR,Wolves,eng Premier League,33,2355,26.2,29,4,0,9,5,14,9,0,0,0,58,0.16,0.38,24,41.4,14.0,0,FWMF,178ae8f8
+177,Leandro Trossard,58,2020-2021,25,be BEL,Brighton,eng Premier League,35,2607,29.0,30,5,1,5,5,10,5,0,0,0,58,0.09,0.22,23,39.7,18.6,2,MFFW,38ceb24a
+178,Gabriel Martinelli,58,2023-2024,22,br BRA,Arsenal,eng Premier League,35,2019,22.4,24,11,0,6,4,10,6,0,0,0,58,0.10,0.30,20,34.5,15.6,0,FW,48a5a5d6
+179,Riyad Mahrez,58,2020-2021,29,dz ALG,Manchester City,eng Premier League,27,1949,21.7,23,4,10,9,6,15,9,0,0,0,58,0.16,0.41,22,37.9,17.0,3,FW,892d5bb1
+180,Felipe Anderson,58,2018-2019,25,br BRA,West Ham,eng Premier League,36,3043,33.8,36,0,0,9,4,13,9,0,0,0,58,0.16,0.38,24,41.4,18.7,5,MFFW,9f1893b9
+181,Wilfried Zaha,58,2020-2021,27,ci CIV,Crystal Palace,eng Premier League,30,2612,29.0,29,1,0,11,2,13,9,2,2,0,58,0.16,0.50,18,31.0,16.9,0,FW,b2bc3b1f
+182,Kelechi Iheanacho,58,2020-2021,23,ng NGA,Leicester City,eng Premier League,25,1459,16.2,16,9,13,12,2,14,12,0,1,1,58,0.21,0.50,24,41.4,17.6,1,FW,c92e1a31
+183,Jordan Ayew,58,2019-2020,27,gh GHA,Crystal Palace,eng Premier League,37,3148,35.0,37,0,1,9,2,11,9,0,0,0,58,0.16,0.38,24,41.4,14.8,0,FW,da052c14
+184,Aleksandar Mitrović,57,2020-2021,25,rs SRB,Fulham,eng Premier League,27,1402,15.6,13,14,3,3,3,6,2,1,2,1,57,0.04,0.11,19,33.3,15.8,2,FW,3925dbd6
+185,Pedro,57,2018-2019,31,es ESP,Chelsea,eng Premier League,31,1778,19.8,21,10,2,8,2,10,8,0,0,0,57,0.14,0.32,25,43.9,17.4,0,FW,3ca7254a
+186,Demarai Gray,57,2022-2023,26,jm JAM,Everton,eng Premier League,33,2507,27.9,27,6,5,4,1,5,2,2,2,0,57,0.04,0.09,22,38.6,19.5,8,FWMF,4468ec10
+187,Alexis Mac Allister,57,2021-2022,22,ar ARG,Brighton,eng Premier League,33,2123,23.6,22,11,5,5,2,7,3,2,3,1,57,0.05,0.33,9,15.8,22.0,4,MFFW,83d074ff
+188,Dejan Kulusevski,57,2023-2024,23,se SWE,Tottenham,eng Premier League,36,2762,30.7,31,5,0,8,3,11,8,0,0,0,57,0.14,0.35,23,40.4,15.7,0,FWMF,df3cda47
+189,Phil Foden,57,2021-2022,21,eng ENG,Manchester City,eng Premier League,28,2128,23.6,24,4,5,9,5,14,9,0,0,0,57,0.16,0.41,22,38.6,14.5,0,FW,ed1e53f3
+190,Dwight McNeil,57,2023-2024,23,eng ENG,Everton,eng Premier League,35,2892,32.1,33,2,0,3,6,9,3,0,0,0,57,0.05,0.21,14,24.6,21.0,0,MFFW,fc15fb84
+191,Leroy Sané,56,2018-2019,22,de GER,Manchester City,eng Premier League,31,1867,20.7,21,10,6,10,10,20,10,0,0,0,56,0.18,0.42,24,42.9,16.9,5,FW,2b114be3
+192,Lucas Moura,56,2019-2020,26,br BRA,Tottenham,eng Premier League,35,2242,24.9,25,10,2,4,4,8,4,0,0,0,56,0.07,0.29,14,25.0,17.5,0,FWMF,2b622f01
+193,Harvey Barnes,56,2020-2021,22,eng ENG,Leicester City,eng Premier League,25,1945,21.6,22,3,1,9,4,13,9,0,0,0,56,0.16,0.36,25,44.6,17.5,0,FWMF,3ea50f67
+194,Justin Kluivert,56,2023-2024,24,nl NED,Bournemouth,eng Premier League,32,1916,21.3,26,6,6,7,1,8,7,0,0,0,56,0.13,0.35,20,35.7,17.4,3,MFFW,4c3a6744
+195,Miguel Almirón,56,2019-2020,25,py PAR,Newcastle Utd,eng Premier League,36,3021,33.6,35,1,1,4,2,6,4,0,0,0,56,0.07,0.24,17,30.4,16.2,0,MFFW,862a1c15
+196,Riyad Mahrez,56,2021-2022,30,dz ALG,Manchester City,eng Premier League,28,1498,16.6,15,13,8,11,5,16,7,4,5,1,56,0.13,0.39,18,32.1,17.9,6,FW,892d5bb1
+197,Raúl Jiménez,56,2021-2022,30,mx MEX,Wolves,eng Premier League,34,2631,29.2,30,4,0,6,4,10,5,1,1,0,56,0.09,0.33,15,26.8,16.9,1,FW,b561db50
+198,Sébastien Haller,56,2019-2020,25,ci CIV,West Ham,eng Premier League,32,2266,25.2,24,8,1,7,1,8,7,0,0,0,56,0.13,0.27,26,46.4,11.4,0,FW,ba115a40
+199,Michael Olise,56,2023-2024,21,fr FRA,Crystal Palace,eng Premier League,19,1275,14.2,14,5,0,10,6,16,9,1,1,0,56,0.16,0.45,20,35.7,18.5,4,FWMF,c4486bac
+200,Harry Wilson,56,2019-2020,22,wls WAL,Bournemouth,eng Premier League,31,1646,18.3,20,11,3,7,0,7,7,0,0,0,56,0.13,0.35,20,35.7,20.8,12,MFFW,c6dc9ecd

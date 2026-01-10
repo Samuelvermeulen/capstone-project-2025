@@ -1,0 +1,655 @@
+long_name,age,Height,Weight,nationality,club_name,value_eur,preferred_foot
+Kevin De Bruyne,29,181,70,Belgium,Manchester City,87000000,Right
+Virgil van Dijk,28,193,92,Netherlands,Liverpool,75500000,Right
+Alisson Ramsés Becker,27,191,91,Brazil,Liverpool,62500000,Right
+Sadio Mané,28,175,69,Senegal,Liverpool,78000000,Right
+Mohamed Salah Ghaly,28,175,71,Egypt,Liverpool,78000000,Left
+Sergio Leonel Agüero del Castillo,32,173,70,Argentina,Manchester City,53000000,Right
+Ederson Santana de Moraes,26,188,86,Brazil,Manchester City,53500000,Left
+Raheem Shaquille Sterling,25,170,69,England,Manchester City,72500000,Right
+Harry Kane,26,188,89,England,Tottenham Hotspur,71000000,Right
+N'Golo Kanté,29,168,70,France,Chelsea,51000000,Right
+Trent Alexander-Arnold,21,180,69,England,Liverpool,60000000,Right
+Bruno Miguel Borges Fernandes,25,179,69,Portugal,Manchester United,63000000,Right
+Aymeric Laporte,26,189,85,France,Manchester City,56000000,Left
+Fábio Henrique Tavares,26,188,78,Brazil,Liverpool,54500000,Right
+Andrew Robertson,26,178,64,Scotland,Liverpool,53000000,Left
+Bernardo Mota Veiga de Carvalho e Silva,25,173,64,Portugal,Manchester City,60000000,Left
+Hugo Lloris,33,188,82,France,Tottenham Hotspur,27000000,Left
+Pierre-Emerick Aubameyang,31,187,80,Gabon,Arsenal,45000000,Right
+손흥민 孙兴慜,27,183,78,Korea Republic,Tottenham Hotspur,52500000,Right
+Roberto Firmino Barbosa de Oliveira,28,181,76,Brazil,Liverpool,52000000,Right
+Paul Pogba,27,191,84,France,Manchester United,50000000,Right
+Jordan Brian Henderson,30,182,80,England,Liverpool,36500000,Right
+David De Gea Quintana,29,192,82,Spain,Manchester United,31500000,Right
+Jamie Vardy,33,179,74,England,Leicester City,28000000,Right
+Kai Havertz,21,188,83,Germany,Chelsea,57000000,Left
+Marcus Rashford,22,186,70,England,Manchester United,53000000,Right
+Timo Werner,24,180,76,Germany,Chelsea,49500000,Right
+Rodrigo Hernández Cascante,24,191,82,Spain,Manchester City,44000000,Right
+Bernd Leno,28,190,82,Germany,Arsenal,33500000,Right
+Ricardo Domingos Barbosa Pereira,26,175,70,Portugal,Leicester City,40500000,Right
+Hakim Ziyech,27,181,65,Morocco,Chelsea,44000000,Left
+Thiago Emiliano da Silva,35,183,79,Brazil,Chelsea,11500000,Right
+Georginio Wijnaldum,29,175,69,Netherlands,Liverpool,37000000,Right
+Toby Alderweireld,31,186,81,Belgium,Tottenham Hotspur,28500000,Right
+Kyle Walker,30,183,70,England,Manchester City,30500000,Right
+Thiago Alcântara do Nascimento,29,174,70,Spain,Liverpool,37000000,Right
+Riyad Mahrez,29,179,67,Algeria,Manchester City,37500000,Left
+Anthony Martial,24,184,76,France,Manchester United,41000000,Right
+Onyinye Wilfred Ndidi,23,183,74,Nigeria,Leicester City,36500000,Right
+Lucas Digne,26,178,74,France,Everton,31500000,Left
+Fernando Luiz Rosa,35,179,67,Brazil,Manchester City,9500000,Right
+Kasper Schmeichel,33,189,89,Denmark,Leicester City,17000000,Right
+Rui Pedro dos Santos Patrício,32,190,84,Portugal,Wolverhampton Wanderers,19000000,Left
+César Azpilicueta Tanco,30,178,77,Spain,Chelsea,24500000,Right
+Raúl Alonso Jiménez Rodríguez,29,188,81,Mexico,Wolverhampton Wanderers,31000000,Right
+Joe Gomez,23,188,77,England,Liverpool,31000000,Right
+Steven Bergwijn,22,178,78,Netherlands,Tottenham Hotspur,34500000,Right
+Aaron Wan-Bissaka,22,183,72,England,Manchester United,30500000,Right
+Bamidele Alli,24,188,80,England,Tottenham Hotspur,34000000,Right
+Donny van de Beek,23,184,74,Netherlands,Manchester United,33000000,Right
+Gabriel Fernando de Jesus,23,175,73,Brazil,Manchester City,34500000,Right
+Mateo Kovačić,26,176,80,Croatia,Chelsea,31500000,Right
+João Pedro Cavaco Cancelo,26,182,74,Portugal,Manchester City,28000000,Right
+Joël Andre Job Matip,28,194,90,Cameroon,Liverpool,25500000,Right
+João Filipe Iria Santos Moutinho,33,170,61,Portugal,Wolverhampton Wanderers,15000000,Right
+Gareth Frank Bale,30,185,82,Wales,Tottenham Hotspur,24500000,Left
+İlkay Gündoğan,29,180,80,Germany,Manchester City,25000000,Right
+Alexandre Lacazette,29,176,77,France,Arsenal,26000000,Right
+Wilfried Zaha,27,180,66,Ivory Coast,Crystal Palace,27000000,Right
+Allan Marques Loureiro,29,175,74,Brazil,Everton,25000000,Right
+Lucas Rodrigues Moura da Silva,27,174,70,Brazil,Tottenham Hotspur,27000000,Right
+Luiz Frello Filho Jorge,28,180,68,Italy,Chelsea,25500000,Right
+Martin Dúbravka,31,190,80,Slovakia,Newcastle United,16500000,Right
+Sergio Reguilón Rodríguez,23,178,68,Spain,Tottenham Hotspur,27500000,Left
+Rúben Diogo da Silva Neves,23,180,80,Portugal,Wolverhampton Wanderers,29000000,Right
+Giovani Lo Celso,24,177,68,Argentina,Tottenham Hotspur,29000000,Left
+Alphonse Areola,27,195,94,France,Fulham,20000000,Right
+Kepa Arrizabalaga Revuelta,25,186,88,Spain,Chelsea,21000000,Right
+Harry Maguire,27,194,100,England,Manchester United,24000000,Right
+Nicolas Pépé,25,183,73,Ivory Coast,Arsenal,28000000,Left
+Nick Pope,28,200,76,England,Burnley,18500000,Right
+Mesut Özil,31,180,71,Germany,Arsenal,19500000,Left
+Willian Borges da Silva,31,175,77,Brazil,Arsenal,19500000,Right
+Rodrigo Moreno Machado,29,182,77,Spain,Leeds United,22000000,Left
+James David Rodríguez Rubio,28,180,75,Colombia,Everton,22500000,Left
+Ferran Torres García,20,184,77,Spain,Manchester City,26500000,Right
+Richarlison de Andrade,23,181,71,Brazil,Everton,25500000,Right
+Christian Pulisic,21,177,69,United States,Chelsea,24500000,Right
+Tomáš Souček,25,192,86,Czech Republic,West Ham United,21500000,Right
+Youri Tielemans,23,176,72,Belgium,Leicester City,23000000,Right
+James Maddison,23,175,73,England,Leicester City,23000000,Right
+Naby Deco Keïta,25,172,64,Guinea,Liverpool,22500000,Right
+Lucas Torreira Di Pascua,24,168,65,Uruguay,Arsenal,21000000,Right
+Ben Chilwell,23,178,77,England,Chelsea,20500000,Left
+Benjamin Mendy,25,185,85,France,Manchester City,19500000,Left
+Jordan Pickford,26,185,77,England,Everton,16000000,Left
+Jonathan Castro Otto,26,170,70,Spain,Wolverhampton Wanderers,19500000,Right
+Davinson Sánchez Mina,24,187,79,Colombia,Tottenham Hotspur,20000000,Right
+Antonio Rüdiger,27,190,85,Germany,Chelsea,18500000,Right
+Sébastien Haller,26,190,82,France,West Ham United,22000000,Right
+Luke Shaw,24,181,75,England,Manchester United,19000000,Left
+Frederico Rodrigues Santos,27,169,62,Brazil,Manchester United,19000000,Left
+Łukasz Fabiański,35,190,83,Poland,West Ham United,4800000,Right
+Marcos Alonso Mendoza,29,188,85,Spain,Chelsea,14500000,Left
+Xherdan Shaqiri,28,169,72,Switzerland,Liverpool,18000000,Left
+Matt Doherty,28,182,87,Republic of Ireland,Tottenham Hotspur,15000000,Right
+Felipe Anderson Pereira Gomes,27,175,70,Brazil,West Ham United,18500000,Right
+Mason Mount,21,178,70,England,Chelsea,21000000,Right
+Dean Henderson,23,190,85,England,Manchester United,16000000,Right
+Tanguy Ndombèlé Alvaro,23,181,76,France,Tottenham Hotspur,20500000,Right
+Allan Saint-Maximin,23,173,67,France,Newcastle United,20500000,Right
+Diogo José Teixeira da Silva,23,178,73,Portugal,Liverpool,20500000,Right
+Héctor Bellerín Moruno,25,178,74,Spain,Arsenal,17500000,Right
+Daniel Ceballos Fernández,23,179,68,Spain,Arsenal,19500000,Right
+Oleksandr Zinchenko,23,175,64,Ukraine,Manchester City,17500000,Left
+Çağlar Söyüncü,24,185,82,Turkey,Leicester City,18000000,Right
+Pierre-Emile Højbjerg,24,185,84,Denmark,Tottenham Hotspur,17500000,Right
+Victor Nilsson Lindelöf,25,187,80,Sweden,Manchester United,17000000,Right
+John Stones,26,188,70,England,Manchester City,16500000,Right
+Kurt Happy Zouma,25,190,95,France,Chelsea,16500000,Right
+Jack Grealish,24,180,68,England,Aston Villa,19000000,Right
+Mathew Ryan,28,184,82,Australia,Brighton & Hove Albion,13000000,Right
+Granit Xhaka,27,185,80,Switzerland,Arsenal,15000000,Left
+James Tarkowski,27,185,81,England,Burnley,15000000,Right
+Ben Davies,27,182,76,Wales,Tottenham Hotspur,14500000,Left
+James Philip Milner,34,175,70,England,Liverpool,7000000,Right
+Jonny Evans,32,188,77,Northern Ireland,Leicester City,9500000,Right
+Erik Lamela,28,184,80,Argentina,Tottenham Hotspur,15000000,Left
+Sergio Germán Romero,33,192,86,Argentina,Manchester United,8000000,Right
+Branislav Ivanović,36,185,91,Serbia,West Bromwich Albion,3000000,Right
+David Luiz Moreira Marinho,33,189,86,Brazil,Arsenal,7000000,Right
+Vicente Guaita Panadero,33,190,80,Spain,Crystal Palace,8000000,Right
+Nemanja Matić,31,194,83,Serbia,Manchester United,11000000,Left
+Daniel William John Ings,27,178,73,England,Southampton,16000000,Right
+Serge Aurier,27,174,74,Ivory Coast,Tottenham Hotspur,13000000,Right
+Willy Boly,29,195,97,France,Wolverhampton Wanderers,12500000,Right
+Philip Foden,20,171,69,England,Manchester City,19500000,Left
+Sander Berge,22,195,96,Norway,Sheffield United,16000000,Right
+Declan Rice,21,185,80,England,West Ham United,16500000,Right
+Adama Traoré Diarra,24,178,72,Spain,Wolverhampton Wanderers,17500000,Right
+Harvey Lewis Barnes,22,180,66,England,Leicester City,17500000,Right
+Andreas Christensen,24,187,82,Denmark,Chelsea,15000000,Right
+Dominic Calvert-Lewin,23,187,71,England,Everton,17000000,Right
+Harry Winks,24,176,74,England,Tottenham Hotspur,15500000,Right
+Scott McTominay,23,193,88,Scotland,Manchester United,15500000,Right
+James Ward-Prowse,25,173,66,England,Southampton,16000000,Right
+Nathan Aké,25,180,75,Netherlands,Manchester City,14500000,Left
+Pablo Fornals Malla,24,178,67,Spain,West Ham United,16500000,Right
+Emerson Palmieri dos Santos,25,176,79,Italy,Chelsea,14000000,Left
+Eric Bertrand Bailly,26,186,77,Ivory Coast,Manchester United,14000000,Right
+Conor Coady,27,186,80,England,Wolverhampton Wanderers,13000000,Right
+Tiemoué Bakayoko,25,189,85,France,Chelsea,14000000,Right
+Alex Oxlade-Chamberlain,26,175,70,England,Liverpool,14500000,Right
+Ryan Fraser,26,163,70,Scotland,Newcastle United,15000000,Right
+André Filipe Tavares Gomes,26,188,84,Portugal,Everton,14500000,Right
+Danny Rose,29,174,76,England,Tottenham Hotspur,10500000,Left
+Sokratis Papastathopoulos,32,186,84,Greece,Arsenal,8000000,Right
+Juan Manuel Mata García,32,170,63,Spain,Manchester United,10000000,Left
+Olivier Giroud,33,193,91,France,Chelsea,8000000,Left
+Séamus Coleman,31,177,77,Republic of Ireland,Everton,9000000,Right
+Moussa Sissoko,30,187,91,France,Tottenham Hotspur,11500000,Right
+Gylfi Þór Sigurðsson,30,186,77,Iceland,Everton,12000000,Right
+Ben Mee,30,180,82,England,Burnley,10000000,Left
+Chris Smalling,30,194,81,England,Manchester United,10000000,Right
+Nicolás Hernán Otamendi,32,183,81,Argentina,Manchester City,8000000,Right
+Luka Milivojević,29,186,80,Serbia,Crystal Palace,11000000,Right
+Ayoze Pérez Gutiérrez,26,178,72,Spain,Leicester City,13500000,Right
+Kieran Tierney,23,178,76,Scotland,Arsenal,13500000,Left
+Dwight McNeil,20,183,70,England,Burnley,15500000,Left
+Tammy Bakumo-Abraham,22,196,87,England,Chelsea,15000000,Right
+Gabriel dos Santos Magalhães,22,190,87,Brazil,Arsenal,13000000,Left
+Ruben Loftus-Cheek,24,191,88,England,Chelsea,14000000,Right
+Cengiz Ünder,22,173,66,Turkey,Leicester City,14000000,Left
+Leander Dendoncker,25,189,88,Belgium,Wolverhampton Wanderers,12500000,Right
+Jean-Philippe Gbamin,24,186,83,Ivory Coast,Everton,12500000,Right
+Eric Dier,26,190,90,England,Tottenham Hotspur,12000000,Right
+Jack O'Connell,26,191,85,England,Sheffield United,12000000,Left
+Daniel Castelo Podence,24,165,58,Portugal,Wolverhampton Wanderers,13500000,Right
+Ross Barkley,26,186,87,England,Chelsea,12500000,Right
+Damián Emiliano Martínez,27,195,90,Argentina,Aston Villa,9000000,Right
+Loris Karius,27,189,87,Germany,Liverpool,9000000,Right
+Michy Batshuayi Tunga,26,185,91,Belgium,Crystal Palace,13000000,Right
+Leandro Trossard,25,172,67,Belgium,Brighton & Hove Albion,13000000,Right
+Shkodran Mustafi,28,184,83,Germany,Arsenal,10500000,Right
+Lewis Dunk,28,192,88,England,Brighton & Hove Albion,10500000,Right
+John Egan,27,188,75,Republic of Ireland,Sheffield United,11000000,Right
+Abdoulaye Doucouré,27,184,76,France,Everton,11000000,Right
+Fabian Lukas Schär,28,188,84,Switzerland,Newcastle United,10500000,Right
+Yerry Fernando Mina González,25,195,94,Colombia,Everton,11500000,Right
+Manuel Lanzini,27,167,59,Argentina,West Ham United,12000000,Right
+Nathan Redmond,26,173,69,England,Southampton,12000000,Right
+Michael Keane,27,191,82,England,Everton,10500000,Right
+Sead Kolašinac,27,183,86,Bosnia Herzegovina,Arsenal,10500000,Left
+Miguel Ángel Almirón Rejala,26,174,63,Paraguay,Newcastle United,12000000,Left
+Tom Heaton,34,187,92,England,Aston Villa,4500000,Right
+Ryan Bertrand,30,179,85,England,Southampton,8000000,Left
+Victor Moses,29,177,77,Nigeria,Chelsea,10000000,Right
+Ashley Westwood,30,175,73,England,Burnley,8500000,Right
+Michail Antonio,30,178,82,England,West Ham United,10000000,Right
+Chris Wood,28,191,92,New Zealand,Burnley,10500000,Right
+Enda Stevens,29,183,78,Republic of Ireland,Sheffield United,8500000,Left
+Callum Wilson,28,180,66,England,Newcastle United,10500000,Right
+Bernard Anício Caldeira Duarte,27,164,60,Brazil,Everton,11000000,Right
+Romain Saïss,30,188,84,Morocco,Wolverhampton Wanderers,8500000,Left
+Mason Greenwood,18,181,70,England,Manchester United,14500000,Left
+Mattéo Guendouzi Olié,21,185,80,France,Arsenal,12500000,Right
+Reece James,20,182,87,England,Chelsea,12500000,Right
+Jarrod Bowen,23,175,70,England,West Ham United,12500000,Left
+Issa Diop,23,194,92,France,West Ham United,11500000,Right
+Jan Bednarek,24,189,77,Poland,Southampton,11000000,Right
+Harry Wilson,23,173,70,Wales,Liverpool,12000000,Left
+André-Franck Zambo Anguissa,24,184,78,Cameroon,Fulham,12000000,Right
+Daniel James,22,170,76,Wales,Manchester United,12000000,Right
+Divock Okoth Origi,25,188,75,Belgium,Liverpool,12000000,Right
+Timothy Castagne,24,180,80,Belgium,Leicester City,12000000,Right
+Jamaal Lascelles,26,188,89,England,Newcastle United,10000000,Right
+Neal Maupay,23,171,69,France,Brighton & Hove Albion,12000000,Right
+Alex Iwobi,24,185,75,Nigeria,Everton,11500000,Right
+Kenny Tete,24,180,71,Netherlands,Fulham,10000000,Right
+Mason Holgate,23,184,75,England,Everton,10500000,Right
+Paulo Dino Gazzaniga,28,196,90,Argentina,Tottenham Hotspur,8000000,Right
+Isaac Hayden,25,185,79,England,Newcastle United,10000000,Right
+Aleksandar Mitrović,25,189,90,Serbia,Fulham,11500000,Right
+南野 拓実,25,174,67,Japan,Liverpool,11000000,Right
+Arthur Masuaku,26,179,70,DR Congo,West Ham United,9500000,Left
+George Baldock,27,175,67,England,Sheffield United,9000000,Right
+Jannik Vestergaard,27,199,96,Denmark,Southampton,9000000,Right
+Charlie Taylor,26,180,70,England,Burnley,9000000,Left
+Mario Lemina,26,184,85,Gabon,Fulham,10500000,Right
+Robert Snodgrass,32,182,82,Scotland,West Ham United,7000000,Left
+Gary Cahill,34,193,88,England,Crystal Palace,3300000,Right
+Jack Cork,31,183,75,England,Burnley,6500000,Right
+Adam David Lallana,32,178,73,England,Brighton & Hove Albion,6500000,Right
+Fabian Delph,30,174,78,England,Everton,7500000,Left
+Angelo Obinze Ogbonna,32,191,86,Italy,West Ham United,5500000,Left
+Chris Basham,31,190,80,England,Sheffield United,6500000,Right
+Odion Jude Ighalo,31,183,73,Nigeria,Manchester United,8000000,Right
+Oliver Norwood,29,175,69,Northern Ireland,Sheffield United,8500000,Right
+Patrick van Aanholt,29,176,67,Netherlands,Crystal Palace,7500000,Left
+Matt Ritchie,30,172,76,Scotland,Newcastle United,8500000,Left
+Cheikhou Kouyaté,30,189,83,Senegal,Crystal Palace,7500000,Right
+Ashley Barnes,30,186,84,England,Burnley,8500000,Right
+Jonjo Shelvey,28,184,80,England,Newcastle United,9000000,Right
+John Fleck,28,169,72,Scotland,Sheffield United,9000000,Left
+Alex McCarthy,30,193,79,England,Southampton,6000000,Right
+Aaron Cresswell,30,175,66,England,West Ham United,7000000,Left
+Pascal Groß,29,181,78,Germany,Brighton & Hove Albion,8500000,Right
+Johann Berg Guðmunds­son,29,179,77,Iceland,Burnley,8500000,Left
+Andriy Yarmolenko,30,190,83,Ukraine,West Ham United,8500000,Left
+Andros Townsend,28,178,73,England,Crystal Palace,9000000,Left
+Jordan Ayew,28,182,81,Ghana,Crystal Palace,9000000,Right
+Federico Fernández,31,190,83,Argentina,Newcastle United,6500000,Right
+Jesse Lingard,27,175,62,England,Manchester United,9500000,Right
+Joël Veltman,28,184,75,Netherlands,Brighton & Hove Albion,8000000,Right
+Jean Michaël Seri,28,171,73,Ivory Coast,Fulham,9000000,Right
+Islam Slimani,32,188,83,Algeria,Leicester City,7000000,Right
+Fikayo Tomori,22,185,78,England,Chelsea,11000000,Right
+José Diogo Dalot Teixeira,21,183,76,Portugal,Manchester United,11000000,Right
+Ainsley Maitland-Niles,22,177,70,England,Arsenal,10000000,Right
+Robin Koch,23,191,86,Germany,Leeds United,10500000,Right
+Mohamed Salisu Abdul Karim,21,191,85,Ghana,Southampton,10500000,Left
+Jonjoe Kenny,23,176,67,England,Everton,9500000,Right
+Kalvin Phillips,24,178,72,England,Leeds United,9500000,Right
+Zack Steffen,25,191,86,United States,Manchester City,8000000,Right
+John McGinn,25,178,68,Scotland,Aston Villa,10000000,Left
+Matt Targett,24,183,70,England,Aston Villa,9000000,Left
+Ollie Watkins,24,180,70,England,Aston Villa,10500000,Right
+Frédéric Guilbert,25,178,70,France,Aston Villa,9000000,Right
+Matheus Fellipe Costa Pereira,24,175,74,Brazil,West Bromwich Albion,10500000,Left
+Konstantinos Tsimikas,24,179,68,Greece,Liverpool,9000000,Left
+Wesley Moraes Ferreira da Silva,23,191,94,Brazil,Aston Villa,10500000,Right
+Bertrand Isidore Traoré,24,181,73,Burkina Faso,Aston Villa,10000000,Left
+Javier Manquillo Gaitán,26,178,76,Spain,Newcastle United,8500000,Right
+Max Meyer,24,173,68,Germany,Crystal Palace,10000000,Right
+Dennis Praet,26,181,78,Belgium,Leicester City,9000000,Right
+John Lundstram,26,181,74,England,Sheffield United,9000000,Right
+Ryan Fredericks,27,181,74,England,West Ham United,7500000,Right
+Mohamed Naser Elsayed Elneny,27,181,74,Egypt,Arsenal,8000000,Right
+DeAndre Yedlin,26,172,75,United States,Newcastle United,8000000,Right
+Mbwana Ally Samatta,27,183,80,Tanzania,Aston Villa,9000000,Right
+Theo Walcott,31,176,68,England,Everton,7000000,Right
+Jay Rodriguez,30,185,84,England,Burnley,7500000,Right
+Fraser Forster,32,201,93,England,Southampton,4700000,Right
+James Tomkins,31,192,74,England,Crystal Palace,5500000,Right
+Ciaran Clark,30,185,88,Republic of Ireland,Newcastle United,6000000,Left
+Marc Albrighton,30,175,74,England,Leicester City,7500000,Right
+Mamadou Sakho,30,187,83,France,Crystal Palace,6000000,Left
+Adrien Sebastian Perruchet Silva,31,175,69,Portugal,Leicester City,6500000,Right
+Joel Ward,30,188,83,England,Crystal Palace,6000000,Right
+James McCarthy,29,180,72,Republic of Ireland,Crystal Palace,6500000,Right
+Jack Wilshere,28,172,68,England,West Ham United,7500000,Left
+Davy Pröpper,28,185,79,Netherlands,Brighton & Hove Albion,7500000,Right
+Adrián San Miguel del Castillo,33,190,80,Spain,Liverpool,4200000,Right
+Tom Cairney,29,186,84,Scotland,Fulham,7500000,Left
+Cédric Ricardo Alves Soares,28,172,67,Portugal,Arsenal,6500000,Right
+Stuart Armstrong,28,183,75,Scotland,Southampton,8000000,Right
+Fernando Marçal de Oliveira,31,178,72,Brazil,Wolverhampton Wanderers,5500000,Left
+Bukayo Saka,18,178,65,England,Arsenal,12000000,Left
+Kouassi Ryan Sessegnon,20,178,71,England,Tottenham Hotspur,11500000,Left
+Alexis Mac Allister,21,174,72,Argentina,Brighton & Hove Albion,11000000,Right
+Brandon Williams,19,182,70,England,Manchester United,9500000,Right
+Ben White,22,185,77,England,Brighton & Hove Albion,9500000,Right
+Gedson Carvalho Fernandes,21,181,71,Portugal,Tottenham Hotspur,10000000,Right
+Aaron Ramsdale,22,188,77,England,Sheffield United,7500000,Right
+Eberechi Eze,22,173,67,England,Crystal Palace,10000000,Right
+Douglas Luiz Soares de Paulo,22,178,70,Brazil,Aston Villa,9000000,Right
+Juan Marcos Foyth,22,187,69,Argentina,Tottenham Hotspur,9000000,Right
+Moussa Djenepo,22,177,65,Mali,Southampton,10000000,Right
+Matty Cash,22,179,64,England,Aston Villa,8500000,Right
+Rob Holding,24,189,81,England,Arsenal,8500000,Right
+Joelinton Cassio Apolinário de Lira,23,186,81,Brazil,Newcastle United,9500000,Right
+Marko Grujić,24,191,86,Serbia,Liverpool,9000000,Right
+Calum Chambers,25,182,87,England,Arsenal,8000000,Right
+Kyle Walker-Peters,23,174,64,England,Southampton,8000000,Right
+Tom Davies,22,180,70,England,Everton,9000000,Right
+Yves Bissouma,23,182,80,Mali,Brighton & Hove Albion,9000000,Right
+Jack Stephens,26,185,75,England,Southampton,7500000,Right
+Sam Johnstone,27,193,85,England,West Bromwich Albion,6000000,Right
+Adam Webster,25,191,75,England,Brighton & Hove Albion,7500000,Right
+Oliver McBurnie,24,191,77,Scotland,Sheffield United,9000000,Right
+Demarai Gray,24,180,74,England,Leicester City,8500000,Right
+Malang Sarr,21,182,73,France,Chelsea,8000000,Left
+Pablo Marí Villar,26,193,87,Spain,Arsenal,7500000,Left
+Andreas Hugo Hoelgebaum Pereira,24,178,71,Brazil,Manchester United,8500000,Right
+Abdul Rahman Baba,25,180,72,Ghana,Chelsea,7500000,Left
+Tyrone Mings,27,196,77,England,Aston Villa,7000000,Left
+Anwar El Ghazi,25,189,90,Netherlands,Aston Villa,8500000,Right
+Wesley Hoedt,26,188,77,Netherlands,Southampton,7500000,Left
+Marvelous Nakamba,26,176,76,Zimbabwe,Aston Villa,7500000,Left
+Mahmoud Ahmed Ibrahim Hassan,25,179,78,Egypt,Aston Villa,8500000,Right
+Dan Burn,28,198,87,England,Brighton & Hove Albion,6500000,Left
+Oriol Romeu Vidal,28,183,83,Spain,Southampton,6500000,Right
+Marco van Ginkel,27,186,82,Netherlands,Chelsea,7500000,Right
+Paul Dummett,28,183,82,Wales,Newcastle United,6500000,Left
+Solomon March,25,180,77,England,Brighton & Hove Albion,8000000,Left
+Ivan Ricardo Neves Abreu Cavaleiro,26,175,80,Portugal,Fulham,8000000,Right
+Fabián Cornelio Balbuena González,28,188,85,Paraguay,West Ham United,6500000,Right
+Wilfredo Daniel Caballero,38,186,83,Argentina,Chelsea,675000,Right
+Joe Hart,33,196,91,England,Tottenham Hotspur,3600000,Right
+Mark Noble,33,177,76,England,West Ham United,3900000,Right
+Darren Randolph,33,188,78,Republic of Ireland,West Ham United,3600000,Right
+Wayne Hennessey,33,198,90,Wales,Crystal Palace,3600000,Right
+James McArthur,32,178,66,Scotland,Crystal Palace,5000000,Right
+Pablo Hernández Domínguez,35,173,66,Spain,Leeds United,2900000,Right
+Dale Stephens,31,185,78,England,Brighton & Hove Albion,5500000,Right
+Martin Kelly,30,191,77,England,Crystal Palace,5500000,Right
+Kieran Gibbs,30,179,70,England,West Bromwich Albion,5500000,Left
+Luke Ayling,28,185,72,England,Leeds United,5500000,Right
+Matt Phillips,29,183,75,Scotland,West Bromwich Albion,6500000,Right
+Yannick Bolasie Yala,31,185,84,DR Congo,Everton,6000000,Right
+Cenk Tosun,29,183,78,Turkey,Everton,6500000,Right
+Conor Hourihane,29,180,62,Republic of Ireland,Aston Villa,6500000,Left
+Phil Jones,28,185,71,England,Manchester United,6000000,Right
+Nampalys Mendy,28,167,73,France,Leicester City,6000000,Right
+Matthew Lowton,31,180,78,England,Burnley,4800000,Right
+Jeff Hendrick,28,183,84,Republic of Ireland,Newcastle United,6500000,Right
+Faustino Marcos Alberto Rojo,30,187,85,Argentina,Manchester United,5500000,Left
+Robbie Brady,28,179,77,Republic of Ireland,Burnley,6500000,Left
+Sofiane Boufal,26,175,67,Morocco,Southampton,7000000,Right
+Lovre Kalinić,30,201,99,Croatia,Aston Villa,4500000,Left
+William Saliba,19,192,85,France,Arsenal,10000000,Right
+Callum Hudson-Odoi,19,178,79,England,Chelsea,10000000,Right
+Gabriel Teodoro Martinelli Silva,19,180,69,Brazil,Arsenal,9500000,Right
+Jamal Lewis,22,177,70,Northern Ireland,Newcastle United,8000000,Left
+Rúben Gonçalo Silva Nascimento Vinagre,21,174,74,Portugal,Wolverhampton Wanderers,8000000,Left
+Moise Bioty Kean,20,182,72,Italy,Everton,9000000,Right
+Marek Rodák,23,196,86,Slovakia,Fulham,6000000,Right
+Filip Benković,22,194,91,Croatia,Leicester City,7000000,Right
+Kelechi Promise Iheanacho,23,185,82,Nigeria,Leicester City,8000000,Left
+Jack Harrison,23,175,70,England,Leeds United,7500000,Left
+Björn Engels,25,194,83,Belgium,Aston Villa,6500000,Right
+Che Adams,23,178,70,England,Southampton,7500000,Right
+Hamza Choudhury,22,178,64,England,Leicester City,7000000,Right
+Angus Gunn,24,196,77,England,Southampton,5500000,Right
+Lys Mousset,24,184,80,France,Sheffield United,7500000,Right
+Emil Krafth,25,181,72,Sweden,Newcastle United,6000000,Right
+Ben Osborn,25,176,75,England,Sheffield United,6000000,Left
+Bernardo Fernandes da Silva Junior,25,186,76,Brazil,Brighton & Hove Albion,6000000,Left
+Joe Bryan,26,174,76,England,Fulham,5500000,Left
+Danny Ward,27,191,88,Wales,Leicester City,4600000,Right
+Florin Andone,27,180,78,Romania,Brighton & Hove Albion,6500000,Right
+Shane Long,33,178,70,Republic of Ireland,Southampton,3500000,Right
+Francisco Casilla Cortés,33,190,86,Spain,Leeds United,3000000,Right
+Fabricio Martín Agosto Ramírez,32,184,80,Spain,Fulham,3400000,Right
+Kamil Grosicki,32,180,78,Poland,West Bromwich Albion,4400000,Right
+Erik Pieters,31,183,87,Netherlands,Burnley,4100000,Left
+David McGoldrick,32,183,74,Republic of Ireland,Sheffield United,4500000,Right
+Andy Carroll,31,193,79,England,Newcastle United,5000000,Left
+Jake Livermore,30,180,74,England,West Bromwich Albion,4600000,Right
+Jeffrey Schlupp,27,178,72,Ghana,Crystal Palace,6000000,Left
+Anthony Knockaert,28,172,69,France,Fulham,5500000,Left
+Christian Atsu Twasam,28,165,65,Ghana,Newcastle United,5500000,Left
+Dwight Gayle,29,174,78,England,Newcastle United,5500000,Right
+Alireza Jahanbakhsh,26,180,78,Iran,Brighton & Hove Albion,6000000,Right
+José Heriberto Izquierdo Mena,27,171,75,Colombia,Brighton & Hove Albion,6000000,Right
+Grady Diangana,22,180,73,England,West Bromwich Albion,7000000,Left
+Sean Longstaff,22,180,65,England,Newcastle United,6500000,Right
+Antonee Robinson,22,183,70,United States,Fulham,5500000,Left
+Patrick Roberts,23,170,66,England,Manchester City,6000000,Left
+Axel Tuanzebe,22,185,75,England,Manchester United,5500000,Right
+James Justin,22,183,80,England,Leicester City,5500000,Right
+Timothy Evans Fosu-Mensah,22,185,78,Netherlands,Manchester United,5500000,Right
+Temitayo Olufisayo Olaoluwa Aina,23,184,82,Nigeria,Fulham,5500000,Right
+Aleix García Serrano,23,173,68,Spain,Manchester City,5500000,Right
+Harrison Reed,25,170,72,England,Fulham,4900000,Right
+Sandro Ramírez Castillo,24,175,71,Spain,Everton,5500000,Right
+Oluwasemilogo Adesewo Ibidapo Ajayi,26,193,83,Nigeria,West Bromwich Albion,4400000,Right
+Daniel Amartey,25,186,79,Ghana,Leicester City,4400000,Right
+Karl Darlow,29,190,78,England,Newcastle United,3400000,Right
+Liam Cooper,28,188,73,Scotland,Leeds United,3900000,Left
+Hélder Wander Sousa Azevedo Costa,26,179,77,Portugal,Leeds United,4700000,Left
+Wes Morgan,36,186,101,Jamaica,Leicester City,800000,Right
+Christian Fuchs,34,187,89,Austria,Leicester City,1400000,Left
+Scott Dann,33,188,78,England,Crystal Palace,1900000,Right
+Billy Sharp,34,175,70,England,Sheffield United,2100000,Right
+Phil Bardsley,35,180,79,Scotland,Burnley,1100000,Right
+Jonas Lössl,31,195,89,Denmark,Everton,2600000,Right
+Daniel Noel Drinkwater,30,177,81,England,Chelsea,3700000,Right
+Romaine Theodore Sawyers,28,185,67,Saint Kitts and Nevis,West Bromwich Albion,4000000,Right
+Mateusz Klich,30,183,82,Poland,Leeds United,3700000,Right
+Matěj Vydra,28,180,71,Czech Republic,Burnley,4100000,Right
+Stuart Dallas,29,183,81,Northern Ireland,Leeds United,3300000,Right
+Ezgjan Alioski,28,172,63,North Macedonia,Leeds United,3400000,Left
+Rachid Ghezzal,28,182,70,Algeria,Leicester City,4000000,Left
+Guido Marcelo Carrillo,29,191,87,Argentina,Southampton,4000000,Right
+Matthew Longstaff,20,171,60,England,Newcastle United,6000000,Right
+Eric García Martret,19,182,79,Spain,Manchester City,5500000,Right
+Pedro Lomba Neto,20,172,62,Portugal,Wolverhampton Wanderers,5500000,Left
+Jayden Bogle,19,178,69,England,Sheffield United,4700000,Right
+Reiss Nelson,20,180,75,England,Arsenal,5000000,Right
+Yan Valery,21,180,85,France,Southampton,4600000,Right
+Max Lowe,23,175,74,England,Sheffield United,4300000,Left
+Christian Walton,24,195,72,England,Brighton & Hove Albion,3500000,Left
+Kortney Hause,24,191,93,England,Aston Villa,3800000,Left
+Josh Brownhill,24,180,69,England,Burnley,4200000,Right
+Callum Robinson,25,178,75,Republic of Ireland,West Bromwich Albion,4100000,Right
+Michael Hector,27,193,82,Jamaica,Fulham,3300000,Right
+Kyle Bartley,29,194,94,England,West Bromwich Albion,2900000,Right
+Bobby De Cordova-Reid,27,170,68,Jamaica,Fulham,3600000,Right
+Ahmed Hegazi,29,194,95,Egypt,West Bromwich Albion,2900000,Right
+Phil Jagielka,37,180,87,England,Sheffield United,625000,Right
+Ryan Bennett,30,188,78,England,Wolverhampton Wanderers,2500000,Right
+Christian Benteke Liolo,29,190,83,Belgium,Crystal Palace,3100000,Right
+Ørjan Håskjold Nyland,29,193,90,Norway,Aston Villa,2200000,Right
+Stefan Marius Johansen,29,182,78,Norway,Fulham,3000000,Left
+Charlie Austin,30,188,84,England,West Bromwich Albion,3000000,Right
+Barry Douglas,30,177,70,Scotland,Leeds United,2500000,Left
+José Ignacio Peleteiro Ramallo,29,180,70,Spain,Aston Villa,3000000,Left
+Billy Gilmour,19,170,66,Scotland,Chelsea,5000000,Right
+Joseph Willock,20,186,76,England,Arsenal,5000000,Right
+Ezri Konsa Ngoyo,22,183,77,England,Aston Villa,3900000,Right
+Japhet Tanganga,21,184,73,England,Tottenham Hotspur,3900000,Right
+Edward Nketiah,21,175,72,England,Arsenal,4300000,Right
+Tudor Cristian Băluţă,21,188,80,Romania,Brighton & Hove Albion,3800000,Right
+Matt Miazga,24,193,84,United States,Chelsea,2900000,Right
+Josh Cullen,24,175,70,Republic of Ireland,West Ham United,3200000,Right
+Darnell Furlong,24,183,75,England,West Bromwich Albion,2800000,Right
+Fousseni Diabaté,24,175,60,Mali,Leicester City,3100000,Left
+Mark Gillespie,28,192,88,England,Newcastle United,2100000,Right
+Leonardo Bonatini Lohner Maia,26,184,77,Brazil,Wolverhampton Wanderers,3000000,Right
+Jaïro Riedewald,23,182,79,Netherlands,Crystal Palace,2700000,Left
+Jacob Murphy,25,179,74,England,Newcastle United,2900000,Right
+Conor Townsend,27,183,73,England,West Bromwich Albion,2400000,Left
+Patrick Bamford,26,185,71,England,Leeds United,2800000,Left
+Kevin McDonald,31,193,96,Scotland,Fulham,1800000,Right
+Denis Odoi,32,179,72,Belgium,Fulham,1500000,Right
+Ahmed Eissa El Mohamady Abdel Fattah,32,183,78,Egypt,Aston Villa,1500000,Right
+Wesley Foderingham,29,185,75,England,Sheffield United,1700000,Left
+Kevin Long,29,188,82,Republic of Ireland,Burnley,2000000,Right
+Rhian Brewster,20,180,75,England,Liverpool,3900000,Right
+Conor Gallagher,20,182,74,England,West Bromwich Albion,3400000,Right
+Oluwatosin Adarabioyo,22,193,78,England,Manchester City,2800000,Right
+Tyler Roberts,21,180,75,Wales,Leeds United,3100000,Right
+Joshua Sims,23,175,67,England,Southampton,2600000,Left
+Aaron Anthony Connolly,20,173,77,Republic of Ireland,Brighton & Hove Albion,2600000,Right
+Rolando Aarons,24,175,76,England,Newcastle United,2300000,Left
+Aboubakar Kamara,25,177,81,France,Fulham,2300000,Right
+Jed Steer,27,188,80,England,Aston Villa,1500000,Left
+Kenneth Dahrup Zohorè,26,194,96,Denmark,West Bromwich Albion,2200000,Left
+Jack Robinson,26,180,67,England,Sheffield United,1800000,Left
+Lee Grant,37,193,83,England,Manchester United,180000,Right
+Scott Carson,34,190,86,England,Manchester City,775000,Right
+John Ruddy,33,193,97,England,Wolverhampton Wanderers,950000,Right
+Neil Taylor,31,175,75,Wales,Aston Villa,1300000,Left
+Gaetano Berardi,31,178,72,Switzerland,Leeds United,1300000,Right
+Hal Robson-Kanu,31,183,83,Wales,West Bromwich Albion,1600000,Left
+Maxime Le Marchand,30,185,78,France,Fulham,1400000,Left
+Adam Forshaw,28,174,71,England,Leeds United,1600000,Right
+Tim Ream,32,187,80,United States,Fulham,1100000,Left
+Muhamed Bešić,27,180,80,Bosnia Herzegovina,Everton,1800000,Right
+Neeskens Kebano,28,170,65,DR Congo,Fulham,1800000,Right
+Emile Smith Rowe,19,182,64,England,Arsenal,2300000,Right
+Fábio Daniel Soares Silva,17,185,75,Portugal,Wolverhampton Wanderers,2100000,Right
+Nathan Ferguson,19,178,70,England,Crystal Palace,1800000,Right
+Michael Obafemi,19,169,71,Republic of Ireland,Southampton,1800000,Right
+Illan Meslier,20,196,74,France,Leeds United,1500000,Left
+Bailey Peacock-Farrell,23,192,73,Northern Ireland,Burnley,1200000,Left
+Philippe Sandler,23,190,82,Netherlands,Manchester City,1400000,Right
+Michael Verrips,23,195,90,Netherlands,Sheffield United,1100000,Right
+Connor Wickham,27,191,90,England,Crystal Palace,1200000,Right
+Roderick Jefferson Gonçalves Miranda,29,192,89,Portugal,Wolverhampton Wanderers,1000000,Right
+Lee Peltier,33,177,73,England,West Bromwich Albion,475000,Right
+Henri Lansbury,29,183,85,England,Aston Villa,1000000,Right
+Crysencio Summerville,18,174,64,Netherlands,Leeds United,1800000,Right
+Cameron Carter-Vickers,22,183,92,United States,Tottenham Hotspur,1500000,Right
+Steven Alzate,21,180,75,Colombia,Brighton & Hove Albion,1500000,Right
+Dara O'Shea,21,188,74,Republic of Ireland,West Bromwich Albion,1300000,Right
+Keinan Davis,22,191,75,England,Aston Villa,1400000,Left
+Cédric Kipré,23,193,90,Ivory Coast,West Bromwich Albion,1200000,Right
+Kyle Edwards,22,172,64,England,West Bromwich Albion,1300000,Right
+Nathaniel Phillips,23,190,84,England,Liverpool,1100000,Right
+David Button,31,191,87,England,West Bromwich Albion,575000,Right
+Neco Williams,19,178,69,Wales,Liverpool,1500000,Right
+Ethan Ampadu,19,183,78,Wales,Sheffield United,1500000,Right
+Jack Clarke,19,181,74,England,Tottenham Hotspur,1600000,Right
+Jayson Molumby,20,178,64,Republic of Ireland,Brighton & Hove Albion,1300000,Right
+Rekeem Harper,20,188,76,England,West Bromwich Albion,1300000,Right
+Sam Field,22,185,65,England,West Bromwich Albion,1200000,Left
+Viktor Gyökeres,22,187,86,Sweden,Brighton & Hove Albion,1300000,Right
+Beni Baningime,21,178,70,DR Congo,Everton,1100000,Right
+Josh Onomah,23,185,70,England,Fulham,1200000,Right
+Jimmy Dunne,22,183,75,Republic of Ireland,Burnley,950000,Right
+Oliver Burke,23,188,82,Scotland,Sheffield United,1000000,Right
+Jack Rodwell,29,188,78,England,Sheffield United,650000,Right
+Jason Steele,29,188,79,England,Brighton & Hove Albion,550000,Right
+Simon Moore,30,191,83,England,Sheffield United,525000,Right
+Tariq Lamptey,19,167,58,England,Brighton & Hove Albion,1300000,Right
+Ethan Laird,18,177,66,England,Manchester United,1200000,Right
+Vítor Machado Ferreira,20,172,64,Portugal,Wolverhampton Wanderers,1400000,Right
+Benjamin Woodburn,20,174,72,Wales,Liverpool,1400000,Right
+Matthew Smith,20,177,68,Wales,Manchester City,1100000,Right
+Gonçalo Bento Soares Cardoso,19,189,83,Portugal,West Ham United,1000000,Left
+Jerome Opoku,21,195,79,England,Fulham,1000000,Left
+Daniel Barlaser,23,184,62,England,Newcastle United,925000,Right
+Jake Hesketh,24,168,63,England,Southampton,850000,Right
+Sam McQueen,25,181,70,England,Southampton,725000,Left
+Jarosław Jach,26,189,78,Poland,Crystal Palace,725000,Left
+Eldin Jakupović,35,191,85,Switzerland,Leicester City,170000,Right
+David Edward Martin,34,188,86,England,West Ham United,275000,Right
+Henri Saivet,29,174,76,Senegal,Newcastle United,625000,Right
+Matty James,28,181,86,England,Leicester City,650000,Right
+Harvey Elliott,17,170,64,England,Liverpool,1100000,Left
+Anthony Gordon,19,185,70,England,Everton,1200000,Right
+Teden Mengi,18,183,78,England,Manchester United,1000000,Right
+Sepp van den Berg,18,194,78,Netherlands,Liverpool,1000000,Right
+William Anthony Patrick Smallbone,20,173,61,Republic of Ireland,Southampton,1200000,Right
+Jamie Shackleton,20,168,65,England,Leeds United,1200000,Right
+Claudio Gomes,19,180,70,France,Manchester City,950000,Right
+Alexandre Nascimento Costa Silva,23,177,68,Portugal,West Ham United,800000,Right
+Matt Macey,25,198,93,England,Arsenal,525000,Right
+Will Norris,26,191,81,England,Burnley,475000,Left
+Stephen Henderson,32,193,87,Republic of Ireland,Crystal Palace,325000,Right
+Curtis Jones,19,185,68,England,Liverpool,950000,Right
+Dion Sanderson,20,188,78,England,Wolverhampton Wanderers,925000,Right
+Tyrick Mitchell,20,175,65,England,Crystal Palace,800000,Left
+Leif Davis,20,177,67,England,Leeds United,800000,Left
+Robert Lynch Sanchez,22,197,85,Spain,Brighton & Hove Albion,625000,Right
+Joël Latibeaudiere,20,180,81,England,Manchester City,700000,Right
+Nathan Holland,22,178,70,England,West Ham United,775000,Right
+Maximilian Kilman,23,195,80,England,Wolverhampton Wanderers,700000,Left
+Jay-Roy Grot,22,193,98,Netherlands,Leeds United,625000,Right
+Jonathan Bond,27,193,84,England,West Bromwich Albion,400000,Right
+Ryan Inniss,25,196,84,England,Crystal Palace,500000,Right
+Ki-Jana Hoever,18,183,72,Netherlands,Wolverhampton Wanderers,775000,Right
+Ethan Stuart William Galbraith,19,175,67,Northern Ireland,Manchester United,750000,Right
+Ellis Simms,19,183,73,England,Everton,800000,Right
+João Manuel Neves Virgínia,20,191,83,Portugal,Everton,575000,Left
+Niall Ennis,21,180,80,England,Wolverhampton Wanderers,675000,Right
+Alfie Whiteman,21,189,84,England,Tottenham Hotspur,500000,Right
+Kean Bryan,23,185,72,England,Sheffield United,550000,Left
+Sam Hughes,23,187,80,England,Leicester City,525000,Right
+Benjamin Johnson,20,180,70,England,West Ham United,625000,Right
+Luke Thomas,19,177,68,England,Leicester City,600000,Left
+Ian Carlo Poveda-Ocampo,20,167,64,England,Leeds United,675000,Left
+Kayne Ramsay,19,177,66,England,Southampton,600000,Right
+Jake Vokins,20,180,70,England,Southampton,625000,Left
+Pascal Struijk,20,190,79,Netherlands,Leeds United,550000,Left
+Kyle Alex John,19,176,68,England,Everton,525000,Right
+Thomas O'Connor,21,180,70,Republic of Ireland,Southampton,500000,Left
+Ali Koiki,20,187,81,England,Burnley,500000,Left
+George Marsh,21,178,68,England,Tottenham Hotspur,500000,Right
+Meritan Shabani,21,185,70,Germany,Wolverhampton Wanderers,550000,Right
+Josh Benson,20,175,74,England,Burnley,500000,Right
+Kiernan Dewsbury-Hall,21,177,70,England,Leicester City,525000,Left
+Dennis Cirkin,18,182,72,England,Tottenham Hotspur,525000,Left
+Luke Matheson,17,168,62,England,Wolverhampton Wanderers,500000,Right
+Taylor Harwood-Bellis,18,185,72,England,Manchester City,525000,Right
+Joe Gelhardt,18,175,76,England,Leeds United,525000,Left
+Cody Drameh,18,184,73,England,Leeds United,475000,Right
+Sylvester Jasper,19,180,65,England,Fulham,550000,Right
+Alfie John Mccalmont,20,173,75,Northern Ireland,Leeds United,525000,Right
+Adrián Bernabé García,19,175,68,Spain,Manchester City,550000,Left
+Robbie Gotts,20,170,70,England,Leeds United,550000,Right
+Max Thompson,18,177,75,England,Burnley,525000,Right
+Caoimhin Kelleher,21,188,74,Republic of Ireland,Liverpool,475000,Right
+Nathan Tella,20,171,70,England,Southampton,475000,Right
+Nathan Trott,21,196,82,England,West Ham United,400000,Left
+Anthony Driscoll-Glennon,20,181,72,England,Burnley,400000,Left
+Dejan Iliev,25,196,80,North Macedonia,Arsenal,250000,Right
+Ouasim Bouy,27,180,79,Netherlands,Leeds United,250000,Left
+Jarrad Branthwaite,18,193,70,England,Everton,450000,Left
+Thomas Doyle,18,172,72,England,Manchester City,475000,Right
+Harvey White,18,178,70,England,Tottenham Hotspur,400000,Left
+Folarin Balogun,18,179,70,England,Arsenal,425000,Right
+Elia Caprile,18,191,74,Italy,Leeds United,350000,Right
+Mateusz Piotr Bogusz,18,175,68,Poland,Leeds United,425000,Right
+Nya Kirby,20,174,66,England,Crystal Palace,450000,Right
+Lewis Jack Gibson,19,185,73,England,Everton,425000,Left
+Romaric Yapi,19,178,70,France,Brighton & Hove Albion,400000,Right
+Callum Slattery,21,175,70,England,Southampton,400000,Right
+Christoph Klarer,20,194,81,Austria,Southampton,325000,Right
+Oskar Buur Rasmussen,22,181,73,Denmark,Wolverhampton Wanderers,300000,Right
+Mace Lewin Goodridge,20,178,70,England,Burnley,300000,Right
+Brandon Leroy Pierrick Keutcha,18,183,79,England,Crystal Palace,325000,Right
+Oliver Casey,19,188,78,England,Leeds United,300000,Right
+Conor Coventry,20,175,65,Republic of Ireland,West Ham United,350000,Right
+Max Harrison Sanders,21,176,80,England,Brighton & Hove Albion,350000,Right
+Elias Sørensen,20,189,77,Denmark,Newcastle United,350000,Right
+Sadou Diallo,21,188,82,England,Wolverhampton Wanderers,300000,Right
+David Parkhouse,20,185,81,Northern Ireland,Sheffield United,275000,Right
+Jaydn Mundle-Smith,20,183,75,England,Fulham,250000,Left
+Dan N'Lundulu,21,180,75,England,Southampton,275000,Right
+Jay Stansfield,17,180,71,England,Fulham,275000,Right
+Christian Fernandes Marques,17,187,75,Switzerland,Wolverhampton Wanderers,250000,Right
+Jamie Soule,19,172,58,England,West Bromwich Albion,275000,Right
+Bobby Thomas,19,186,77,England,Burnley,250000,Right
+Harrison Ashby,18,180,75,Scotland,West Ham United,240000,Right
+Regan Slater,20,173,65,England,Sheffield United,275000,Right
+Mésaque Geremias Djú,21,178,63,Portugal,West Ham United,250000,Right
+Oladapo Afolayan,22,180,70,England,West Ham United,200000,Right
+Fabio Carvalho,17,170,63,England,Fulham,230000,Right
+Timmy Abraham,19,185,78,England,Fulham,220000,Right
+Lewis Cass,20,186,74,England,Newcastle United,210000,Right
+Robert Harker,20,181,80,England,Burnley,230000,Right
+Edward Francis,20,182,76,England,Wolverhampton Wanderers,210000,Right
+Tyrese Jay Francois,19,170,60,Australia,Fulham,220000,Left
+Giovanni McGregor,21,176,71,England,Crystal Palace,230000,Right
+Joel Mumbongo,21,188,80,Sweden,Burnley,160000,Right
+Jensen Weir,18,178,70,England,Brighton & Hove Albion,180000,Right
+Jack Young,19,175,60,England,Newcastle United,190000,Right
+Ajibola Alese,19,185,70,England,West Ham United,160000,Right
+Sam Woods,21,186,77,England,Crystal Palace,160000,Right
+Taylor Perry,18,180,72,England,Wolverhampton Wanderers,160000,Right
+Jacob Ramsey,19,180,70,England,Aston Villa,170000,Right
+Dominic Revan,19,192,81,England,Aston Villa,160000,Left
+Charlie Cresswell,17,191,80,England,Leeds United,150000,Right
+Bernardo Costa da Rosa,19,177,74,Brazil,West Ham United,170000,Right
+Jayden John-Lloyd Harris,20,188,79,England,Fulham,130000,Right
+Rico Richards,16,178,68,England,West Bromwich Albion,150000,Left
+Luke Cundle,18,170,62,England,Wolverhampton Wanderers,150000,Right
+George Harmon,19,180,72,England,West Bromwich Albion,140000,Left
+James Furlong,18,178,71,Republic of Ireland,Brighton & Hove Albion,130000,Left
+Alexander Cochrane,20,175,70,England,Brighton & Hove Albion,140000,Left
+Marcel Elva-Fountaine,19,171,65,England,Burnley,140000,Right
+Nikola Tavares,21,185,76,Croatia,Crystal Palace,120000,Left
+Lewis Richards,18,182,72,Republic of Ireland,Wolverhampton Wanderers,130000,Left
+Saul Shotton,19,184,75,England,West Bromwich Albion,120000,Right
+Owen Windsor,18,178,70,England,West Bromwich Albion,120000,Left
+Kyron Gordon,18,187,76,England,Sheffield United,100000,Right
+Lewis Brunt,19,178,68,England,Aston Villa,110000,Right
+Michael Tait,19,178,68,England,Aston Villa,110000,Right
+Callum Miles Rowe,20,180,70,England,Aston Villa,80000,Right
+Jean Belehouan,19,190,76,France,Sheffield United,60000,Left
+Harry Boyes,22,178,73,England,Sheffield United,45000,Left
