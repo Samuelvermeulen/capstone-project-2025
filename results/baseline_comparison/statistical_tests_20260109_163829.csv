@@ -1,0 +1,5 @@
+Comparison,t_statistic,p_value,significance,XGBoost_Optimized_mean_error,Naïve_Median_mean_error,error_difference,percent_difference,interpretation,Naïve_Mean_mean_error,Linear_Regression_mean_error,Random_Forest_mean_error
+XGBoost_Optimized vs Naïve_Median,-10.144408780853244,1.4519913542041595e-21,***,10740329.609784035,16492460.738219898,5752131.128435863,34.87733710413377,XGBoost is significantly better (34.9% lower error),,,
+XGBoost_Optimized vs Naïve_Mean,-10.53436626387948,6.055672634849369e-23,***,10740329.609784035,,6078404.062999671,36.140676113064465,XGBoost is significantly better (36.1% lower error),16818733.672783706,,
+XGBoost_Optimized vs Linear_Regression,-3.760835948914072,0.00019595089352621506,***,10740329.609784035,,1390660.159256911,11.463699052866763,XGBoost is significantly better (11.5% lower error),,12130989.769040946,
+XGBoost_Optimized vs Random_Forest,-4.080195779790811,5.48328223618652e-05,***,10740329.609784035,,953529.833823476,8.154107191229551,XGBoost is significantly better (8.2% lower error),,,11693859.443607511

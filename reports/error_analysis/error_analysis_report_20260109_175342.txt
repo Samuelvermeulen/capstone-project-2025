@@ -1,0 +1,53 @@
+======================================================================
+ERROR ANALYSIS REPORT - PHASE 6.3
+======================================================================
+
+Report generated: 2026-01-09 17:53:42
+Model: XGBoost Optimized
+Test set size: 382 players
+Time period: Season 2022-2023
+
+1. EXECUTIVE SUMMARY
+----------------------------------------
+• Mean Absolute Error (MAE): €12,638,747
+• Root Mean Square Error (RMSE): €20,985,866
+• Mean Percentage Error: 58.9%
+• Model bias: Underestimates by €10,847,007 on average
+
+2. KEY FINDINGS
+----------------------------------------
+• Worst performing position: MF (MAE: €14,058,949)
+• Error distribution: Not normal (p-value: 1.8489e-21)
+• Error skewness: 1.969
+
+3. RECOMMENDATIONS FOR MODEL IMPROVEMENT
+----------------------------------------
+• Focus on improving predictions for MF position
+• High relative errors for Low (Q1) players
+• Review predictions for players from Manchester City
+• Consider adding position-specific features
+• Investigate high-error players for systematic patterns
+
+4. DETAILED STATISTICS
+----------------------------------------
+
+Error Statistics:
+Metric                              Value
+----------------------------------------
+MAE                           €12,638,747
+Median Absolute Error          €6,444,992
+RMSE                          €20,985,866
+Mean % Error                        58.9%
+Median % Error                      50.7%
+Std of Residuals              €17,965,217
+
+5. FILES GENERATED
+----------------------------------------
+• reports/error_analysis/error_data.csv
+• reports/error_analysis/worst_absolute_errors.csv
+• reports/error_analysis/worst_percentage_errors.csv
+• reports/error_analysis/largest_underestimations.csv
+• reports/error_analysis/largest_overestimations.csv
+• reports/error_analysis/figures/error_distribution.png
+• reports/error_analysis/figures/errors_by_segments.png
+• reports/error_analysis/figures/final_visualizations.png
