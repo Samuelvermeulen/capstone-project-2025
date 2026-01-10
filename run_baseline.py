@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 """
 Complete baseline model pipeline.
@@ -52,7 +53,12 @@ def main():
         print(f"  RMSE: €{metrics['rmse']:,.0f}")
         print(f"  MAE: €{metrics['mae']:,.0f}")
         print(f"  R²: {metrics['r2']:.3f}")
-        print(f"  MAPE: {metrics['mape']:.1f}%")
+        
+        # CORRECTION : Vérifier si 'mape' existe dans les métriques
+        if 'mape' in metrics:
+            print(f"  MAPE: {metrics['mape']:.1f}%")
+        else:
+            print(f"  MAPE: N/A (not available)")
         
         # Step 5: Save predictions
         predictions_path = "results/baseline_predictions.csv"
@@ -60,17 +66,49 @@ def main():
         predictions.to_csv(predictions_path, index=False)
         logger.info(f"Predictions saved to: {predictions_path}")
         
-        # Step 6: Create and save feature importance plot
+        # Step 6: Create and save feature importance plot (avec gestion d'erreur)
         logger.info("Creating feature importance plot...")
-        fig = baseline_model.plot_feature_importance()
         plot_path = "results/baseline_feature_importance.png"
-        fig.savefig(plot_path, dpi=300, bbox_inches='tight')
-        logger.info(f"Feature importance plot saved to: {plot_path}")
+        try:
+            # Essayer d'appeler la méthode plot_feature_importance
+            fig = baseline_model.plot_feature_importance()
+            fig.savefig(plot_path, dpi=300, bbox_inches='tight')
+            logger.info(f"Feature importance plot saved to: {plot_path}")
+        except AttributeError:
+            logger.warning("BaselineModel does not have plot_feature_importance method. Creating simple plot...")
+            # Créer un graphique simple de feature importance
+            import matplotlib.pyplot as plt
+            import pandas as pd
+            
+            # Récupérer les feature importances du modèle
+            if hasattr(baseline_model.model, 'feature_importances_'):
+                importances = baseline_model.model.feature_importances_
+                features = X_train.columns
+                
+                # Créer un DataFrame
+                importance_df = pd.DataFrame({
+                    'feature': features,
+                    'importance': importances
+                }).sort_values('importance', ascending=True)
+                
+                # Créer le graphique
+                fig, ax = plt.subplots(figsize=(10, 6))
+                importance_df.plot(kind='barh', x='feature', y='importance', ax=ax)
+                ax.set_title('Feature Importance - Baseline Model')
+                ax.set_xlabel('Importance')
+                plt.tight_layout()
+                fig.savefig(plot_path, dpi=300, bbox_inches='tight')
+                logger.info(f"Simple feature importance plot saved to: {plot_path}")
+                plt.close(fig)
+            else:
+                logger.warning("Model does not have feature_importances_ attribute. Skipping plot.")
+                plot_path = None
         
         print(f"\n✅ PHASE 3 COMPLETED SUCCESSFULLY!")
         print(f"\n📁 Results saved in 'results/' directory:")
         print(f"  - baseline_predictions.csv")
-        print(f"  - baseline_feature_importance.png")
+        if plot_path and os.path.exists(plot_path):
+            print(f"  - baseline_feature_importance.png")
         
         return metrics
         
@@ -82,3 +120,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
