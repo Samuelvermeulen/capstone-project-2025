@@ -1,3 +1,5 @@
+
+
 """
 Feature Engineering Module - Phase 4
 Samuel Vermeulen - Capstone Project 2025
@@ -29,6 +31,30 @@ TOP_CLUBS_EURO_RANKING = [
     'Newcastle Utd'     # Rank 51 (ATTENTION: différent de 'Newcastle United')
 ]
 
+# NOUVELLES CATÉGORIES BASÉES SUR LE RAPPORT TECHNIQUE
+# Clubs de milieu de tableau (moyenne position 8-14)
+MIDDLE_TABLE_CLUBS = [
+    'Everton',
+    'Aston Villa', 
+    'Brighton',
+    'Crystal Palace',
+    'Southampton',
+    'Bournemouth',
+    'Leeds United',  # Note: vérifier le nom exact dans le dataset
+    'Brentford'
+]
+
+# Clubs en lutte contre la relégation (moyenne position ≥15)
+RELEGATION_BATTLE_CLUBS = [
+    'Norwich',
+    'Watford',
+    'Burnley',
+    'Sheffield United',
+    'Fulham',
+    'Cardiff',
+    'Huddersfield'
+]
+
 #### Step 0 ### 
 
 def load_processed_data() -> Tuple[pd.DataFrame, pd.DataFrame]:
@@ -56,6 +82,7 @@ def load_processed_data() -> Tuple[pd.DataFrame, pd.DataFrame]:
     except Exception as e:
         logger.error(f"Erreur lors du chargement: {e}")
         raise
+
 ###### Step 1 #####  DataFrame Inspection
 def inspect_dataframe(df: pd.DataFrame, name: str = "DataFrame") -> None:
     """
@@ -384,67 +411,97 @@ def test_ratios_and_imputation():
     
     return train_with_ratios, test_with_ratios, imputation_dict
 
-###### Step 7 ###### club encoding using top 10
+###### Step 7 ###### club encoding using ALL 4 categories
 
-def encode_clubs(df, is_training=True, top_clubs=None):
+def encode_clubs(df, is_training=True, top_clubs=None, middle_clubs=None, relegation_clubs=None):
     """
-    Encode les clubs en utilisant le classement européen 5-Year Ranking.
+    Encode les clubs en utilisant les 4 catégories : Top, Middle-table, Relegation-battle, Other.
     
     Parameters:
     -----------
     df : pandas.DataFrame
         DataFrame avec colonne 'Club'
     is_training : bool
-        Si True, utilise la liste prédéfinie TOP_CLUBS_EURO_RANKING
-        Si False, utilise la liste fournie en paramètre
+        Si True, utilise les listes prédéfinies
+        Si False, utilise les listes fournies en paramètre
     top_clubs : list, optional
-        Liste des clubs à utiliser pour le test set
+        Liste des clubs Top pour le test set
+    middle_clubs : list, optional
+        Liste des clubs Middle-table pour le test set (nouveau)
+    relegation_clubs : list, optional
+        Liste des clubs Relegation-battle pour le test set (nouveau)
         
     Returns:
     --------
     df_encoded : pandas.DataFrame
         DataFrame avec encoding des clubs
-    top_clubs_used : list
-        Liste des clubs utilisés pour l'encodage
+    club_metadata : dict
+        Dictionnaire contenant les listes de clubs utilisées
     """
-    logger.info("Encodage des clubs avec le classement européen 5-Year Ranking...")
+    logger.info("Encodage des clubs avec 4 catégories...")
     
     if 'Club' not in df.columns:
         logger.warning("Colonne 'Club' non trouvée")
-        return df, top_clubs or []
+        # Retourner des métadonnées vides pour compatibilité
+        if is_training:
+            return df, {'top_clubs': TOP_CLUBS_EURO_RANKING,
+                       'middle_clubs': MIDDLE_TABLE_CLUBS,
+                       'relegation_clubs': RELEGATION_BATTLE_CLUBS}
+        else:
+            return df, {'top_clubs': top_clubs or [],
+                       'middle_clubs': middle_clubs or [],
+                       'relegation_clubs': relegation_clubs or []}
     
     df_encoded = df.copy()
     
-    # Déterminer la liste de clubs à utiliser
+    # Déterminer les listes de clubs à utiliser
     if is_training:
-        # En mode entraînement : utiliser notre liste prédéfinie
+        # En mode entraînement : utiliser nos listes prédéfinies
         top_clubs_used = TOP_CLUBS_EURO_RANKING
-        logger.info("Mode entraînement : utilisation de la liste prédéfinie TOP_CLUBS_EURO_RANKING")
+        middle_clubs_used = MIDDLE_TABLE_CLUBS
+        relegation_clubs_used = RELEGATION_BATTLE_CLUBS
+        logger.info("Mode entraînement : utilisation des listes prédéfinies")
     else:
-        # En mode test : utiliser la liste passée en paramètre (doit venir du train)
-        if top_clubs is None:
-            raise ValueError("Le paramètre 'top_clubs' est requis pour le test set")
-        top_clubs_used = top_clubs
-        logger.info("Mode test : utilisation de la liste fournie")
+        # En mode test : utiliser les listes passées en paramètre
+        # Si certaines listes ne sont pas fournies, utiliser des listes vides
+        top_clubs_used = top_clubs or []
+        middle_clubs_used = middle_clubs or []
+        relegation_clubs_used = relegation_clubs or []
+        logger.info("Mode test : utilisation des listes fournies")
     
-    # Vérifier quels clubs de la liste sont présents
-    clubs_present = [club for club in top_clubs_used if club in df_encoded['Club'].values]
-    clubs_missing = [club for club in top_clubs_used if club not in df_encoded['Club'].values]
+    # Vérifier quels clubs de la liste sont présents (pour le logging)
+    def check_presence(club_list, category_name):
+        present = [club for club in club_list if club in df_encoded['Club'].values]
+        missing = [club for club in club_list if club not in df_encoded['Club'].values]
+        logger.info(f"{category_name}: {len(present)}/{len(club_list)} présents")
+        if missing:
+            logger.debug(f"  Absents: {missing[:5]}{'...' if len(missing) > 5 else ''}")
     
-    logger.info(f"Clubs de la liste présents: {len(clubs_present)}/{len(top_clubs_used)}")
-    if clubs_missing:
-        logger.warning(f"Clubs de la liste absents de ce dataset: {clubs_missing}")
+    check_presence(top_clubs_used, "Top clubs")
+    check_presence(middle_clubs_used, "Middle-table clubs")
+    check_presence(relegation_clubs_used, "Relegation-battle clubs")
     
-    # Créer la colonne encodée : club s'il est dans la liste, sinon "Other"
-    df_encoded['Club_encoded'] = df_encoded['Club'].apply(
-        lambda x: x if x in top_clubs_used else 'Other'
-    )
+    # Créer la fonction de catégorisation
+    def categorize_club(club_name):
+        if club_name in top_clubs_used:
+            return 'Top_Club'
+        elif club_name in middle_clubs_used:
+            return 'Middle_Table_Club'
+        elif club_name in relegation_clubs_used:
+            return 'Relegation_Battle_Club'
+        else:
+            return 'Other_Club'
+    
+    # Appliquer la catégorisation
+    df_encoded['Club_encoded'] = df_encoded['Club'].apply(categorize_club)
     
     # Statistiques sur la répartition
-    other_count = (df_encoded['Club_encoded'] == 'Other').sum()
-    top_count = len(df_encoded) - other_count
-    
-    logger.info(f"Répartition: {top_count} joueurs dans top clubs, {other_count} dans 'Other' ({other_count/len(df_encoded)*100:.1f}%)")
+    logger.info("Répartition après catégorisation:")
+    categories = ['Top_Club', 'Middle_Table_Club', 'Relegation_Battle_Club', 'Other_Club']
+    for category in categories:
+        count = (df_encoded['Club_encoded'] == category).sum()
+        percentage = (count / len(df_encoded)) * 100
+        logger.info(f"  • {category}: {count} joueurs ({percentage:.1f}%)")
     
     # Créer les variables dummies (one-hot encoding)
     club_dummies = pd.get_dummies(df_encoded['Club_encoded'], prefix='club')
@@ -454,11 +511,19 @@ def encode_clubs(df, is_training=True, top_clubs=None):
     
     logger.info(f"Encodage terminé. {len(club_dummies.columns)} colonnes club créées.")
     
-    # Afficher les clubs encodés individuellement
-    if len(club_dummies.columns) <= 15:
+    # Afficher les colonnes créées
+    if len(club_dummies.columns) <= 10:
         logger.info(f"Colonnes créées: {list(club_dummies.columns)}")
     
-    return df_encoded, top_clubs_used
+    # Préparer les métadonnées pour reproduction
+    club_metadata = {
+        'top_clubs': top_clubs_used,
+        'middle_clubs': middle_clubs_used,
+        'relegation_clubs': relegation_clubs_used,
+        'club_categories': categories
+    }
+    
+    return df_encoded, club_metadata
 
 ###### Step 8 ##### Preparation for the log transformation 
 
@@ -509,7 +574,7 @@ def create_final_features(df, is_training=True, top_clubs=None, imputation_dict=
     is_training : bool
         Si True, entraîne les transformateurs
     top_clubs : list, optional
-        Liste des top clubs
+        Liste des top clubs (maintenant obsolète, gardé pour compatibilité)
     imputation_dict : dict, optional
         Dictionnaire d'imputation
         
@@ -520,9 +585,13 @@ def create_final_features(df, is_training=True, top_clubs=None, imputation_dict=
     y_log : pandas.Series
         Target transformée
     metadata : dict
-        Métadonnées (top_clubs, imputation_dict)
+        Métadonnées (top_clubs, imputation_dict, etc.)
     """
     logger.info(f"Pipeline de feature engineering (is_training={is_training})")
+    
+    # Pour la compatibilité: si top_clubs est fourni mais est une liste simple,
+    # c'est probablement l'ancien format. Dans ce cas, on l'ignore car
+    # encode_clubs s'attend maintenant à 3 listes séparées.
     
     # 1. Encodage position
     df_encoded = encode_position(df)
@@ -535,9 +604,15 @@ def create_final_features(df, is_training=True, top_clubs=None, imputation_dict=
     # 3. Création ratios
     df_ratios = create_ratios(df_imputed)
     
-    # 4. Encodage clubs
-    df_clubs, top_clubs = encode_clubs(
-        df_ratios, is_training=is_training, top_clubs=top_clubs
+    # 4. Encodage clubs - maintenant avec 4 catégories
+    # Pour la compatibilité ascendante, on passe top_clubs comme premier argument
+    # mais encode_clubs s'attend à 3 listes séparées
+    df_clubs, club_metadata = encode_clubs(
+        df_ratios, 
+        is_training=is_training,
+        top_clubs=top_clubs,  # Conserve pour compatibilité
+        middle_clubs=None,     # Seront déterminés automatiquement si is_training=True
+        relegation_clubs=None  # Seront déterminés automatiquement si is_training=True
     )
     
     # 5. Sélection des features pour le modèle
@@ -573,7 +648,10 @@ def create_final_features(df, is_training=True, top_clubs=None, imputation_dict=
     
     # Metadata pour reproduction
     metadata = {
-        'top_clubs': top_clubs,
+        'top_clubs': club_metadata.get('top_clubs', []),
+        'middle_clubs': club_metadata.get('middle_clubs', []),
+        'relegation_clubs': club_metadata.get('relegation_clubs', []),
+        'club_categories': club_metadata.get('club_categories', []),
         'imputation_dict': imputation_dict,
         'feature_names': existing_features,
         'n_features': len(existing_features),
@@ -585,7 +663,7 @@ def create_final_features(df, is_training=True, top_clubs=None, imputation_dict=
     logger.info(f"Features finales: {len(existing_features)} colonnes")
     logger.info(f"  • Numériques: {metadata['n_numerical']}")
     logger.info(f"  • Position: {metadata['n_position']}")
-    logger.info(f"  • Club: {metadata['n_club']}")
+    logger.info(f"  • Club (4 catégories): {metadata['n_club']}")
     
     return X, y_log, metadata
 
@@ -608,13 +686,14 @@ def test_complete_pipeline():
     print(f"   • X shape: {X_train.shape}")
     print(f"   • y shape: {y_train_log.shape}")
     print(f"   • Nombre de features: {metadata['n_features']}")
-    print(f"   • Top clubs: {metadata['top_clubs'][:5]}...")  # Afficher les 5 premiers
+    print(f"   • Catégories club: {metadata['club_categories']}")
     
     print("\n2. Application sur le test set (avec métadonnées du train)...")
+    # Extraire les listes de clubs des métadonnées
     X_test, y_test_log, _ = create_final_features(
         test_df, 
         is_training=False,
-        top_clubs=metadata['top_clubs'],
+        top_clubs=metadata['top_clubs'],  # Passé pour compatibilité
         imputation_dict=metadata['imputation_dict']
     )
     
@@ -695,6 +774,9 @@ def save_processed_data(X_train, y_train, X_test, y_test, metadata, output_dir="
     # Sauvegarder les métadonnées au format JSON
     metadata_serializable = {
         'top_clubs': metadata['top_clubs'],
+        'middle_clubs': metadata['middle_clubs'],
+        'relegation_clubs': metadata['relegation_clubs'],
+        'club_categories': metadata['club_categories'],
         'imputation_dict': {k: float(v) for k, v in metadata['imputation_dict'].items()},
         'feature_names': metadata['feature_names'],
         'n_features': metadata['n_features'],
@@ -757,13 +839,19 @@ def run_and_save_pipeline():
    • Features créées: {metadata['n_features']}
    • Train samples: {X_train.shape[0]}
    • Test samples: {X_test.shape[0]}
-   • Top clubs encodés: {len(metadata['top_clubs'])}
+   • Catégories de clubs: {len(metadata['club_categories'])}
    • Données sauvegardées dans: {save_path}
 
 🔧 TYPES DE FEATURES:
    • Numériques: {metadata['n_numerical']}
    • Position: {metadata['n_position']}
    • Club: {metadata['n_club']}
+
+🎯 NOUVELLES CATÉGORIES DE CLUBS:
+   • Top clubs: {len(metadata['top_clubs'])} clubs
+   • Middle-table clubs: {len(metadata['middle_clubs'])} clubs
+   • Relegation-battle clubs: {len(metadata['relegation_clubs'])} clubs
+   • Other clubs: catégorie résiduelle
 
 🎯 PRÊT POUR LA PHASE 5 (MODÉLISATION)!
     """

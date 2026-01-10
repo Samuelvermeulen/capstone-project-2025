@@ -170,6 +170,9 @@ def initialize_models(seed: int = 42) -> Dict:
             max_depth=5,           # Maximum tree depth (from roadmap)
             random_state=seed,     # For reproducibility
             n_jobs=-1,             # Use all CPU cores
+             # Implicit parameters (XGBoost >=1.7 defaults):
+    # - objective='reg:squarederror'
+    # - eval_metric='rmse'
             verbosity=0            # No training messages
         )
         logger.info("✅ XGBoost available and initialized")

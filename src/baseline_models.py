@@ -1,8 +1,7 @@
+
 """
 PHASE 6.4 - Simple Baseline Models Comparison
-Capstone Project 2025
-
-This module compares the optimized XGBoost model against simple baseline models
+Capstone Project 2025This module compares the optimized XGBoost model against simple baseline models
 to measure the "value added" by model complexity.
 
 Models to implement:
@@ -33,6 +32,9 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.dummy import DummyRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.preprocessing import StandardScaler
+
+# Statistical test
+from scipy.stats import ttest_rel
 
 # Configure logging
 logging.basicConfig(
@@ -256,7 +258,8 @@ def train_and_evaluate_models(models_dict, X_train, y_train_log, X_test, y_test_
             # Store predictions
             predictions_dict[model_name] = {
                 'log_predictions': y_pred_log,
-                'original_predictions': y_pred_original
+                'original_predictions': y_pred_original,
+                'model_object': model
             }
             
             # Calculate metrics in original scale
@@ -341,7 +344,8 @@ def evaluate_xgboost_model(xgboost_model, X_test, y_test_original, y_test_log):
         
         xgboost_predictions = {
             'log_predictions': y_pred_log,
-            'original_predictions': y_pred_original
+            'original_predictions': y_pred_original,
+            'model_object': xgboost_model
         }
         
         print(f"✓ XGBoost evaluated successfully")
@@ -457,7 +461,8 @@ def create_comparison_visualizations(results_df, results_dir, timestamp):
         plt.text(i, v + 0.5e6, f'€{v:,.0f}', ha='center', va='bottom', fontsize=9)
     
     plt.tight_layout()
-    plt.savefig(f"{results_dir}/rmse_comparison_{timestamp}.png", dpi=300, bbox_inches='tight')
+    plot1_path = f"{results_dir}/rmse_comparison_{timestamp}.png"
+    plt.savefig(plot1_path, dpi=300, bbox_inches='tight')
     plt.close()
     
     # 2. Bar chart: R² comparison
@@ -485,7 +490,8 @@ def create_comparison_visualizations(results_df, results_dir, timestamp):
         plt.text(i, v + 0.02, f'{v:.3f}', ha='center', va='bottom', fontsize=9)
     
     plt.tight_layout()
-    plt.savefig(f"{results_dir}/r2_comparison_{timestamp}.png", dpi=300, bbox_inches='tight')
+    plot2_path = f"{results_dir}/r2_comparison_{timestamp}.png"
+    plt.savefig(plot2_path, dpi=300, bbox_inches='tight')
     plt.close()
     
     # 3. Radar chart for multiple metrics
@@ -570,10 +576,162 @@ def create_radar_chart(results_df, results_dir, timestamp):
 print("✅ Step 6.4.7: Results comparison and visualization functions ready")
 
 # ============================================================================
-# 8. GENERATE COMPREHENSIVE REPORT
+# 8. STATISTICAL TEST FUNCTION
 # ============================================================================
 
-def generate_baseline_report(all_results, xgboost_metrics, baseline_results):
+def perform_statistical_tests(predictions_dict, y_test_original, results_dir, timestamp):
+    """
+    Perform statistical tests to compare model predictions.
+    
+    Args:
+        predictions_dict: Dictionary containing predictions from all models
+        y_test_original: True target values in original scale
+        results_dir: Directory to save test results
+        timestamp: Timestamp for file naming
+    """
+    print("\n" + "=" * 70)
+    print("PERFORMING STATISTICAL TESTS")
+    print("=" * 70)
+    
+    test_results = []
+    
+    # Get all model names
+    model_names = list(predictions_dict.keys())
+    
+    if len(model_names) < 2:
+        print("⚠️  Not enough models for statistical comparison")
+        return
+    
+    # Get XGBoost model if available
+    xgboost_key = None
+    for key in model_names:
+        if 'XGBoost' in key:
+            xgboost_key = key
+            break
+    
+    # Calculate absolute errors for each model
+    absolute_errors = {}
+    for model_name in model_names:
+        if 'original_predictions' in predictions_dict[model_name]:
+            preds = predictions_dict[model_name]['original_predictions']
+            abs_errors = np.abs(y_test_original - preds)
+            absolute_errors[model_name] = abs_errors
+    
+    # Perform paired t-tests comparing each model with XGBoost
+    if xgboost_key and len(absolute_errors) > 1:
+        print(f"\n📊 Performing paired t-tests (compared to {xgboost_key}):")
+        print("-" * 50)
+        
+        xgboost_errors = absolute_errors[xgboost_key]
+        
+        for model_name, model_errors in absolute_errors.items():
+            if model_name != xgboost_key:
+                try:
+                    # Perform paired t-test
+                    t_stat, p_value = ttest_rel(xgboost_errors, model_errors)
+                    
+                    # Determine significance
+                    significance = ""
+                    if p_value < 0.001:
+                        significance = "***"
+                    elif p_value < 0.01:
+                        significance = "**"
+                    elif p_value < 0.05:
+                        significance = "*"
+                    elif p_value < 0.1:
+                        significance = "."
+                    
+                    # Determine if XGBoost is better
+                    xgboost_mean = np.mean(xgboost_errors)
+                    model_mean = np.mean(model_errors)
+                    difference = model_mean - xgboost_mean
+                    percent_difference = (difference / model_mean) * 100
+                    
+                    comparison = ""
+                    if p_value < 0.05:
+                        if difference > 0:
+                            comparison = f"XGBoost is significantly better ({percent_difference:.1f}% lower error)"
+                        else:
+                            comparison = f"{model_name} is significantly better ({abs(percent_difference):.1f}% lower error)"
+                    else:
+                        comparison = "No significant difference"
+                    
+                    print(f"{xgboost_key} vs {model_name}:")
+                    print(f"  t-statistic = {t_stat:.4f}, p-value = {p_value:.6f} {significance}")
+                    print(f"  Mean error {xgboost_key}: €{xgboost_mean:,.0f}")
+                    print(f"  Mean error {model_name}: €{model_mean:,.0f}")
+                    print(f"  {comparison}")
+                    print()
+                    
+                    # Store test results
+                    test_results.append({
+                        'Comparison': f"{xgboost_key} vs {model_name}",
+                        't_statistic': t_stat,
+                        'p_value': p_value,
+                        'significance': significance,
+                        f'{xgboost_key}_mean_error': xgboost_mean,
+                        f'{model_name}_mean_error': model_mean,
+                        'error_difference': difference,
+                        'percent_difference': percent_difference,
+                        'interpretation': comparison
+                    })
+                    
+                except Exception as e:
+                    print(f"  Error comparing {xgboost_key} with {model_name}: {e}")
+    
+    # Compare best baseline with XGBoost
+    if xgboost_key:
+        baseline_models = [m for m in model_names if 'XGBoost' not in m]
+        if baseline_models:
+            # Find best baseline (lowest mean error)
+            best_baseline = min(baseline_models, 
+                               key=lambda x: np.mean(absolute_errors[x]) if x in absolute_errors else float('inf'))
+            
+            if best_baseline in absolute_errors:
+                best_baseline_errors = absolute_errors[best_baseline]
+                xgboost_errors = absolute_errors[xgboost_key]
+                
+                try:
+                    t_stat, p_value = ttest_rel(xgboost_errors, best_baseline_errors)
+                    
+                    xgboost_mean = np.mean(xgboost_errors)
+                    baseline_mean = np.mean(best_baseline_errors)
+                    difference = baseline_mean - xgboost_mean
+                    percent_difference = (difference / baseline_mean) * 100
+                    
+                    print(f"\n📈 KEY COMPARISON: {xgboost_key} vs Best Baseline ({best_baseline}):")
+                    print(f"  t-statistic = {t_stat:.4f}, p-value = {p_value:.6f}")
+                    print(f"  Mean error {xgboost_key}: €{xgboost_mean:,.0f}")
+                    print(f"  Mean error {best_baseline}: €{baseline_mean:,.0f}")
+                    
+                    if p_value < 0.05:
+                        if difference > 0:
+                            print(f"  ✅ XGBoost is statistically significantly better!")
+                            print(f"     Improvement: {percent_difference:.1f}% lower error (p < 0.05)")
+                        else:
+                            print(f"  ⚠️  {best_baseline} is statistically significantly better!")
+                    else:
+                        print(f"  ℹ️  No statistically significant difference found (p = {p_value:.4f})")
+                    
+                except Exception as e:
+                    print(f"  Error in key comparison: {e}")
+    
+    # Save test results to CSV
+    if test_results:
+        test_results_df = pd.DataFrame(test_results)
+        test_results_path = f"{results_dir}/statistical_tests_{timestamp}.csv"
+        test_results_df.to_csv(test_results_path, index=False)
+        print(f"\n✅ Statistical test results saved to: {test_results_path}")
+    
+    return test_results
+
+print("✅ Step 6.4.8: Statistical test function ready")
+
+# ============================================================================
+# 9. GENERATE COMPREHENSIVE REPORT
+# ============================================================================
+
+def generate_baseline_report(all_results, xgboost_metrics, baseline_results, test_results=None):
     """
     Generate a comprehensive report of baseline model comparison.
     
@@ -581,6 +739,7 @@ def generate_baseline_report(all_results, xgboost_metrics, baseline_results):
         all_results: DataFrame with all model results
         xgboost_metrics: XGBoost metrics dictionary
         baseline_results: Baseline model results DataFrame
+        test_results: Results from statistical tests
     """
     print("\n" + "=" * 70)
     print("GENERATING COMPREHENSIVE REPORT")
@@ -621,6 +780,13 @@ def generate_baseline_report(all_results, xgboost_metrics, baseline_results):
             f.write(f"• XGBoost improvement over best baseline: {improvement:.1f}%\n")
             f.write(f"• Value of complexity: {'Significant' if improvement > 5 else 'Moderate' if improvement > 2 else 'Minimal'}\n")
         
+        # Add statistical significance if available
+        if test_results:
+            f.write("\n• Statistical Significance Summary:\n")
+            for test in test_results:
+                if 'KEY COMPARISON' in test.get('Comparison', ''):
+                    f.write(f"  - {test['interpretation']}\n")
+        
         f.write("\n")
         
         # 2. Detailed Results
@@ -634,8 +800,20 @@ def generate_baseline_report(all_results, xgboost_metrics, baseline_results):
         
         f.write("\n")
         
-        # 3. Key Insights
-        f.write("3. KEY INSIGHTS\n")
+        # 3. Statistical Test Results
+        if test_results:
+            f.write("3. STATISTICAL TEST RESULTS\n")
+            f.write("-" * 40 + "\n")
+            f.write("Paired t-tests comparing absolute errors:\n")
+            f.write("Significance codes: *** p < 0.001, ** p < 0.01, * p < 0.05, . p < 0.1\n\n")
+            
+            for test in test_results:
+                f.write(f"{test['Comparison']}:\n")
+                f.write(f"  t-statistic = {test['t_statistic']:.4f}, p-value = {test['p_value']:.6f} {test.get('significance', '')}\n")
+                f.write(f"  Interpretation: {test['interpretation']}\n\n")
+        
+        # 4. Key Insights
+        f.write("4. KEY INSIGHTS\n")
         f.write("-" * 40 + "\n")
         
         # Compare Naïve vs Complex models
@@ -660,8 +838,8 @@ def generate_baseline_report(all_results, xgboost_metrics, baseline_results):
         
         f.write("\n")
         
-        # 4. Recommendations
-        f.write("4. RECOMMENDATIONS\n")
+        # 5. Recommendations
+        f.write("5. RECOMMENDATIONS\n")
         f.write("-" * 40 + "\n")
         
         if xgboost_metrics and len(baseline_results) > 0:
@@ -669,14 +847,26 @@ def generate_baseline_report(all_results, xgboost_metrics, baseline_results):
             xgboost_rmse = xgboost_metrics['RMSE_€']
             improvement = ((best_baseline_rmse - xgboost_rmse) / best_baseline_rmse) * 100
             
-            if improvement > 10:
-                f.write("• STRONGLY RECOMMEND using XGBoost: Significant improvement (>10%) over baselines\n")
+            # Check statistical significance if available
+            is_significant = False
+            if test_results:
+                for test in test_results:
+                    if 'KEY COMPARISON' in test.get('Comparison', ''):
+                        if test['p_value'] < 0.05 and test.get('percent_difference', 0) > 0:
+                            is_significant = True
+            
+            if improvement > 10 and is_significant:
+                f.write("• STRONGLY RECOMMEND using XGBoost: Significant improvement (>10%) over baselines with statistical significance\n")
+            elif improvement > 5 and is_significant:
+                f.write("• RECOMMEND using XGBoost: Meaningful improvement (5-10%) over baselines with statistical significance\n")
+            elif improvement > 2 and is_significant:
+                f.write("• CONSIDER using XGBoost: Small improvement (2-5%) with statistical significance, trade-off with complexity\n")
+            elif is_significant:
+                f.write("• XGBoost shows statistically significant improvement, but magnitude is small\n")
             elif improvement > 5:
-                f.write("• RECOMMEND using XGBoost: Meaningful improvement (5-10%) over baselines\n")
-            elif improvement > 2:
-                f.write("• CONSIDER using XGBoost: Small improvement (2-5%), trade-off with complexity\n")
+                f.write("• XGBoost shows meaningful improvement but not statistically significant\n")
             else:
-                f.write("• CONSIDER simpler model: XGBoost improvement minimal (<2%), simpler model may suffice\n")
+                f.write("• CONSIDER simpler model: XGBoost improvement minimal and not statistically significant\n")
         else:
             f.write("• Use the model with best performance given your constraints (interpretability vs accuracy)\n")
         
@@ -685,13 +875,15 @@ def generate_baseline_report(all_results, xgboost_metrics, baseline_results):
         
         f.write("\n")
         
-        # 5. Files Generated
-        f.write("5. FILES GENERATED\n")
+        # 6. Files Generated
+        f.write("6. FILES GENERATED\n")
         f.write("-" * 40 + "\n")
         f.write("• results/baseline_comparison/baseline_comparison_YYYYMMDD_HHMMSS.csv\n")
         f.write("• results/baseline_comparison/rmse_comparison_YYYYMMDD_HHMMSS.png\n")
         f.write("• results/baseline_comparison/r2_comparison_YYYYMMDD_HHMMSS.png\n")
         f.write("• results/baseline_comparison/radar_chart_comparison_YYYYMMDD_HHMMSS.png\n")
+        if test_results:
+            f.write("• results/baseline_comparison/statistical_tests_YYYYMMDD_HHMMSS.csv\n")
         f.write(f"• {report_path}\n")
     
     print(f"✓ Comprehensive report saved to: {report_path}")
@@ -710,10 +902,10 @@ def generate_baseline_report(all_results, xgboost_metrics, baseline_results):
     
     return report_path
 
-print("✅ Step 6.4.8: Report generation function ready")
+print("✅ Step 6.4.9: Report generation function ready")
 
 # ============================================================================
-# 9. MAIN EXECUTION FUNCTION
+# 10. MAIN EXECUTION FUNCTION
 # ============================================================================
 
 def run_baseline_comparison():
@@ -773,25 +965,40 @@ def run_baseline_comparison():
             xgboost_metrics, xgboost_predictions = evaluate_xgboost_model(
                 xgboost_model, X_test_aligned, y_test_original, y_test_log
             )
+            
+            # Add XGBoost predictions to predictions dict
+            if xgboost_predictions:
+                baseline_predictions['XGBoost_Optimized'] = xgboost_predictions
         
         # ------------------------------------------------------------
-        # 6. COMPARE RESULTS AND CREATE VISUALIZATIONS
+        # 6. PERFORM STATISTICAL TESTS
         # ------------------------------------------------------------
-        print("\n6. 📊 Comparing results and creating visualizations...")
+        print("\n6. 📈 Performing statistical tests...")
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        results_dir = "results/baseline_comparison"
+        
+        test_results = perform_statistical_tests(
+            baseline_predictions, y_test_original, results_dir, timestamp
+        )
+        
+        # ------------------------------------------------------------
+        # 7. COMPARE RESULTS AND CREATE VISUALIZATIONS
+        # ------------------------------------------------------------
+        print("\n7. 📊 Comparing results and creating visualizations...")
         all_results = compare_and_visualize_results(
             baseline_results, xgboost_metrics, baseline_predictions
         )
         
         # ------------------------------------------------------------
-        # 7. GENERATE COMPREHENSIVE REPORT
+        # 8. GENERATE COMPREHENSIVE REPORT
         # ------------------------------------------------------------
-        print("\n7. 📋 Generating comprehensive report...")
+        print("\n8. 📋 Generating comprehensive report...")
         report_path = generate_baseline_report(
-            all_results, xgboost_metrics, baseline_results
+            all_results, xgboost_metrics, baseline_results, test_results
         )
         
         # ------------------------------------------------------------
-        # 8. COMPLETION
+        # 9. COMPLETION
         # ------------------------------------------------------------
         print("\n" + "=" * 70)
         print("✅ STEP 6.4 COMPLETED SUCCESSFULLY!")
@@ -803,6 +1010,8 @@ def run_baseline_comparison():
         print(f"\n📁 FILES CREATED:")
         print(f"   • results/baseline_comparison/baseline_comparison_*.csv")
         print(f"   • results/baseline_comparison/*_comparison_*.png (3 visualization files)")
+        if test_results:
+            print(f"   • results/baseline_comparison/statistical_tests_*.csv")
         print(f"   • {report_path}")
         
         return True
@@ -813,10 +1022,10 @@ def run_baseline_comparison():
         traceback.print_exc()
         return False
 
-print("✅ Step 6.4.9: Main execution function ready")
+print("✅ Step 6.4.10: Main execution function ready")
 
 # ============================================================================
-# 10. EXECUTION BLOCK
+# 11. EXECUTION BLOCK
 # ============================================================================
 
 if __name__ == "__main__":
@@ -828,5 +1037,4 @@ if __name__ == "__main__":
         print("   Check the 'results/baseline_comparison' folder for all results.")
     else:
         print("\n❌ Baseline models comparison failed.")
-
         
