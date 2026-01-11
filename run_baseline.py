@@ -119,5 +119,18 @@ def main():
         sys.exit(1)
 
 if __name__ == "__main__":
-    main()
+    import subprocess, sys, os
+    ROOT = os.path.dirname(os.path.abspath(__file__))
+    steps = [
+        "run_baseline.py",
+        "src/feature_engineering.py",
+        "src/model_training.py",
+        "src/model_optimization.py",
+        "src/feature_analysis.py",
+        "src/error_analysis.py",
+        "src/baseline_models.py",
+        "src/synthesis.py"
+    ]
+    for s in steps:
+        subprocess.run([sys.executable, s], cwd=ROOT, check=True)
     
